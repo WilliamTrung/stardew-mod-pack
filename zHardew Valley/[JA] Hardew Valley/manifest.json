@@ -1,0 +1,12 @@
+{
+   "Name": "Hardew Valley Items",
+   "Author": "Juanpa98ar",
+   "Description": "New crops, hats, trees and consumables. Strawberry themed.",
+   "Version": "1.0.0",
+   "UniqueID": "Juanpa98ar.HVJA",
+   "MinimumApiVersion": "2.11.0",
+   "UpdateKeys": [ "Nexus:???" ],
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    }
+}

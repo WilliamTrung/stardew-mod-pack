@@ -1,0 +1,45 @@
+{
+	"Name": "Ultra Milk Omega",
+	"Description": "Did you think of mixing the two? Are you crazy?",
+	"Category": "Cooking",
+	"Edibility": -25,
+	"EdibleIsDrink": true,
+	"CategoryTextOverride": "<<<<<",
+	"CategoryColorOverride": "255, 0, 75, 255",
+	"EdibleBuffs": 
+	{
+        "Farming": 3,
+        "Fishing": 1,
+        "Mining": 1,
+        "Luck": 4,
+        "Foraging": 3,
+        "MaxStamina": 25,
+        "MagnetRadius": 70,
+        "Speed": 2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 130,
+    },
+	"Recipe":
+    {
+    "ResultCount": 1,
+    "Ingredients": [ { "Object": "Strawberry Milk Alfa", "Count": 1 }, { "Object": "Lucky Milk Gamma", "Count": 1 }, { "Object": "Whipped Cream Beta", "Count": 1 }],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 5000,
+    "PurchaseRequirements": ["y 2"],
+    },
+	"CanSell": false,
+	"Price": 250,
+	"IsColored": false,
+	"NameLocalization":
+	{
+		"es": "Ultra Leche Omega",
+		"pt": "Ultra Leite Omega"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "¿Se te ocurrió mezclar las dos? ¿Estás mal de la cabeza?",
+		"pt": "Você pensou em misturar os dois? Você está louco?"
+	},
+}

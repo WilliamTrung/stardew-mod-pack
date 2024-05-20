@@ -1,0 +1,45 @@
+{
+	"Name": "Strawberry Milk Alfa",
+	"Description": "A pink, delicious and somewhat thick strawberry milk.",
+	"Category": "Cooking",
+	"Edibility": 35,
+	"EdibleIsDrink": true,
+	"CategoryTextOverride": "<<<<<",
+	"CategoryColorOverride": "255, 0, 128, 255",
+	"EdibleBuffs": 
+	{
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 2,
+        "MaxStamina": 45,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 260,
+    },
+	"Recipe":
+    {
+    "ResultCount": 1,
+    "Ingredients": [ { "Object": 184, "Count": 1, }, { "Object": 400, "Count": 5 }],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 3000,
+    "PurchaseRequirements": null,
+    },
+	"CanSell": false,
+	"Price": 250,
+	"IsColored": false,
+	"NameLocalization":
+	{
+		"es": "Leche De Fresa Alfa",
+		"pt": "Leite de Morango Alfa"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Una leche de fresa rosada, deliciosa y algo espesa.",
+		"pt": "Um leite de morango rosa, delicioso e um pouco grosso."
+	},
+}

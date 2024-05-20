@@ -1,0 +1,906 @@
+{
+    "Format": "2.0.0",
+   //Aloha, you can see here but there is nothing interesting. Look, a caterpillar! (^.^ ) ) ) ) ) ) ) ) ( ( ( ( (  ) WooooooW 
+   
+    "ConfigSchema": {
+		
+		"IMPORTANT!": {
+			"Description": "",
+            "AllowValues": "= Not here. On the left! =",
+            "Default": "= Not here. On the left! ="
+        },
+		"ObjectsToggle": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
+		"ObjectPrice": {
+            "AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5",		
+			"Default": "1.5",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
+		"EnergyHealth": {
+			"AllowValues": "1, 1.25, 1.5, 2, 2.5, 3, 4",
+			"Default": "1.5",
+			"Description": " ",
+			"Section": "Objects & Products"
+		},
+//                          		           
+        "Crops Reduction": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Crops & Harvests"
+        },
+//                          		           
+        "+Requirements (Crafting Recipes)": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Crafting Recipes"
+        },
+		"MaterialCR": {
+			"AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5, 10",
+			"Default": "1.5",
+			"Description": " ",
+			"Section": "Crafting Recipes"
+		},
+//                          		           
+		"+Requirements (Robin & Wizard Buildings)": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Robin & Wizard Buildings"
+        },
+		"MaterialBP": {
+			"AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5, 10",
+			"Default": "1.5",
+			"Description": " ",
+			"Section": "Robin & Wizard Buildings"
+		},
+        "GoldBP": {
+			"AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5, 10",
+			"Default": "1.25",
+			"Description": " ",
+			"Section": "Robin & Wizard Buildings"
+		},
+		"BuildDays": {
+			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+			"Default": "2",
+			"Description": " ",
+			"Section": "Robin & Wizard Buildings"
+		},
+//                          		           
+		"+Requirements & Rewards (Bundles)": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Bundles"
+        },
+		"DifficultyToggleBundles": {
+			"AllowValues": "x2, x5, x10, x50",
+			"Default": "x2",
+			"Section": "Bundles"
+		},
+//                          		           
+        "AnimalsToggle": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": " ",
+			"Section": "Farm Animals"
+		},
+		"DaysToAdult": {
+			"AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5",
+			"Default": "1.25",
+			"Description": " ",
+			"Section": "Farm Animals"
+		},
+		"DaysToProduce": {
+			"AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5",
+			"Default": "1.25",
+			"Section": "Farm Animals"
+		},
+		"PurchasePrice": {
+			"AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5",
+			"Default": "1.25",
+			"Section": "Farm Animals"
+		},
+//                          		           
+		"Crops Grow Slower": {
+			"AllowValues": "true, false",
+			"Default": "false",
+		    "Description": " ",
+			"Section": "Crops & Harvests"
+		},
+		"DifficultyToggleCrops": {
+			"AllowValues": "10%, 25%, 50%",
+			"Default": "10%",
+			"Section": "Crops & Harvests"
+		},
+		"Fruit Reduction": {
+			"AllowValues": "true, false",
+			"Default": "false",
+		    "Description": " ",
+			"Section": "Crops & Harvests"
+		},
+		"FruitChance": {
+            "AllowValues": "1, 0.9, 0.8, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1",		
+			"Default": "1",
+			"Description": " ",
+			"Section": "Crops & Harvests"
+        },
+//                          		           
+        "FishToggle": {
+		    "AllowValues": "true, false",
+			"Default": "false",
+			"Description": " ",
+			"Section": "Fish & Mini-game"
+		},
+		"FishBehavior": {
+		    "AllowValues": "mixed, smooth, sinker, floater, dart",
+			"Default": "mixed",
+			"Description": " ",
+			"Section": "Fish & Mini-game"
+		},
+		"FishDifficulty": {
+			"AllowValues": "0.8, 0.85, 0.9, 0.95, 1, 1.05, 1.1, 1.15, 1.2, 1.25, 1.3, 1.5, 2, 3, 4, 5, 10",
+			"Default": "1",
+			"Description": " ",
+			"Section": "Fish & Mini-game"
+		},
+//                          		           
+        "Less Monsters Drops": {
+			"AllowValues": "true, false",
+			"Default": "False",
+			"Description": " ",
+			"Section": "Monster Stats & Drops"
+		},
+		"DifficultyToggleMonstersDrops": {
+			"AllowValues": "5%, 10%, 25%, 50%",
+			"Default": "5%",
+			"Section": "Monster Stats & Drops"
+		},
+//                          		           
+        "MonstersToggle": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Monster Stats & Drops"
+        },
+		"MonsterATK": {
+            "AllowValues": "1, 1.25, 1.5, 2, 3, 4, 5, 10, 9999",		
+			"Default": "1.25",
+			"Description": " ",
+			"Section": "Monster Stats & Drops"
+        },
+		"MonsterHP": {
+			"AllowValues": "0.1, 0.5, 1, 1.25, 1.5, 2, 3, 4, 5, 10",
+			"Default": "1.25",
+			"Description": " ",
+			"Section": "Monster Stats & Drops"
+		},
+//                          		           
+		"Boots Stats": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Equipment Stats"
+        },
+		"Weapons Stats": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Equipment Stats"
+        },
+//                          		           
+        "Slower Relationships": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": " ",
+			"Section": "Tastes & Gifts"
+		},
+		"DifficultyToggleRelations": {
+			"AllowValues": "Like, Neutral, Dislike",
+			"Default": "Like",
+			"Description": " ",
+			"Section": "Tastes & Gifts"
+		},
+//                          		           
+		"Special Orders (-Gold)": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Description": " ",
+			"Section": "Special Orders"
+		},
+//                          		           
+		"Reduce Selling Price, Energy & Life(SVE Products)": {
+            "AllowValues": "true, false",		
+			"Default": "false",
+			"Description": " ",
+			"Section": "Stardew Valley Expanded"
+        },
+		"Special Orders And Mail -Gold (SVE)": {
+			"AllowValues": "true, false",
+		    "Default": "false",
+		    "Description": " ",
+			"Section": "Stardew Valley Expanded"
+		},
+//                          		           
+		"Reduce Selling Price, Energy & Life(RSV Products)": {
+		    "AllowValues": "true, false",
+			"Default": "false",
+			"Description": " ",
+			"Section": "Ridgeside Village"
+		},
+		"Special Order & Quest -Gold (RSV)": {
+		    "AllowValues": "true, false",
+		    "Default": "false",
+		    "Description": " ",
+			"Section": "Ridgeside Village"
+		},
+//                          		           
+		"Reduce Selling Price (ES Products)": {
+            "AllowValues": "true, false",		
+			"Default": "false",
+			"Description": " ",
+			"Section": "East Scarp"
+        },
+//                          		           
+		"Reduce Selling Price (WFFE Products)": {
+		    "AllowValues": "true, false",
+			"Default": "false",
+			"Description": " ",
+			"Section": "Wild Food - A Forage Expansion"
+		}
+	},
+//                                                                                                            	
+    "Changes": [
+	
+//BUILDINGSCONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "+Requirements (Robin & Wizard Buildings)": "true",
+			},
+         "FromFile": "data/Blueprints/BlueP.json"
+        },
+		
+//BOOTSCONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "Boots Stats": "true",
+			},
+         "FromFile": "data/Boots/Boots.json"
+        },
+
+//BUNDLES CONFIG
+//x2
+        {
+         "Action": "Include",
+	     "When": {
+		    "+Requirements & Rewards (Bundles)": "true",
+			"DifficultyToggleBundles": "x2"
+			},
+         "FromFile": "data/Bundles/BD2.json"
+        },
+//x5
+        {
+         "Action": "Include",
+	     "When": {
+		    "+Requirements & Rewards (Bundles)": "true",
+			"DifficultyToggleBundles": "x5"
+			},
+         "FromFile": "data/Bundles/BD5.json"
+        },
+//x10
+        {
+         "Action": "Include",
+	     "When": {
+		    "+Requirements & Rewards (Bundles)": "true",
+			"DifficultyToggleBundles": "x10"
+			},
+         "FromFile": "data/Bundles/BD10.json"
+        },
+//x50
+        {
+         "Action": "Include",
+	     "When": {
+		    "+Requirements & Rewards (Bundles)": "true",
+			"DifficultyToggleBundles": "x50"
+			},
+         "FromFile": "data/Bundles/BD50.json"
+        },	
+//BDi18n
+		{
+		 "Action": "EditData",
+         "Target": "Data/Bundles",
+		 "When": {
+		    "+Requirements & Rewards (Bundles)": "true",
+			"Language |contains=en": false,
+			},
+         "Fields": {
+		    "Vault/23": {
+				4: "{{i18n:VaultGold.gold.1}}"
+				},
+			"Vault/24": {
+				4: "{{i18n:VaultGold.gold.2}}"
+				},
+			"Vault/25": {
+				4: "{{i18n:VaultGold.gold.3}}"
+				},
+			"Vault/26": {
+				4: "{{i18n:VaultGold.gold.4}}"
+				},
+			}
+		},
+		
+//CRAFTING RECIPES
+        {
+         "Action": "Include",
+	     "When": {
+		    "+Requirements (Crafting Recipes)": "true",
+			},
+         "FromFile": "data/CraftRec/CraRecs.json"
+        },
+		
+//ANIMALS CONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "AnimalsToggle": "true"
+			},
+         "FromFile": "data/Animals/Anims.json"
+        },
+		
+//FISH CONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "FishToggle": "true"
+			},
+         "FromFile": "data/Fish/Fishon.json"
+        },
+
+//MONSTERS CONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "MonstersToggle": "true"
+			},
+         "FromFile": "data/Monsters/MonSta.json"
+        },
+		
+//MonsterDrops		
+//5%
+        {
+         "Action": "Include",
+	     "When": {
+		    "Less Monsters Drops": "true",
+			"DifficultyToggleMonstersDrops": "5%"
+			},
+         "FromFile": "data/Monsters/MD5%.json"
+        },
+//10%		
+		{
+         "Action": "Include",
+	     "When": {
+		    "Less Monsters Drops": "true",
+			"DifficultyToggleMonstersDrops": "10%"
+			},
+         "FromFile": "data/Monsters/MD10%.json"
+        },
+//25%		
+		{
+         "Action": "Include",
+	     "When": {
+		    "Less Monsters Drops": "true",
+			"DifficultyToggleMonstersDrops": "25%"
+			},
+         "FromFile": "data/Monsters/MD25%.json"
+        },
+//50%		
+		{
+         "Action": "Include",
+	     "When": {
+		    "Less Monsters Drops": "true",
+			"DifficultyToggleMonstersDrops": "50%"
+			},
+         "FromFile": "data/Monsters/MD50%.json"
+        },
+		
+//OBJECTSCONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "ObjectsToggle": "true",
+			},
+         "FromFile": "data/Objects/Objection.json"
+        },
+
+//Crops                                                                  
+        {
+         "Action": "Include",
+	     "When": {
+		    "Crops Reduction": "true",
+			},
+         "FromFile": "data/Crops/Cropah.json"
+        },
+		
+//Trees
+        {
+         "Action": "Include",
+		 "When": {
+		    "Fruit Reduction": "true",
+			},
+         "FromFile": "data/Crops/Fruitah.json"
+        },
+		
+//CropsEdit
+//10%
+        {
+         "Action": "Include",
+	     "When": {
+		    "Crops Grow Slower": "true",
+			"DifficultyToggleCrops": "10%"
+			},
+         "FromFile": "data/Crops/Cr10%.json"
+        },
+//25%
+		{
+         "Action": "Include",
+	     "When": {
+		    "Crops Grow Slower": "true",
+			"DifficultyToggleCrops": "25%"
+			},
+         "FromFile": "data/Crops/Cr25%.json"
+        },
+// 50%
+        {
+         "Action": "Include",
+	     "When": {
+		    "Crops Grow Slower": "true",
+			"DifficultyToggleCrops": "50%"
+			},
+         "FromFile": "data/Crops/Cr50%.json"
+        },
+
+//WEAPONS CONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "Weapons Stats": "true",
+			},
+         "FromFile": "data/Weapons/WPN.json"
+        },
+		
+//¿Todavia sigues aquí? Vaya...
+//Special Orders Config
+		
+		{
+		 "Action": "Include",
+		 "FromFile": "data/Objects/SpecialOrders.json",
+		 "When": {
+		    "Special Orders (-Gold)": "true"
+			}
+		},
+		
+//WFFE CONFIG            
+        {
+         "Action": "Include",
+	     "When": {
+		    "Reduce Selling Price (WFFE Products)": "true",
+			"HasMod": "wildflour.wildfoodforage"
+			},
+         "FromFile": "data/Extras/WFForage.json"
+        },
+		
+//ES CONFIG            
+        {
+         "Action": "Include",
+	     "When": {
+		    "Reduce Selling Price (ES Products)": "true",
+			"HasMod": "LemurKat.EastScarpe.CP"
+			},
+         "FromFile": "data/Extras/EastScarp.json"
+        },
+
+//SVE CONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "Reduce Selling Price, Energy & Life(SVE Products)": "true",
+			"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			},
+         "FromFile": "data/Extras/SVExpanded.json"
+        },
+
+//RSV CONFIG
+        {
+         "Action": "Include",
+	     "When": {
+		    "Reduce Selling Price, Energy & Life(RSV Products)": "true",
+			"HasMod": "Rafseazz.RidgesideVillage",
+			},
+         "FromFile": "data/Extras/RSVillage.json"
+        },
+		
+//Special Orders And Mail SVE
+        {
+         "Action": "EditData",
+         "Target": "Data/Mail",
+		 "When": {
+			"Special Orders And Mail -Gold (SVE)": "true",
+			"HasMod": "FlashShifter.StardewValleyExpandedCP",
+		    },
+         "Entries": {
+            "GuntherGift": "{{i18n:Mail.GuntherGiftHV}}",
+		    },
+		},
+        {
+         "Action": "EditData",
+         "Target": "Data/SpecialOrders",
+		 "When": {
+			"Special Orders And Mail -Gold (SVE)": "true",
+			"HasMod": "FlashShifter.StardewValleyExpandedCP",
+		    },
+         "Fields": {
+            "Andy": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "1362"
+                }
+            }
+	        ]
+        },
+		    "Olivia": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "15000"
+                }
+            }
+	        ]
+        },
+		    "Susan": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "800"
+                }
+            }
+	        ]
+        },
+		    "Sophia": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "7000"
+                }
+            }
+	        ]
+        },
+		    "MarlonFay": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "1600"
+                }
+            }
+	        ]
+        },
+		    "Clint2": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "600"
+                }
+            }
+	        ]
+        }
+    }
+},
+
+//Special Orders RSV
+        {
+         "Action": "EditData",
+         "Target": "Data/SpecialOrders",
+		 "When": {
+		    "Special Order & Quest -Gold (RSV)": "true",
+			"HasMod": "Rafseazz.RidgesideVillage",
+		    },
+         "Fields": {
+            "RSV.SpecialOrder.CleanUp": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.HotelPower": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "3000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.MaiveCharity": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "16000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.LolaRings": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.CrabPot": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "1000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.TownFish": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+                 "Amount": "{FishType:Price}",
+                 "Multiplier": "15"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.EzekielArtifact": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "4000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.AguarGeodes": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "4000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.MorningDrinks": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "6000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.FayeClothes-pastel": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.FayeClothes-jackets": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.FayeClothes-misc": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2000"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.ExoticIngredients-spring": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2400"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.ExoticIngredients-summer": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2400"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.ExoticIngredients-fall": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2400"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.ExoticIngredients-winter": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2400"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.ExoticIngredients": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2400"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.SlayViperial": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "10000"
+                }
+            }
+	        ]
+        },
+		    "RSV.UntimedSpecialOrder.LinkedFishes": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "13800"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.LinkedFishes": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "13800"
+                }
+            }
+	        ]
+        },
+		    "RSV.SpecialOrder.MythFlower": {		
+            "Rewards": [
+        {
+        "Type": "Money",
+        "Data": {
+          "Amount": "18000"
+                }
+            }
+	        ]
+        },
+    }
+},
+//Quest RSV
+        {
+         "Action" : "EditData",
+         "Target" : "Data/Quests",
+		 "When": {
+			"Special Order & Quest -Gold (RSV)": "true",
+			"HasMod": "Rafseazz.RidgesideVillage"
+		    },
+         "Fields":{
+			"72860500": {6: "500"},
+			"72860501": {6: "500"},
+			"72860502": {6: "500"},
+			"72861006": {6: "1000"},
+			"72861007": {6: "750"},
+			"72861014": {6: "2000"},
+			"72861020": {6: "500"},
+			"72861022": {6: "750"},
+			"72861026": {6: "400"},
+		    }
+		},
+	 
+		
+    //CONTEXT TAGS
+	 
+        {   
+	     "Action": "EditData",
+	     "Target": "Data/ObjectContextTags",
+	     "Entries": {  
+	        "{{spacechase0.JsonAssets/ObjectId:Strawberry Cream Cup Omega}}": "color_white, food_sweet",
+	        "{{spacechase0.JsonAssets/ObjectId:Strawberry Milk Alfa}}": "color_pink, drink_item, food_sweet",
+	        "{{spacechase0.JsonAssets/ObjectId:Whipped Cream Beta}}": "color_white, food_sweet",
+	        "{{spacechase0.JsonAssets/ObjectId:Golden Strawberry}}": "color_golden, season_spring, season_summer, season_fall, dye_medium",
+	        "{{spacechase0.JsonAssets/ObjectId:Golden Winged Strawberry}}": "color_golden, season_spring, season_summer, season_fall, season_winter, crop_year_2, dye_medium",
+	        "{{spacechase0.JsonAssets/ObjectId:Strawbit}}": "color_red, season_winter, dye_medium",
+	        "{{spacechase0.JsonAssets/ObjectId:Clover Gamma}}": "color_green, season_summer, crop_year_2, dye_medium",
+	        "{{spacechase0.JsonAssets/ObjectId:Silver Strawberry}}": "color_silver, season_summer, dye_medium",
+	        "{{spacechase0.JsonAssets/ObjectId:StrawPeach}}": "color_red, season_fall, fruit_item, fruit_tree_item",
+	        "{{spacechase0.JsonAssets/ObjectId:Ultra Milk Omega}}": "color_brown, food_sweet, drink_item, dye_medium",
+	        "{{spacechase0.JsonAssets/ObjectId:Lucky Milk Gamma}}": "color_green, food_sweet, drink_item, dye_medium",
+            }
+        },
+		
+//Relationship                		
+//Like
+        {
+         "Action": "Include",
+	     "When": {
+			 "Slower Relationships": "true",
+			 "DifficultyToggleRelations": "Like"
+		    },
+         "FromFile": "data/Relationship/Like.json"
+        },
+//Neutral
+        {
+         "Action": "Include",
+	     "When": {
+			 "Slower Relationships": "true",
+			 "DifficultyToggleRelations": "Neutral"
+		    },
+         "FromFile": "data/Relationship/Neutral.json"
+        },
+//Dislike		
+        {
+         "Action": "Include",
+	     "When": {
+			 "Slower Relationships": "true",
+			 "DifficultyToggleRelations": "Dislike"
+		    },
+         "FromFile": "data/Relationship/Dislike.json"
+        }
+	]
+}

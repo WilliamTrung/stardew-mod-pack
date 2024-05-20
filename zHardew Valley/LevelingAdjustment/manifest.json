@@ -1,0 +1,13 @@
+
+ {
+    "Name": "LevelingAdjustment (patched)",
+    "Author": "jahangmar",
+    "Version": "2.0.0",
+    "Description": "Allows to adjust how fast the player levels.",
+    "UniqueID": "jahangmar.LevelingAdjustment2",
+    "MinimumApiVersion": "4.0.0",
+    "EntryDll": "LevelingAdjustment2.dll",
+    "Dependencies": [],
+    "UpdateKeys": [ "Nexus:4689" ]
+ }
+

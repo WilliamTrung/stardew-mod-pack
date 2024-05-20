@@ -1,0 +1,19 @@
+{
+	"Name": "Clover Gamma",
+	"Price": 120,
+	"Description": "If this plant gives luck, it must be extracted.",
+	"Category": "Flower",
+	"CategoryColorOverride": "29, 96, 0, 255",
+	"Edibility": -5,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		"es": "Trebol Gamma",
+		"pt": "Trevo Gamma"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Si esta planta da suerte, hay que extraerla.",
+		"pt": "Se esta planta dá sorte, ela deve ser extraída."
+	},
+}

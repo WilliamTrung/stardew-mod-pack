@@ -1,0 +1,13 @@
+{
+   "Name": "Seasonal Anime Portraits III",
+   "Author": "RevanGrad",
+   "Version": "3.0",
+   "Description": "Seasonal Portrait Replacer With OhoDavi's Anime-like Portraits.",
+   "UniqueID": "RevanGrad.SAPIII",
+   "MinimumApiVersion": "3.9.0", // https://smapi.io/
+   "UpdateKeys": ["Nexus:9302"], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // https://www.nexusmods.com/stardewvalley/mods/9302
+      "MinimumVersion": "1.20.0"
+   }
+}

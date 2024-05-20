@@ -1,0 +1,21 @@
+{
+    "Name": "Hardew Valley",
+    "Author": "Juanpa98ar",
+    "Version": "1.8",
+    "Description": "Hardew Valley Hard Ore and coal",
+    "UniqueID": "Juanpa98ar.HardewValley-PFM",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:???" ],
+    "Dependencies": [
+        {
+            "UniqueID": "Digus.ProducerFrameworkMod"
+        },
+        {
+            "UniqueID": "Digus.PFMAutomate",
+            "IsRequired": false
+        }
+    ],
+    "ContentPackFor": {
+        "UniqueID": "DIGUS.ProducerFrameworkMod"
+    }
+}

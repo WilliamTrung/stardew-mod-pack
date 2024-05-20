@@ -1,0 +1,137 @@
+{
+	"Changes": [
+	
+	{
+	"Action": "EditData",
+	"Target": "Data/Fish",
+	"Fields": {
+			"128": {1: "{{Round: {{Query: (80 * {{FishDifficulty}}) }} }}"}, //Pufferfish
+			"129": {1: "{{Round: {{Query: (30 * {{FishDifficulty}}) }} }}"}, //Anchovy
+			"130": {1: "{{Round: {{Query: (70 * {{FishDifficulty}}) }} }}"}, //Tuna
+			"131": {1: "{{Round: {{Query: (30 * {{FishDifficulty}}) }} }}"}, //Sardine
+			"132": {1: "{{Round: {{Query: (35 * {{FishDifficulty}}) }} }}"}, //Bream
+			"136": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Largemouth Bass
+			"137": {1: "{{Round: {{Query: (28 * {{FishDifficulty}}) }} }}"}, //Smallmouth Bass
+			"138": {1: "{{Round: {{Query: (45 * {{FishDifficulty}}) }} }}"}, //Rainbow Trout
+			"139": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Salmon
+			"140": {1: "{{Round: {{Query: (45 * {{FishDifficulty}}) }} }}"}, //Walleye
+			"141": {1: "{{Round: {{Query: (35 * {{FishDifficulty}}) }} }}"}, //Perch
+			"142": {1: "{{Round: {{Query: (15 * {{FishDifficulty}}) }} }}"}, //Carp
+			"143": {1: "{{Round: {{Query: (75 * {{FishDifficulty}}) }} }}"}, //Catfish
+			"144": {1: "{{Round: {{Query: (60 * {{FishDifficulty}}) }} }}"}, //Pike
+			"145": {1: "{{Round: {{Query: (30 * {{FishDifficulty}}) }} }}"}, //Sunfish
+			"146": {1: "{{Round: {{Query: (55 * {{FishDifficulty}}) }} }}"}, //Red Mullet
+			"147": {1: "{{Round: {{Query: (25 * {{FishDifficulty}}) }} }}"}, //Herring
+			"148": {1: "{{Round: {{Query: (70 * {{FishDifficulty}}) }} }}"}, //Eel
+			"149": {1: "{{Round: {{Query: (95 * {{FishDifficulty}}) }} }}"}, //Octopus
+			"150": {1: "{{Round: {{Query: (40 * {{FishDifficulty}}) }} }}"}, //Red Snapper
+			"151": {1: "{{Round: {{Query: (75 * {{FishDifficulty}}) }} }}"}, //Squid
+			"154": {1: "{{Round: {{Query: (40 * {{FishDifficulty}}) }} }}"}, //Sea Cucumber
+			"155": {1: "{{Round: {{Query: (80 * {{FishDifficulty}}) }} }}"}, //Super Cucumber
+			"156": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Ghostfish
+			"158": {1: "{{Round: {{Query: (65 * {{FishDifficulty}}) }} }}"}, //Stonefish
+			"159": {1: "{{Round: {{Query: (95 * {{FishDifficulty}}) }} }}"}, //Crimsonfish
+			"160": {1: "{{Round: {{Query: (85 * {{FishDifficulty}}) }} }}"}, //Angler
+			"161": {1: "{{Round: {{Query: (85 * {{FishDifficulty}}) }} }}"}, //Ice Pip
+			"162": {1: "{{Round: {{Query: (90 * {{FishDifficulty}}) }} }}"}, //Lava Eel
+			"163": {1: "{{Round: {{Query: (110 * {{FishDifficulty}}) }} }}"}, //Legend
+			"164": {1: "{{Round: {{Query: (65 * {{FishDifficulty}}) }} }}"}, //Sandfish
+			"165": {1: "{{Round: {{Query: (90 * {{FishDifficulty}}) }} }}"}, //Scorpion Carp
+			"267": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Flounder
+			"269": {1: "{{Round: {{Query: (55 * {{FishDifficulty}}) }} }}"}, //Midnight Carp
+			"682": {1: "{{Round: {{Query: (80 * {{FishDifficulty}}) }} }}"}, //Mutant Carp
+			"698": {1: "{{Round: {{Query: (78 * {{FishDifficulty}}) }} }}"}, //Sturgeon
+			"699": {1: "{{Round: {{Query: (60 * {{FishDifficulty}}) }} }}"}, //Tiger Trout
+			"700": {1: "{{Round: {{Query: (46 * {{FishDifficulty}}) }} }}"}, //Bullhead
+			"701": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Tilapia
+			"702": {1: "{{Round: {{Query: (35 * {{FishDifficulty}}) }} }}"}, //Chub
+			"704": {1: "{{Round: {{Query: (78 * {{FishDifficulty}}) }} }}"}, //Dorado
+			"705": {1: "{{Round: {{Query: (60 * {{FishDifficulty}}) }} }}"}, //Albacore
+			"706": {1: "{{Round: {{Query: (45 * {{FishDifficulty}}) }} }}"}, //Shad
+			"707": {1: "{{Round: {{Query: (85 * {{FishDifficulty}}) }} }}"}, //Lingcod
+			"708": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Halibut
+			"734": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Woodskip
+			"775": {1: "{{Round: {{Query: (100 * {{FishDifficulty}}) }} }}"}, //Glacierfish
+			"795": {1: "{{Round: {{Query: (80 * {{FishDifficulty}}) }} }}"}, //Void Salmon
+			"796": {1: "{{Round: {{Query: (55 * {{FishDifficulty}}) }} }}"}, //Slimejack
+			"798": {1: "{{Round: {{Query: (55 * {{FishDifficulty}}) }} }}"}, //Midnight Squid
+			"799": {1: "{{Round: {{Query: (60 * {{FishDifficulty}}) }} }}"}, //Spook Fish
+			"800": {1: "{{Round: {{Query: (75 * {{FishDifficulty}}) }} }}"}, //Blobfish
+			"836": {1: "{{Round: {{Query: (80 * {{FishDifficulty}}) }} }}"}, //Stingray
+			"837": {1: "{{Round: {{Query: (50 * {{FishDifficulty}}) }} }}"}, //Lionfish
+			"838": {1: "{{Round: {{Query: (60 * {{FishDifficulty}}) }} }}"}, //Blue Discus
+			"898": {1: "{{Round: {{Query: (95 * {{FishDifficulty}}) }} }}"}, //Son of Crimsonfish
+			"899": {1: "{{Round: {{Query: (85 * {{FishDifficulty}}) }} }}"}, //Ms. Angler
+			"900": {1: "{{Round: {{Query: (110 * {{FishDifficulty}}) }} }}"}, //Legend II
+			"901": {1: "{{Round: {{Query: (80 * {{FishDifficulty}}) }} }}"}, //Radioactive Carp
+			"902": {1: "{{Round: {{Query: (100 * {{FishDifficulty}}) }} }}"}, //Glacierfish Jr
+		}
+	},
+	{
+	"Action": "EditData",
+	"Target": "Data/Fish",
+	"Fields": {
+            "128": {2: "{{FishBehavior}}"},
+			"129": {2: "{{FishBehavior}}"},
+			"130": {2: "{{FishBehavior}}"},
+			"131": {2: "{{FishBehavior}}"},
+			"132": {2: "{{FishBehavior}}"},
+			"136": {2: "{{FishBehavior}}"},
+			"137": {2: "{{FishBehavior}}"},
+			"138": {2: "{{FishBehavior}}"},
+			"139": {2: "{{FishBehavior}}"},
+			"140": {2: "{{FishBehavior}}"},
+			"141": {2: "{{FishBehavior}}"},
+			"142": {2: "{{FishBehavior}}"},
+			"143": {2: "{{FishBehavior}}"},
+			"144": {2: "{{FishBehavior}}"},
+			"145": {2: "{{FishBehavior}}"},
+			"146": {2: "{{FishBehavior}}"},
+			"147": {2: "{{FishBehavior}}"},
+			"148": {2: "{{FishBehavior}}"},
+			"149": {2: "{{FishBehavior}}"},
+			"150": {2: "{{FishBehavior}}"},
+			"151": {2: "{{FishBehavior}}"},
+			"154": {2: "{{FishBehavior}}"},
+			"155": {2: "{{FishBehavior}}"},
+			"156": {2: "{{FishBehavior}}"},
+			"158": {2: "{{FishBehavior}}"},
+			"159": {2: "{{FishBehavior}}"},
+			"160": {2: "{{FishBehavior}}"},
+			"161": {2: "{{FishBehavior}}"},
+			"162": {2: "{{FishBehavior}}"},
+			"163": {2: "{{FishBehavior}}"},
+			"164": {2: "{{FishBehavior}}"},
+			"165": {2: "{{FishBehavior}}"},
+			"267": {2: "{{FishBehavior}}"},
+			"269": {2: "{{FishBehavior}}"},
+			"682": {2: "{{FishBehavior}}"},
+			"698": {2: "{{FishBehavior}}"},
+			"699": {2: "{{FishBehavior}}"},
+			"700": {2: "{{FishBehavior}}"},
+			"701": {2: "{{FishBehavior}}"},
+			"702": {2: "{{FishBehavior}}"},
+			"704": {2: "{{FishBehavior}}"},
+			"705": {2: "{{FishBehavior}}"},
+			"706": {2: "{{FishBehavior}}"},
+			"707": {2: "{{FishBehavior}}"},
+			"708": {2: "{{FishBehavior}}"},
+			"734": {2: "{{FishBehavior}}"},
+			"775": {2: "{{FishBehavior}}"},
+			"795": {2: "{{FishBehavior}}"},
+			"796": {2: "{{FishBehavior}}"},
+			"798": {2: "{{FishBehavior}}"},
+			"799": {2: "{{FishBehavior}}"},
+			"800": {2: "{{FishBehavior}}"},
+			"836": {2: "{{FishBehavior}}"},
+			"837": {2: "{{FishBehavior}}"},
+			"838": {2: "{{FishBehavior}}"},
+			"898": {2: "{{FishBehavior}}"},
+			"899": {2: "{{FishBehavior}}"},
+			"900": {2: "{{FishBehavior}}"},
+			"901": {2: "{{FishBehavior}}"},
+			"902": {2: "{{FishBehavior}}"}
+            }
+        }
+	]
+}

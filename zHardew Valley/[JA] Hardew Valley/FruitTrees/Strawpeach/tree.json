@@ -1,0 +1,21 @@
+{
+    "Name": "Strawpeach",
+    "Product": "Strawpeach",
+    "SaplingName": "Strawpeach Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Strawpeach tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "fall",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 2000,
+    "SaplingPurchaseRequirements": ["z spring/z winter"],
+    "SaplingNameLocalization": 
+	{
+		"es": "Brote de Fresaznero",
+		"pt": "Muda de Morssego" 
+	},
+    "SaplingDescriptionLocalization": 
+	{
+	    "es": "Tarda 28 días en producir un fresaznero adulto. Da fruta en Otoño. Solo crece si las 8 casillas que lo rodean están vacías.",
+		"pt": "Demora até 28 dias para produzir um morssego maduro. Dá frutas no outono. Só cresce se os 8 espaços adjacentes estiverem vazios."
+	}
+}

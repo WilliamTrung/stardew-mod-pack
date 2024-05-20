@@ -1,0 +1,43 @@
+{
+    "Name": "Silver Strawberry",
+    "Product": "Silver Strawberry",
+    "SeedName": "Silver Strawberry Seeds",
+    "SeedDescription": "Plant these in summer. Takes 8 days to mature. Produces a visual delight.",
+    "Type": "Fruit",
+	"CropType": "Normal",
+    "Seasons": ["summer"],
+    "Phases": [ 1, 1, 1, 2, 3, ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0,
+    },
+    "SeedPurchasePrice": 150,
+	"SeedSellPrice": 10,
+    "SeedPurchaseRequirements": ["z spring/z fall/z winter"],
+    "SeedPurchaseFrom": "Pierre",
+	"NameLocalization":
+	{
+		"es": "Fresa Plateada",
+		"pt": "Morango Prateado"
+	},
+	"ProductLocalization":
+	{
+		"es": "Fresa Plateada",
+		"pt": "Morango Prateado"
+	},
+	"SeedNameLocalization":
+	{
+		"es": "Semillas De Fresa Plateada",
+		"pt": "Sementes De Morango Prateado"
+	},
+	"SeedDescriptionLocalization":
+	{
+		"es": "Plántalas en verano. Tarda 8 días en madurar. Produce una delicia visual.",
+		"pt": "Plante-as no Verão. Demora 8 dias para crescer. Produz um deleite visual."
+	},
+}

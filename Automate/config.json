@@ -1,0 +1,43 @@
+{
+  "Enabled": true,
+  "AutomationInterval": 60,
+  "Controls": {
+    "ToggleOverlay": "U"
+  },
+  "ConnectorNames": [
+    "Workbench",
+    "Brick Floor",
+    "Cobblestone Path",
+    "Crystal Floor",
+    "Crystal Path",
+    "Gravel Path",
+    "Rustic Plank Floor",
+    "Stepping Stone Path",
+    "Stone Floor",
+    "Stone Walkway Floor",
+    "Straw Floor",
+    "Weathered Floor",
+    "Wood Floor",
+    "Wood Path"
+  ],
+  "JunimoHutBehaviorForGems": "AutoDetect",
+  "JunimoHutBehaviorForFertilizer": "AutoDetect",
+  "JunimoHutBehaviorForSeeds": "AutoDetect",
+  "CollectTreeMoss": true,
+  "WarnForMissingBridgeMod": true,
+  "MachineOverrides": {
+    "CharcoalKiln": {
+      "Priority": -100,
+      "Enabled": true
+    },
+    "ShippingBin": {
+      "Priority": 100,
+      "Enabled": true
+    },
+    "MiniShippingBin": {
+      "Priority": 100,
+      "Enabled": true
+    }
+  },
+  "MinMinutesForFairyDust": 20
+}

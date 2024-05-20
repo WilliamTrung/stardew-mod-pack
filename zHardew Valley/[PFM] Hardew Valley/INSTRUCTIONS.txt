@@ -1,0 +1,51 @@
+In the "Configs" folder you will find different "ProducerRules" files separated by difficulty.
+THE MORE DIFFICULT, MORE MINERALS YOU WILL NEED TO MAKE A BAR AND OTHERS:
+
+ORIGINAL: The original values of the game are maintained. ONLY WAY TO DISABLE THIS PART OF THE MOD.
+
+HARD: Copper and iron ore(5>6), gold and iridium ore(5>7), radioactive ore(5>8). The wood needed to make coal is reduced (10>7). You can make coal with 5 torches.
+
+OMEGAHARD: Copper and iron ore(5>8), gold and iridium ore(5>9), radioactive ore(5>10). The wood needed to make coal is reduced (10>8). You can make coal with 4 torches.
+
+ULTRAOMEGA: Copper and iron ore(5>8 and 2 coal), gold and iridium ore(5>9 and 3 coal), radioactive ore(5>10 and 3 coal). The wood needed to make coal is reduced (10>8). You can make coal with 3 torches.
+
+CrazyBuddy: ALL ore (5>10 and 5 coal). The wood needed to make coal is reduced (10>9). You can make coal with 2 torches.
+
+CHOOSE THE OPTION YOU LIKE, COPY AND REPLACE THE "ProducerRules*" FILE INSIDE THE '[PFM] Hardew Valley' FOLDER.
+*If you don't have the default file, just copy one of the files from the "Configs" folder and paste it inside the '[PFM] Hardew Valley' Folder.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+En la carpeta "Configs" encontrarás diferentes archivos "ProducerRules" separados por dificultad.
+CUANTO MÁS DIFÍCIL, MÁS MINERALES NECESITARÁS PARA HACER UNA BARRA Y OTROS:
+
+ORIGINAL: Se mantienen los valores originales del juego. ÚNICA MANERA DE DESACTIVAR ESTA PARTE DEL MOD.
+
+HARD: Mineral de cobre y hierro(5>6), mineral de oro e iridio(5>7), mineral radiactivo(5>8). Se reduce la madera necesaria para hacer carbón (10>7). Puedes hacer carbón con 5 antorchas.
+
+OMEGAHARD: Mineral de cobre y hierro(5>8), mineral de oro e iridio(5>9), mineral radiactivo(5>10). La madera necesaria para hacer carbón se reduce (10>8). Puedes hacer carbón con 4 antorchas.
+
+ULTRAOMEGA: Mineral de cobre y hierro(5>8 y 2 carbón), mineral de oro e iridio(5>9 y 3 carbón), mineral radiactivo(5>10 y 3 carbón). La madera necesaria para hacer carbón se reduce (10>8). Puedes hacer carbón con 3 antorchas.
+
+CrazyBuddy: TODOS los minerales (5>10 y 5 carbón). La madera necesaria para hacer carbón se reduce (10>9). Puedes hacer carbón con 2 antorchas.
+
+ELIGE LA OPCIÓN QUE TE GUSTA, COPIA Y SUSTITUYE EL ARCHIVO "ProducerRules*" DENTRO DE LA CARPETA '[PFM] Hardew Valley'.
+*Si no tienes el archivo por defecto, simplemente copia uno de los archivos de la carpeta "Configs" y pégalo dentro de la carpeta '[PFM] Hardew Valley'.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Na pasta "Configs" você encontrará diferentes arquivos "ProducerRules" separados por dificuldade.
+QUANTO MAIS DIFÍCIL, MAIS MINERAIS VOCÊ PRECISARÁ PARA FAZER UMA BARRA E OUTROS:
+
+ORIGINAL: Os valores originais do jogo são mantidos. ÚNICA MANEIRA DE DESATIVAR ESTA PARTE DO MOD.
+
+HARD: Minério de cobre e ferro(5>6), minério de ouro e irídio(5>7), minério radioativo(5>8). A madeira necessária para fazer carvão é reduzida(10>7). Pode-se fazer carvão com 5 tochas.
+
+OMEGAHARD: Minério de cobre e de ferro(5>8), minério de ouro e de irídio(5>9), minério radioativo(5>10). A madeira necessária para fazer carvão é reduzida (10>8). Pode-se fazer carvão com 4 tochas.
+
+ULTRAOMEGA: Minério de cobre e de ferro(5>8 e 2 carvões), ouro e minério de irídio(5>9 e 3 carvões), minério radioativo(5>10 e 3 carvões). A madeira necessária para fazer carvão é reduzida (10>8). É possível fazer carvão com 3 tochas.
+
+CrazyBuddy: TODOS os minerais (5>10 e 5 carvões). A madeira necessária para fazer carvão é reduzida (10>9). Pode-se fazer carvão com 2 tochas.
+
+ESCOLHA A OPÇÃO DESEJADA, COPIE E SUBSTITUA O ARQUIVO "ProducerRules*" DENTRO DA PASTA '[PFM] Hardew Valley'.
+*Se você não tiver o arquivo padrão, basta copiar um dos arquivos da pasta "Configs" e coloque-o dentro da pasta '[PFM] Hardew Valley'.

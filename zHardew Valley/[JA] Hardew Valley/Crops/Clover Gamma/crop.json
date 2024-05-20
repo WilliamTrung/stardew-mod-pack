@@ -1,0 +1,43 @@
+{
+    "Name": "Clover Gamma",
+    "Product": "Clover Gamma",
+    "SeedName": "Clover Gamma Seeds",
+    "SeedDescription": "Plant these in summer. Takes 7 days to mature. Cultivate your own luck!",
+    "Type": "Flower",
+	"CropType": "Normal",
+    "Seasons": ["summer"],
+    "Phases": [ 1, 1, 2, 3 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0,
+    },
+    "SeedPurchasePrice": 95,
+	"SeedSellPrice": 10,
+    "SeedPurchaseRequirements": ["z spring/z fall/z winter/y 2"],
+    "SeedPurchaseFrom": "Pierre",
+	"NameLocalization":
+	{
+		"es": "Trebol Gamma",
+		"pt": "Trevo Gamma"
+	},
+	"ProductLocalization":
+	{
+		"es": "Trebol Gamma",
+		"pt": "Trevo Gamma"
+	},
+	"SeedNameLocalization":
+	{
+		"es": "Semillas De Trebol Gamma",
+		"pt": "Sementes De Trevo Gamma"
+	},
+	"SeedDescriptionLocalization":
+	{
+		"es": "Plántalas en verano. Tarda 7 días en madurar. ¡Cultiva tu propia suerte!.",
+		"pt": "Plante-as no Verão. Demora 7 dias para crescer. Cultive sua própria sorte!"
+	},
+}

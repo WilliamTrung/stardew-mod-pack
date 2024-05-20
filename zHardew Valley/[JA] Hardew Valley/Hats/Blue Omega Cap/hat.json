@@ -1,0 +1,17 @@
+{
+    "Name": "Blue Omega Cap",
+    "Description": "A black cap with the Omega symbol in blue.",
+    "PurchasePrice": "1000",
+    "ShowHair": false,
+    "IgnoreHairstyleOffset": false,
+    "NameLocalization":
+	{
+		"es": "Gorra Omega Azul",
+		"pt": "Boné Ômega Azul"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Una gorra negra con el símbolo Omega en azul.",
+		"pt": "Um boné preto com o símbolo Omega em azul."
+	},
+}

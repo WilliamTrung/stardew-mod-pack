@@ -1,0 +1,17 @@
+{
+    "Name": "Golden Strawberry Tiara",
+    "Description": "A silver tiara with a golden strawberry inlay.",
+    "PurchasePrice": "1000",
+    "ShowHair": false,
+    "IgnoreHairstyleOffset": false,
+	"NameLocalization":
+	{
+		"es": "Tiara de Fresa Dorada",
+		"pt": "Tiara de Morango Dourado"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Una tiara de plata con una incrustación de fresa dorada.",
+		"pt": "Uma tiara de prata com uma incrustação de morango dourado."
+	},
+}

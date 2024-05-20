@@ -1,0 +1,20 @@
+{
+	"Name": "Strawbit",
+	"Price": 11,
+	"Description": "It's so tiny and adorable, don't swallow it whole!",
+	"Category": "Fruit",
+	"Edibility": 3,
+	"CategoryTextOverride": "AAAWWWWW!!!",
+	"CategoryColorOverride": "255, 0, 0, 255",
+	"Recipe": null,
+	"NameLocalization":
+	{
+		"es": "Fresín",
+		"pt": "Morango Bebé"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Es tan pequeña y adorable, ¡No te la tragues entera!",
+		"pt": "É tão pequena e adorável, não o engulas inteiro!"
+	},
+}

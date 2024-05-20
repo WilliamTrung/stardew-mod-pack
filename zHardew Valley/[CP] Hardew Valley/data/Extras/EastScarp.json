@@ -1,0 +1,25 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/Objects",
+	"Fields": {
+			"EastScarp_Bird_Of_Paradise": {"Price": "165", "Edibility": "3"},
+			"EastScarp_Cerulean_Nudibranch": {"Price": "30"},
+			"EastScarp_Fairy_Betta": {"Price": "35", "Edibility": "12"},
+			"EastScarp_Golden_Trout": {"Price": "28", "Edibility": "12"},
+			"EastScarp_King_Carp": {"Price": "110", "Edibility": "24"},
+			"EastScarp_Kokanee_Salmon": {"Price": "30", "Edibility": "12"},
+			"EastScarp_Obsidian_Maw": {"Price": "55"},
+			"EastScarp_Ornate_Nudibranch": {"Price": "30"},
+			"EastScarp_Red_Herring": {"Price": "13", "Edibility": "6"},
+			"EastScarp_Rosas_Baklava": {"Price": "30", "Edibility": "30"},
+			"EastScarp_Rosas_Spanakopita": {"Price": "145", "Edibility": "60"},
+			"EastScarp_Sea_Bunny_Nudibranch": {"Price": "32"},
+			"EastScarp_Slime_Barbel": {"Price": "52"},
+			"EastScarp_Sunset_Nudibranch": {"Price": "32"}
+			}
+	    }
+	]
+}

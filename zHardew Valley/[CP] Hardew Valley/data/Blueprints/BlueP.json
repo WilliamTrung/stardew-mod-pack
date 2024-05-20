@@ -1,0 +1,295 @@
+{
+	"Changes": [
+	
+    {
+    "Action": "EditData",
+    "Target": "Data/Buildings",
+	"Fields": {
+            "Silo": {//390 100 330 10 334 5, 100g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (100 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)330",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)334",
+        "Amount": "{{Round: {{Query: (5 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (100 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+			   },
+			"Mill": {//388 150 390 50 428 4, 2500g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (150 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (50 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)428",
+        "Amount": "{{Round: {{Query: (4 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (2500 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Earth Obelisk": {//337 10 86 10
+"BuildMaterials": [
+      {
+        "ItemId": "(O)337",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)86",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	          },
+			"Water Obelisk": {//337 5 372 10 393 10
+"BuildMaterials": [
+      {
+        "ItemId": "(O)337",
+        "Amount": "{{Round: {{Query: (5 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)372",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)393",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	},
+			"Desert Obelisk": {//337 20 88 10 90 10
+"BuildMaterials": [
+      {
+        "ItemId": "(O)337",
+        "Amount": "{{Round: {{Query: (20 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)88",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)90",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	},
+			"Island Obelisk": {//337 10 852 10 91 10
+"BuildMaterials": [
+      {
+        "ItemId": "(O)337",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)852",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)91",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	},
+			"Junimo Hut": {//390 200 268 9 771 100, 20000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (200 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)268",
+        "Amount": "{{Round: {{Query: (9 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)771",
+        "Amount": "{{Round: {{Query: (100 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (20000 * {{GoldBP}}) }} }}"
+				},
+			"Stable": {//709 100 335 5, 10000g***
+"BuildMaterials": [
+      {
+        "ItemId": "(O)709",
+        "Amount": 200
+      },
+      {
+        "ItemId": "(O)335",
+        "Amount": 10
+      },
+	  {
+        "ItemId": "(O)178",
+        "Amount": 100
+      }
+    ],
+	"BuildCost": 1000,
+	"BuildDays": 1
+				},
+			"Well": {//390 75, 1000g***
+"BuildMaterials": [
+      {
+        "ItemId": "(O)390",
+        "Amount": 125
+      }
+    ],
+	"BuildCost": 100
+				},
+			"Coop": {//388 300 390 100, 4000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (300 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (100 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (4000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Big Coop": {//388 400 390 150, 10000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (400 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (150 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (10000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Deluxe Coop": {//388 500 390 200, 20000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (500 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (200 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (20000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Barn": {//388 350 390 150, 6000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (350 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (150 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (6000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Big Barn": {//388 450 390 200, 12000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (450 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (200 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (12000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Deluxe Barn": {//388 550 390 300, 25000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (550 * {{MaterialBP}}) }} }}"
+      },
+	  {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (300 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (25000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Slime Hutch": {//390 500 338 10 337 1, 10000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (500 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)338",
+        "Amount": "{{Round: {{Query: (10 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)337",
+        "Amount": "{{Round: {{Query: (1 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (10000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Shed": {//388 300, 15000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (300 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (15000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Big Shed": {//388 550 390 300, 20000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)388",
+        "Amount": "{{Round: {{Query: (550 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (300 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (20000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				},
+			"Fish Pond": {//390 200 152 5*** 153 5, 5000g
+"BuildMaterials": [
+      {
+        "ItemId": "(O)390",
+        "Amount": "{{Round: {{Query: (200 * {{MaterialBP}}) }} }}"
+      },
+      {
+        "ItemId": "(O)152",
+        "Amount": 1
+      },
+      {
+        "ItemId": "(O)153",
+        "Amount": "{{Round: {{Query: (5 * {{MaterialBP}}) }} }}"
+      }
+    ],
+	"BuildCost": "{{Round: {{Query: (5000 * {{GoldBP}}) }} }}",
+	"BuildDays": "{{BuildDays}}"
+				}
+            }
+        }
+	]
+}

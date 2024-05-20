@@ -1,0 +1,967 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/Objects",
+	"Fields": {
+            "16": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+			    "Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"18": {"Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}"},
+			"20": {
+			    "Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (16 / {{EnergyHealth}}) }} }}"
+				},
+			"22": {
+			    "Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"60": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"62": {"Price": "{{Round: {{Query: (180 / {{ObjectPrice}}) }} }}"},
+			"64": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"66": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"68": {"Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}"},
+			"70": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"72": {"Price": "{{Round: {{Query: (750 / {{ObjectPrice}}) }} }}"},
+			"73": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"74": {"Price": "{{Round: {{Query: (2000 / {{ObjectPrice}}) }} }}"},
+			"78": {
+			    "Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (12 / {{EnergyHealth}}) }} }}"
+				},
+			"80": {"Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}"},
+			"82": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"84": {"Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}"},
+			"86": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"88": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"90": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"91": {
+				"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+			    },
+			"93": {"Price": "{{Round: {{Query: (5 / {{ObjectPrice}}) }} }}"},
+			"94": {"Price": "{{Round: {{Query: (5 / {{ObjectPrice}}) }} }}"},
+			"95": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"100": {"Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}"},
+			"101": {"Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}"},
+			"102": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"103": {"Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}"},
+			"104": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"105": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"106": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"107": {"Price": "{{Round: {{Query: (350 / {{ObjectPrice}}) }} }}"},
+			"108": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"109": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"110": {"Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}"},
+			"111": {"Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}"},
+			"112": {"Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}"},
+			"113": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"115": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"116": {"Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}"},
+			"117": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"118": {"Price": "{{Round: {{Query: (20 / {{ObjectPrice}}) }} }}"},
+			"119": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"120": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"121": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"122": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"123": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"124": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"125": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"126": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"127": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"128": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"
+				},
+			"129": {
+			    "Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"130": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"131": {
+			    "Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"132": {
+			    "Price": "{{Round: {{Query: (45 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"136": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"137": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"138": {
+			    "Price": "{{Round: {{Query: (65 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"139": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"140": {
+			    "Price": "{{Round: {{Query: (105 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (12 / {{EnergyHealth}}) }} }}"
+				},
+			"141": {
+			    "Price": "{{Round: {{Query: (55 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"142": {
+			    "Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"143": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"144": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"145": {
+			    "Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"146": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"147": {
+			    "Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"148": {
+			    "Price": "{{Round: {{Query: (85 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (12 / {{EnergyHealth}}) }} }}"
+				},
+			"149": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"150": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"151": {
+			    "Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"152": {
+			    "Price": "{{Round: {{Query: (20 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"153": {
+			    "Price": "{{Round: {{Query: (15 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"154": {"Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}"},
+			"155": {
+			    "Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"156": {
+			    "Price": "{{Round: {{Query: (45 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"157": {
+			    "Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (8 / {{EnergyHealth}}) }} }}"
+				},
+			"158": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"159": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+			"160": {"Price": "{{Round: {{Query: (900 / {{ObjectPrice}}) }} }}"},
+			"161": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"162": {
+			    "Price": "{{Round: {{Query: (700 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"163": {"Price": "{{Round: {{Query: (5000 / {{ObjectPrice}}) }} }}"},
+			"164": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"165": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"166": {"Price": "{{Round: {{Query: (5000 / {{ObjectPrice}}) }} }}"},
+			"167": {
+			    "Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"174": {
+			    "Price": "{{Round: {{Query: (95 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"176": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"180": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"182": {
+			    "Price": "{{Round: {{Query: (95 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"184": {
+			    "Price": "{{Round: {{Query: (125 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"186": {
+			    "Price": "{{Round: {{Query: (190 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"194": {
+			    "Price": "{{Round: {{Query: (35 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"195": {
+			    "Price": "{{Round: {{Query: (125 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"196": {
+			    "Price": "{{Round: {{Query: (110 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (45 / {{EnergyHealth}}) }} }}"
+				},
+			"197": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (55 / {{EnergyHealth}}) }} }}"
+				},
+			"198": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"199": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (34 / {{EnergyHealth}}) }} }}"
+				},
+			"200": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (66 / {{EnergyHealth}}) }} }}"
+				},
+			"201": {
+			    "Price": "{{Round: {{Query: (350 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"202": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (32 / {{EnergyHealth}}) }} }}"
+				},
+			"203": {
+			    "Price": "{{Round: {{Query: (225 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"204": {
+			    "Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"205": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (54 / {{EnergyHealth}}) }} }}"
+				},
+			"206": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (60 / {{EnergyHealth}}) }} }}"
+				},
+			"207": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"208": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"209": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (36 / {{EnergyHealth}}) }} }}"
+				},
+			"210": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (36 / {{EnergyHealth}}) }} }}"
+				},
+			"211": {
+			    "Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (36 / {{EnergyHealth}}) }} }}"
+				},
+			"212": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"213": {
+			    "Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (66 / {{EnergyHealth}}) }} }}"
+				},
+			"214": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (36 / {{EnergyHealth}}) }} }}"
+				},
+			"215": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (52 / {{EnergyHealth}}) }} }}"
+				},
+			"216": {
+			    "Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"218": {
+			    "Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				},
+			"219": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"220": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (60 / {{EnergyHealth}}) }} }}"
+				},
+			"221": {
+			    "Price": "{{Round: {{Query: (480 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (100 / {{EnergyHealth}}) }} }}"
+				},
+			"222": {
+			    "Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (86 / {{EnergyHealth}}) }} }}"
+				},
+			"223": {
+			    "Price": "{{Round: {{Query: (140 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (36 / {{EnergyHealth}}) }} }}"
+				},
+			"224": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"225": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"226": {
+			    "Price": "{{Round: {{Query: (175 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (46 / {{EnergyHealth}}) }} }}"
+				},
+			"227": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"228": {
+			    "Price": "{{Round: {{Query: (220 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"229": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"230": {
+			    "Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (96 / {{EnergyHealth}}) }} }}"
+				},
+			"231": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				},
+			"232": {
+			    "Price": "{{Round: {{Query: (260 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (46 / {{EnergyHealth}}) }} }}"
+				},
+			"233": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"234": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"235": {
+			    "Price": "{{Round: {{Query: (350 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (88 / {{EnergyHealth}}) }} }}",
+				},
+			"236": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"237": {
+			    "Price": "{{Round: {{Query: (220 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (64 / {{EnergyHealth}}) }} }}"
+				},
+			"238": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"239": {
+			    "Price": "{{Round: {{Query: (165 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (68 / {{EnergyHealth}}) }} }}"
+				},
+			"240": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"241": {
+			    "Price": "{{Round: {{Query: (180 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"242": {
+			    "Price": "{{Round: {{Query: (220 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (60 / {{EnergyHealth}}) }} }}"
+				},
+			"243": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"244": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"245": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"247": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"257": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (8 / {{EnergyHealth}}) }} }}"
+				},
+			"258": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"259": {
+			    "Price": "{{Round: {{Query: (90 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"265": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				 },
+			"267": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"269": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"279": {
+			    "Price": "{{Round: {{Query: (5000 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (200 / {{EnergyHealth}}) }} }}"
+				},
+			"281": {
+			    "Price": "{{Round: {{Query: (160 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"283": {"Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}"},
+			"289": {
+			    "Price": "{{Round: {{Query: (600 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"296": {
+			    "Price": "{{Round: {{Query: (5 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"297": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"305": {
+			    "Price": "{{Round: {{Query: (65 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"306": {"Price": "{{Round: {{Query: (190 / {{ObjectPrice}}) }} }}"},
+			"307": {"Price": "{{Round: {{Query: (375 / {{ObjectPrice}}) }} }}"},
+			"308": {"Price": "{{Round: {{Query: (275 / {{ObjectPrice}}) }} }}"},
+			"334": {"Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}"},
+			"335": {"Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}"},
+			"336": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"337": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"338": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"340": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"342": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"344": {"Price": "{{Round: {{Query: (160 / {{ObjectPrice}}) }} }}"},
+			"350": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"372": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"373": {"Price": "{{Round: {{Query: (2500 / {{ObjectPrice}}) }} }}"},
+			"378": {"Price": "{{Round: {{Query: (5 / {{ObjectPrice}}) }} }}"},
+			"380": {"Price": "{{Round: {{Query: (10 / {{ObjectPrice}}) }} }}"},
+			"382": {"Price": "{{Round: {{Query: (15 / {{ObjectPrice}}) }} }}"},
+			"384": {"Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}"},
+			"386": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"392": {"Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}"},
+			"393": {"Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}"},
+			"394": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"396": {
+			    "Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"397": {"Price": "{{Round: {{Query: (160 / {{ObjectPrice}}) }} }}"},
+			"399": {
+			    "Price": "{{Round: {{Query: (8 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (5 / {{EnergyHealth}}) }} }}"
+				},
+			"402": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"404": {
+			    "Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"406": {
+			    "Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"408": {
+			    "Price": "{{Round: {{Query: (90 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (12 / {{EnergyHealth}}) }} }}"
+				},
+			"410": {
+			    "Price": "{{Round: {{Query: (20 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"412": {
+			    "Price": "{{Round: {{Query: (70 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"413": {"Price": "{{Round: {{Query: (1750 / {{ObjectPrice}}) }} }}"},
+			"414": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (25 / {{EnergyHealth}}) }} }}"
+				},
+			"416": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (12 / {{EnergyHealth}}) }} }}"
+				},
+			"418": {"Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}"},
+			"420": {"Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}"},
+			"424": {
+			    "Price": "{{Round: {{Query: (230 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"426": {
+			    "Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"428": {"Price": "{{Round: {{Query: (470 / {{ObjectPrice}}) }} }}"},
+			"436": {
+			    "Price": "{{Round: {{Query: (225 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (25 / {{EnergyHealth}}) }} }}"
+				},
+			"437": {"Price": "{{Round: {{Query: (2500 / {{ObjectPrice}}) }} }}"},
+			"438": {
+			    "Price": "{{Round: {{Query: (345 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (35 / {{EnergyHealth}}) }} }}"
+				},
+			"439": {"Price": "{{Round: {{Query: (5000 / {{ObjectPrice}}) }} }}"},
+			"440": {"Price": "{{Round: {{Query: (340 / {{ObjectPrice}}) }} }}"},
+			"442": {
+			    "Price": "{{Round: {{Query: (95 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"444": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"445": {
+			    "Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				},
+			"446": {"Price": "{{Round: {{Query: (565 / {{ObjectPrice}}) }} }}"},
+			"447": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"456": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"457": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"460": {"Price": "{{Round: {{Query: (2500 / {{ObjectPrice}}) }} }}"},
+			"495": {"Price": "{{Round: {{Query: (35 / {{ObjectPrice}}) }} }}"},
+			"496": {"Price": "{{Round: {{Query: (55 / {{ObjectPrice}}) }} }}"},
+			"497": {"Price": "{{Round: {{Query: (45 / {{ObjectPrice}}) }} }}"},
+			"498": {"Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}"},
+			"516": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+            "517": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+            "518": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+            "519": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+            "520": {"Price": "{{Round: {{Query: (700 / {{ObjectPrice}}) }} }}"},
+            "521": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+            "522": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+            "523": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+            "524": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+            "525": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+            "526": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+            "527": {"Price": "{{Round: {{Query: (2000 / {{ObjectPrice}}) }} }}"},
+            "528": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+            "529": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+            "530": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+            "531": {"Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}"},
+            "532": {"Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}"},
+            "533": {"Price": "{{Round: {{Query: (600 / {{ObjectPrice}}) }} }}"},
+            "534": {"Price": "{{Round: {{Query: (600 / {{ObjectPrice}}) }} }}"},
+			"535": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"536": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"537": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"538": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"539": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"540": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"541": {"Price": "{{Round: {{Query: (125 / {{ObjectPrice}}) }} }}"},
+			"542": {"Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}"},
+			"543": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"544": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"545": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"546": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"547": {"Price": "{{Round: {{Query: (450 / {{ObjectPrice}}) }} }}"},
+			"548": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"549": {"Price": "{{Round: {{Query: (115 / {{ObjectPrice}}) }} }}"},
+			"550": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"551": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"552": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"553": {"Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}"},
+			"554": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"555": {"Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}"},
+			"556": {"Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}"},
+			"557": {"Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}"},
+			"558": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"559": {"Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}"},
+			"560": {"Price": "{{Round: {{Query: (220 / {{ObjectPrice}}) }} }}"},
+			"561": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"562": {"Price": "{{Round: {{Query: (275 / {{ObjectPrice}}) }} }}"},
+			"563": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"564": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"565": {"Price": "{{Round: {{Query: (350 / {{ObjectPrice}}) }} }}"},
+			"566": {"Price": "{{Round: {{Query: (125 / {{ObjectPrice}}) }} }}"},
+            "567": {"Price": "{{Round: {{Query: (110 / {{ObjectPrice}}) }} }}"},
+			"568": {"Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}"},
+			"569": {"Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}"},
+			"570": {"Price": "{{Round: {{Query: (175 / {{ObjectPrice}}) }} }}"},
+			"571": {"Price": "{{Round: {{Query: (15 / {{ObjectPrice}}) }} }}"},
+			"572": {"Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}"},
+			"573": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"574": {"Price": "{{Round: {{Query: (25 / {{ObjectPrice}}) }} }}"},
+			"575": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"576": {"Price": "{{Round: {{Query: (85 / {{ObjectPrice}}) }} }}"},
+			"577": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"578": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"579": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"580": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"581": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"582": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"583": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"584": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"585": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"586": {"Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}"},
+			"587": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"588": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"589": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"604": {
+			    "Price": "{{Round: {{Query: (260 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				},
+			"605": {
+			    "Price": "{{Round: {{Query: (210 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"606": {
+			    "Price": "{{Round: {{Query: (335 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"607": {
+			    "Price": "{{Round: {{Query: (270 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				},
+			"608": {
+			    "Price": "{{Round: {{Query: (385 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"609": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"610": {
+			    "Price": "{{Round: {{Query: (450 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (105 / {{EnergyHealth}}) }} }}"
+				},
+			"611": {
+			    "Price": "{{Round: {{Query: (260 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				},
+			"612": {
+			    "Price": "{{Round: {{Query: (175 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"613": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"614": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"618": {
+			    "Price": "{{Round: {{Query: (210 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (45 / {{EnergyHealth}}) }} }}"
+				},
+			"621": {"Price": "{{Round: {{Query: (450 / {{ObjectPrice}}) }} }}"},
+			"634": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"635": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"636": {
+			    "Price": "{{Round: {{Query: (140 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"637": {
+			    "Price": "{{Round: {{Query: (140 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"638": {
+			    "Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"645": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"648": {
+			    "Price": "{{Round: {{Query: (345 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (85 / {{EnergyHealth}}) }} }}"
+				},
+			"649": {
+			    "Price": "{{Round: {{Query: (350 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"651": {
+			    "Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (60 / {{EnergyHealth}}) }} }}"
+				},
+			"680": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"682": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"684": {"Price": "{{Round: {{Query: (8 / {{ObjectPrice}}) }} }}"},
+			"686": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"687": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"691": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"693": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"695": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"698": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"699": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"700": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"701": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"702": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"704": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"705": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"706": {
+			    "Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"707": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"708": {
+			    "Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"715": {"Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}"},
+			"716": {"Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}"},
+			"717": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"718": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"719": {"Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}"},
+			"720": {"Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}"},
+			"721": {"Price": "{{Round: {{Query: (65 / {{ObjectPrice}}) }} }}"},
+			"722": {"Price": "{{Round: {{Query: (20 / {{ObjectPrice}}) }} }}"},
+			"723": {"Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}"},
+			"724": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"725": {"Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}"},
+			"726": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"727": {
+			    "Price": "{{Round: {{Query: (135 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"728": {
+			    "Price": "{{Round: {{Query: (175 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"729": {
+			    "Price": "{{Round: {{Query: (125 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"730": {
+			    "Price": "{{Round: {{Query: (205 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"731": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"732": {
+			    "Price": "{{Round: {{Query: (275 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"733": {
+			    "Price": "{{Round: {{Query: (160 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (90 / {{EnergyHealth}}) }} }}"
+				},
+			"734": {
+			    "Price": "{{Round: {{Query: (75 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"766": {"Price": "{{Round: {{Query: (5 / {{ObjectPrice}}) }} }}"},
+			"767": {"Price": "{{Round: {{Query: (15 / {{ObjectPrice}}) }} }}"},
+			"768": {"Price": "{{Round: {{Query: (40 / {{ObjectPrice}}) }} }}"},
+			"769": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"772": {
+			    "Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"773": {
+			    "Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (80 / {{EnergyHealth}}) }} }}"
+				},
+			"775": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"787": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"795": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (25 / {{EnergyHealth}}) }} }}"
+				},
+			"796": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"797": {"Price": "{{Round: {{Query: (2500 / {{ObjectPrice}}) }} }}"},
+			"798": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"799": {
+			    "Price": "{{Round: {{Query: (220 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"800": {
+			    "Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"807": {"Price": "{{Round: {{Query: (800 / {{ObjectPrice}}) }} }}"},
+			"808": {"Price": "{{Round: {{Query: (4500 / {{ObjectPrice}}) }} }}"},
+			"809": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"810": {"Price": "{{Round: {{Query: (2000 / {{ObjectPrice}}) }} }}"},
+			"811": {"Price": "{{Round: {{Query: (2000 / {{ObjectPrice}}) }} }}"},
+			"812": {
+			    "Price": "{{Round: {{Query: (30 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (20 / {{EnergyHealth}}) }} }}"
+				},
+			"814": {"Price": "{{Round: {{Query: (110 / {{ObjectPrice}}) }} }}"},
+			"815": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"820": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"821": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"822": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"823": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"824": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"825": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"826": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"827": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"828": {"Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}"},
+			"829": {
+			    "Price": "{{Round: {{Query: (60 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				},
+			"834": {
+			    "Price": "{{Round: {{Query: (130 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (40 / {{EnergyHealth}}) }} }}"
+				},
+			"836": {
+			    "Price": "{{Round: {{Query: (180 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"837": {
+			    "Price": "{{Round: {{Query: (100 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"838": {
+			    "Price": "{{Round: {{Query: (120 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (15 / {{EnergyHealth}}) }} }}"
+				},
+			"839": {"Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}"},
+			"851": {
+			    "Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (70 / {{EnergyHealth}}) }} }}"
+				},
+			"852": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"856": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"857": {"Price": "{{Round: {{Query: (8000 / {{ObjectPrice}}) }} }}"},
+			"858": {"Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}"},
+			"872": {"Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}"},
+			"873": {
+			    "Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"874": {
+			    "Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (18 / {{EnergyHealth}}) }} }}"
+				},
+			"877": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"879": {"Price": "{{Round: {{Query: (50 / {{ObjectPrice}}) }} }}"},
+			"896": {"Price": "{{Round: {{Query: (5000 / {{ObjectPrice}}) }} }}"},
+			"898": {"Price": "{{Round: {{Query: (1500 / {{ObjectPrice}}) }} }}"},
+			"899": {"Price": "{{Round: {{Query: (900 / {{ObjectPrice}}) }} }}"},
+			"900": {"Price": "{{Round: {{Query: (5000 / {{ObjectPrice}}) }} }}"},
+			"901": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"902": {"Price": "{{Round: {{Query: (1000 / {{ObjectPrice}}) }} }}"},
+			"903": {
+			    "Price": "{{Round: {{Query: (200 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (25 / {{EnergyHealth}}) }} }}"
+				},
+			"904": {
+			    "Price": "{{Round: {{Query: (260 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"905": {
+			    "Price": "{{Round: {{Query: (250 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (45 / {{EnergyHealth}}) }} }}"
+				},
+			"906": {
+			    "Price": "{{Round: {{Query: (400 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (30 / {{EnergyHealth}}) }} }}"
+				},
+			"907": {
+			    "Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (60 / {{EnergyHealth}}) }} }}"
+				},
+			"909": {"Price": "{{Round: {{Query: (300 / {{ObjectPrice}}) }} }}"},
+			"910": {"Price": "{{Round: {{Query: (3000 / {{ObjectPrice}}) }} }}"},
+			"911": {"Price": "{{Round: {{Query: (3000 / {{ObjectPrice}}) }} }}"},
+			"921": {
+			    "Price": "{{Round: {{Query: (150 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (50 / {{EnergyHealth}}) }} }}"
+				},
+			"925": {"Price": "{{Round: {{Query: (3000 / {{ObjectPrice}}) }} }}"},
+			"926": {"Price": "{{Round: {{Query: (80 / {{ObjectPrice}}) }} }}"},
+			"928": {
+			    "Price": "{{Round: {{Query: (500 / {{ObjectPrice}}) }} }}",
+				"Edibility": "{{Round: {{Query: (10 / {{EnergyHealth}}) }} }}"
+				}
+            }
+        }
+	]
+}

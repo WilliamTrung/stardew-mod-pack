@@ -1,0 +1,69 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "628", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "629", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "630", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "631", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "632", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "633", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "69", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FruitTrees",
+	"TargetField": [ "835", "Fruit", "#0" ],
+	"Entries": {
+                "Chance": "{{FruitChance}}"
+            }
+		},
+	]
+}

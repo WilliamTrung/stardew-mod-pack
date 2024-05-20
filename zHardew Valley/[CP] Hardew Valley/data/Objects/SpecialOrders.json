@@ -1,0 +1,141 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Willy", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1500"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Pam", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1500"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Pierre", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1250"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Robin", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1000"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Emily", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "500"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Demetrius", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Multiplier": "5"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Demetrius2", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "750"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Gus", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1500"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Lewis", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Multiplier": "25"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Wizard", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1250"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Clint", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "2000"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Evelyn", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1000"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Wizard2", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1600"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Robin", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1250"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Gunther", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1750"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Caroline", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Multiplier": "25"
+            }
+	},
+	{ 
+	"Action": "EditData",
+    "Target": "Data/SpecialOrders",
+	"TargetField": [ "Willy2", "Rewards", "#0", "Data" ],
+	"Entries": {
+                "Amount": "1250"
+            }
+	}
+	]
+}

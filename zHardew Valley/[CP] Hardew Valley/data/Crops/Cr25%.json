@@ -1,0 +1,265 @@
+{
+	"Changes": [
+	
+    {
+	"Action": "EditData",
+    "Target": "Data/Crops",
+    "Fields": {
+		    "472": {
+			    "DaysInPhase": [1, 1, 2, 2]
+				},
+			"473": {
+			    "DaysInPhase": [1, 1, 2, 4, 4]
+				},
+			"474": {
+			    "DaysInPhase": [1, 2, 4, 4, 4]
+				},
+			"475": {
+			    "DaysInPhase": [1, 1, 2, 2, 2]
+				},
+			"476": {
+			    "DaysInPhase": [1, 1, 2, 2]
+				},
+			"273": {
+			    "DaysInPhase": [2, 2, 3, 3]
+				},
+			"831": {
+			    "DaysInPhase": [2, 2, 3, 5]
+				},
+			"477": {
+			    "DaysInPhase": [2, 3, 2, 1]
+				},
+			"478": {
+			    "DaysInPhase": [2, 3, 3, 3, 5]
+				},
+			"745": {
+			    "DaysInPhase": [1, 2, 2, 2, 3]
+				},
+			"479": {
+			    "DaysInPhase": [1, 3, 3, 4, 4]
+				},
+			"480": {
+			    "DaysInPhase": [1, 2, 3, 3, 4]
+				},
+			"481": {
+			    "DaysInPhase": [3, 3, 3, 3, 4]
+				},
+			"482": {
+			    "DaysInPhase": [1, 1, 1, 2, 2]
+				},
+			"483": {
+			    "DaysInPhase": [1, 1, 2, 2]
+				},
+			"484": {
+			    "DaysInPhase": [2, 2, 2, 2]
+				},
+			"485": {
+			    "DaysInPhase": [2, 2, 2, 2, 3]
+				},
+			"486": {
+			    "DaysInPhase": [3, 4, 2, 3, 4]
+				},
+			"833": {
+			    "DaysInPhase": [4, 3, 3, 3, 4]
+				},
+			"433": {
+			    "DaysInPhase": [2, 2, 3, 3, 2]
+				},
+			"802": {
+			    "DaysInPhase": [2, 2, 4, 4, 3],
+				"RegrowDays": 5
+				},
+			"487": {
+			    "DaysInPhase": [3, 3, 5, 3, 3]
+				},
+			"301": {
+			    "DaysInPhase": [2, 2, 2, 3, 3]
+				},
+			"299": {
+			    "DaysInPhase": [2, 3, 3, 2]
+				},
+			"488": {
+			    "DaysInPhase": [1, 1, 1, 2, 2]
+				},
+			"489": {
+			    "DaysInPhase": [2, 2, 2, 2, 2]
+				},
+			"490": {
+			    "DaysInPhase": [3, 3, 4, 3, 3]
+				},
+			"491": {
+			    "DaysInPhase": [2, 1, 1, 2]
+				},
+			"492": {
+			    "DaysInPhase": [3, 3, 3, 3]
+				},
+			"493": {
+			    "DaysInPhase": [1, 2, 2, 2, 2]
+				},
+			"494": {
+			    "DaysInPhase": [2, 2, 2, 2]
+				},
+			"427": {
+			    "DaysInPhase": [2, 2, 2, 2]
+				},
+			"429": {
+			    "DaysInPhase": [2, 3, 2, 2]
+				},
+			"453": {
+			    "DaysInPhase": [2, 2, 3, 2]
+				},
+			"455": {
+			    "DaysInPhase": [2, 2, 3, 3]
+				},
+			"431": {
+			    "DaysInPhase": [2, 2, 3, 3]
+				},
+			"425": {
+			    "DaysInPhase": [2, 3, 5, 5]
+				},
+			"495": {
+			    "DaysInPhase": [4, 5]
+				},
+			"496": {
+			    "DaysInPhase": [4, 5]
+				},
+			"497": {
+			    "DaysInPhase": [4, 5]
+				},
+			"498": {
+			    "DaysInPhase": [4, 5]
+				},
+			"885": {
+			    "DaysInPhase": [2, 3, 2, 2]
+				},
+			"890": {
+			    "DaysInPhase": [1, 1, 2, 2]
+				},
+		}
+},
+
+{
+	"Action": "EditData",
+    "Target": "Data/Objects",
+    "Fields": {
+		    "472": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Parsnip}}"
+				},
+		    "473": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Bean}}"
+				},
+			"474": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Cauliflower}}"
+				},
+			"475": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Potato}}"
+				},
+			"476": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Garlic}}"
+				},
+			"273": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Rice}}"
+				},
+			"831": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Taro}}"
+				},
+			"477": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Kale}}"
+				},
+			"478": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Rhubarb}}"
+				},
+			"745": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Strawberry}}"
+				},
+			"479": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Melon}}"
+				},
+			"480": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Tomato}}"
+				},
+			"481": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Blueberry}}"
+				},
+			"482": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Pepper}}"
+				},
+			"483": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Wheat}}"
+				},
+			"484": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Radish}}"
+				},
+			"485": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Cabbage}}"
+				},
+			"486": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Starfruit}}"
+				},
+			"833": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Pineapple}}"
+				},
+			"433": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Coffee}}"
+				},
+			"802": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Cactus}}"
+				},
+			"487": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Corn}}"
+				},
+			"301": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Grape}}"
+				},
+			"299": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Amaranth}}"
+				},
+			"488": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Eggplant}}"
+				},
+			"489": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Artichoke}}"
+				},
+			"490": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Pumpkin}}"
+				},
+			"491": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Bokchoy}}"
+				},
+			"492": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Yam}}"
+				},
+			"493": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Cranberry}}"
+				},
+			"494": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Beet}}"
+				},
+			"427": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Tulip}}"
+				},
+			"429": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Jazz}}"
+				},
+			"453": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Poppy}}"
+				},
+			"455": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Spangle}}"
+				},
+			"431": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Sunflower}}"
+				},
+			"425": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Fairy}}"
+				},
+			"885": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Fiber}}"
+				},
+			"890": {
+				"Description": "{{i18n:CropDescription.HVDZ25.Qi}}"
+				},
+		    }
+        }
+	]	
+}

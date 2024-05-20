@@ -1,0 +1,45 @@
+{
+	"Name": "Lucky Milk Gamma",
+	"Description": "It's green and doesn't look tasty, but if it really brings you luck it's worth it.",
+	"Category": "Cooking",
+	"Edibility": -10,
+	"EdibleIsDrink": true,
+	"CategoryTextOverride": "<<<<<",
+	"CategoryColorOverride": "29, 96, 0, 255",
+	"EdibleBuffs": 
+	{
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 3,
+        "Foraging": 0,
+        "MaxStamina": 15,
+        "MagnetRadius": 35,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 260,
+    },
+	"Recipe":
+    {
+    "ResultCount": 1,
+    "Ingredients": [ { "Object": "Clover Gamma", "Count": 5 }, { "Object": 184, "Count": 1 }],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 3500,
+    "PurchaseRequirements": ["y 2"],
+    },
+	"CanSell": false,
+	"Price": 250,
+	"IsColored": false,
+	"NameLocalization":
+	{
+		"es": "Leche De La Suerte Gamma",
+		"pt": "Leite Da Sorte Gamma"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Es verde y no parece sabrosa, pero si realmente te da suerte vale la pena.",
+		"pt": "É verde e não parece saboroso, mas se realmente lhe traz sorte, vale a pena."
+	},
+}

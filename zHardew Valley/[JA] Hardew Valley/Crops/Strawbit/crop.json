@@ -1,0 +1,43 @@
+{
+    "Name": "Strawbit",
+    "Product": "Strawbit",
+    "SeedName": "Strawbit Seeds",
+    "SeedDescription": "Plant these in winter. Takes 5 days to mature. Produces baby strawberries every day.",
+    "Type": "Fruit",
+	"CropType": "Normal",
+    "Seasons": ["winter"],
+    "Phases": [ 1, 1, 1, 1, 1, ],
+    "RegrowthPhase": 1,
+    "HarvestWithScythe": true,
+    "TrellisCrop": false,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 4,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0.09,
+    },
+    "SeedPurchasePrice": 300,
+	"SeedSellPrice": 5,
+    "SeedPurchaseRequirements": ["z spring/z summer/z fall"],
+    "SeedPurchaseFrom": "Pierre",
+	"NameLocalization":
+	{
+		"es": "Fresín",
+		"pt": "Morango Bebé"
+	},
+	"ProductLocalization":
+	{
+		"es": "Fresín",
+		"pt": "Morango Bebé"
+	},
+	"SeedNameLocalization":
+	{
+		"es": "Semillas De Fresín",
+		"pt": "Sementes De Morango Bebé"
+	},
+	"SeedDescriptionLocalization":
+	{
+		"es": "Plántalas en invierno. Tarda 5 días en madurar. Produce fresines todos los días.",
+		"pt": "Plante-as no inverno. Demora 5 dias para crescer. Produz morangos bebés todos os dias."
+	},
+}

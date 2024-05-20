@@ -1,0 +1,19 @@
+{
+	"Name": "Energyberry",
+	"Price": -1000,
+	"Description": "The energy provided by this berry is impressive! Don't try to sell it or you will be heavily fined... It is not very legal.",
+	"Category": "-17",
+	"CategoryColorOverride": "0, 250, 0, 255",
+	"Edibility": 32,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		"es": "Fresa Energética",
+		"pt": "Morango Energético"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "La energía que proporciona esta baya es impresionante. No intentes venderla o serás multado severamente... No es muy legal.",
+		"pt": "A energia que essa fruta fornece é impressionante. Não tente vendê-la ou você será multado pesadamente.... Não é muito legal."
+	},
+}

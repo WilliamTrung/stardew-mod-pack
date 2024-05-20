@@ -1,0 +1,11 @@
+/PFM
+
+The "[PFM] Hardew Valley" folder must be configured manually. Instructions in the folder.
+La carpeta "[PFM] Hardew Valley" debe configurarse manualmente. Instrucciones en la carpeta.
+A pasta "[PFM] Hardew Valley" deve ser configurada manualmente. Instruções na pasta.
+
+/Leveling
+
+The "LevelingAdjustment" folder is already configured, but you can modify its options as you wish.
+La carpeta "LevelingAdjustment" ya está configurada, pero puedes modificar sus opciones a gusto.
+A pasta "LevelingAdjustment" já está configurada, mas você pode modificar suas opções como desejar.

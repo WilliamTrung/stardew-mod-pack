@@ -1,0 +1,112 @@
+{
+	"Format": "2.0.0",
+	
+			"ConfigSchema": 
+		{
+			"Golden Winged Strawberry":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},
+			"Golden Strawberry":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},
+			"Silver Strawberry":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},
+			"Energyberry":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},
+			"Clover Gamma":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},
+			"Strawbit":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},
+		},	
+		
+	"Changes": [
+		{
+			"LogName": "Winged Golden Strawberry",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Winged Golden Strawberry}}",
+			"FromFile": "goldenws.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Winged Golden Strawberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Winged Golden Strawberry}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 7,
+			"AnimationFrameCount": 15,
+			"When":
+				{"Golden Winged Strawberry": "true"},
+		},
+		{
+			"LogName": "Energyberry",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Energyberry}}",
+			"FromFile": "eners.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Energyberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Energyberry}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 10,
+			"When":
+				{"Energyberry": "true"},
+		},
+		{
+			"LogName": "Clover Gamma",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Clover Gamma}}",
+			"FromFile": "clovers.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Clover Gamma}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Clover Gamma}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 10,
+			"When":
+				{"Clover Gamma": "true"},
+		},
+		{
+			"LogName": "Strawbit",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Strawbit}}",
+			"FromFile": "sbit.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Strawbit}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Strawbit}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 5,
+			"AnimationFrameCount": 12,
+			"When":
+				{"Strawbit": "true"},
+		},
+		{
+			"LogName": "Golden Strawberry",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Golden Strawberry}}",
+			"FromFile": "goldens.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Golden Strawberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Golden Strawberry}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 7,
+			"AnimationFrameCount": 10,
+			"When":
+				{"Golden Strawberry": "true"},
+		},
+		{
+			"LogName": "Silver Strawberry",
+			"Action": "EditImage",
+			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Silver Strawberry}}",
+			"FromFile": "silvers.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Silver Strawberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Silver Strawberry}}", "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 9,
+			"AnimationFrameCount": 8,
+			"When":
+				{"Silver Strawberry": "true"},
+		},
+	]
+}

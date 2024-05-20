@@ -1,0 +1,15 @@
+To modify your experience, modify ONLY the "generalExperienceFactor" option between the values (0.1 to whatever you like). Note that the value is a multiplier.
+"expNotification": Displays the experience gained as a floating number.
+"generalExperienceFactor": Default value "1.0"
+
+Para modificar su experiencia, modifique SOLO la opción "generalExperienceFactor" entre los valores (0,1 a lo que quiera). Ten en cuenta que el valor es un multiplicador.
+"expNotification": Muestra la experiencia ganada como un número flotante.
+"generalExperienceFactor": Valor por defecto "1.0"
+
+Para modificar sua experiência, modifique APENAS a opção "generalExperienceFactor" entre os valores (0,1 para o que você quiser). Note que o valor é um multiplicador.
+"expNotification": Exibe a experiência adquirida como um número flutuante.
+"generalExperienceFactor": Valor padrão "1.0"
+
+0.1 = 10% = 1/10
+0.3 = 30% = 1/3
+0.5= 50% = 1/2

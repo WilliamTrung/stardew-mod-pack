@@ -1,0 +1,58 @@
+[
+	{
+		"Id": "HardewValley.Y1Mail", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"GroupId": "HardewValley.WelcomeHV", // Letter group id. Letters with the same group id are never delivered in the same day. Letters registered first have priority, unless the group id ends with ".Random", in that case, a random letter will be chosen. Default is null.
+		"Title": "Mail.WelcomeHV1Title", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "Mail.WelcomeHV1", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "WhichBG": 0, //The id of the letter background. 0 = classic, 1 = notepad, 2 = pyramids
+		"Date": "1 spring Y1", // Must be that date or after it. The format is "[1-28] [spring|summer|fall|winter] Y[1-999]".
+    },
+	{
+		"Id": "HardewValley.Y1ener", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"GroupId": "HardewValley.Crops", // Letter group id. Letters with the same group id are never delivered in the same day. Letters registered first have priority, unless the group id ends with ".Random", in that case, a random letter will be chosen. Default is null.
+		"Title": "Mail.EBinfo", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "Mail.EBinfo1", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "WhichBG": 0, //The id of the letter background. 0 = classic, 1 = notepad, 2 = pyramids
+		"Date": "7 spring Y1", // Must be that date or after it. The format is "[1-28] [spring|summer|fall|winter] Y[1-999]".
+    },
+	{
+		"Id": "HardewValley.Y1SBS", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"GroupId": "HardewValley.Crops", // Letter group id. Letters with the same group id are never delivered in the same day. Letters registered first have priority, unless the group id ends with ".Random", in that case, a random letter will be chosen. Default is null.
+		"Title": "Mail.SBSinfo", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "Mail.SBSinfo1", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "WhichBG": 0, //The id of the letter background. 0 = classic, 1 = notepad, 2 = pyramids
+        "Date": "14 spring Y1"
+    },
+	{
+		"Id": "HardewValley.Y1SSB", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"GroupId": "HardewValley.Crops", // Letter group id. Letters with the same group id are never delivered in the same day. Letters registered first have priority, unless the group id ends with ".Random", in that case, a random letter will be chosen. Default is null.
+		"Title": "Mail.SSBinfo", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "Mail.SSBinfo1", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "WhichBG": 0, //The id of the letter background. 0 = classic, 1 = notepad, 2 = pyramids
+        "Date": "1 summer Y1"
+    },
+	{
+		"Id": "HardewValley.Y1SB", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"GroupId": "HardewValley.Crops", // Letter group id. Letters with the same group id are never delivered in the same day. Letters registered first have priority, unless the group id ends with ".Random", in that case, a random letter will be chosen. Default is null.
+		"Title": "Mail.SBinfo", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "Mail.SBinfo1", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "WhichBG": 0, //The id of the letter background. 0 = classic, 1 = notepad, 2 = pyramids
+        "Date": "1 winter Y1"
+	},
+	{
+		"Id": "HardewValley.Y2GWS", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"GroupId": "HardewValley.Crops", // Letter group id. Letters with the same group id are never delivered in the same day. Letters registered first have priority, unless the group id ends with ".Random", in that case, a random letter will be chosen. Default is null.
+		"Title": "Mail.GWSinfo", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "Mail.GWSinfo1", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "WhichBG": 0, //The id of the letter background. 0 = classic, 1 = notepad, 2 = pyramids
+        "Date": "1 spring Y2"
+	},
+	{
+		"Id": "HardewValley.Y2CG", // Letter id. It's important to be an unique string to avoid conflicts. Also it shouldn't have space characters.
+		"GroupId": "HardewValley.Crops", // Letter group id. Letters with the same group id are never delivered in the same day. Letters registered first have priority, unless the group id ends with ".Random", in that case, a random letter will be chosen. Default is null.
+		"Title": "Mail.CGinfo", // Letter title. Will be shown in the collections menu. Set it null or remove the line if you don't want the letter to appear in the collection. If an translation file is provide, you should put a translation key here, but you can still leave if null for no Title.
+		"Text": "Mail.CGinfo1", // Text of the letter. You can use @ to put the players name and ^ for line breaks. You can also use the base game commands to add money, items and stuff. If an translation file is provide, you should put a translation key here.
+        "WhichBG": 0, //The id of the letter background. 0 = classic, 1 = notepad, 2 = pyramids
+		"Date": "1 summer Y2"
+	}
+]

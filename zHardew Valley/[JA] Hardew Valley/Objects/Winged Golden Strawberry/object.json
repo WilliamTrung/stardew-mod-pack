@@ -1,0 +1,20 @@
+{
+	"Name": "Winged Golden Strawberry",
+	"Price": 55555,
+	"Description": "It's probably the most beautiful and special thing you've ever seen - it will fly away if you scare it!",
+	"Category": "-17",
+	"CategoryTextOverride": "==========",
+	"CategoryColorOverride": "255, 245, 0, 255",
+	"Edibility": 250,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		"es": "Fresa Dorada Alada",
+		"pt": "Morango Dourado Alado"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Es probablemente lo más bello y especial que has visto nunca. ¡Se irá volando si la asustas!",
+		"pt": "É provavelmente a coisa mais bonita e especial que alguma vez viu. vai voar para longe se o assustar!"
+	},
+}

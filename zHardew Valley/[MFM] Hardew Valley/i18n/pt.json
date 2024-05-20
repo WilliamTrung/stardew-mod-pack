@@ -1,0 +1,18 @@
+{
+	"Mail.WelcomeHV1": "Olá @. Bem-vindo a Hardew Valley!^Nesta nova experiência, TUDO será mais difícil, o que se traduz em menos ganhos e mais tempo de jogo, mas é isso que você estava procurando, certo? Um desafio, não um jogo que termina no ano 3. Nos próximos dias você receberá em sua caixa de correio informações sobre várias coisas do mod, fique atento. Receba 500 de ouro como presente de boas-vindas, tenha um bom dia! %item money 500 501 %%^    -Divirta-se!^    -Juanpa98ar",
+	"Mail.WelcomeHV1Title": "Bem-vindo a Hardew Valley.",
+/*	"Mail.TaxesToPaid": "Taxes",
+	"Mail.TaxesToPaid1": "Tax %item money -501 -500 %%"*/
+	"Mail.EBinfo": "Energia ilegal.",
+	"Mail.EBinfo1": "Dizem que nos esgotos da vila há um ser das sombras, amigável, que pode obter muitas coisas que ninguém mais pode.... ou deveria, se é que você me entende.^Na primavera e no outono, ele deve ter certas sementes especiais...^      -OmegaData",	
+	"Mail.SBSinfo": "Variedades de Morangos.",
+	"Mail.SBSinfo1": "A Mãe Natureza nos abençoou com estranhas variedades de morangos, que, apesar de sua aparência, são totalmente comestíveis!^No entanto, os especialistas consideram que estes não são FRUTOS, portanto recomendam não fazer geléias, sucos ou outros produtos com estes morangos, que são: Morangos dourados, prateados e alados.^      -OmegaData",
+	"Mail.SSBinfo": "Nova Semente de Verão.",
+	"Mail.SSBinfo1": "As 'Sementes De Morango Prateado' está agora disponível na loja do Pierre, disponível apenas no verão.^Há uma lenda que diz que a lavoura pode se tornar gigantesca se estas exigências forem atendidas:^1.Um lote 3x3 com a mesma lavoura.^2.Todas as lavouras são totalmente cultivadas.^3.Pelo menos a lavoura central deve ser irrigada diariamente. Tudo o que resta é esperar.^     -OmegaData",
+	"Mail.SBinfo": "Nova Semente De Inverno",
+	"Mail.SBinfo1": "As 'Sementes De Morango Bebé' estão agora disponíveis na loja do Pierre, disponíveis apenas no inverno.^É uma lavoura de crescimento rápido e pode produzir 1 a 5 morangos bebês por dia! A fruta não é muito valiosa, mas você pode aumentar o preço fazendo suco ou outros produtos a partir deles.^     -OmegaData",
+	"Mail.GWSinfo": "Nova Semente de Ano Inteiro",
+	"Mail.GWSinfo1": "As 'Sementes De Morango Dourado Alado' está agora disponível na loja do Pierre, disponível durante todo o ano.^Esta maravilha da natureza é cara e leva um ano inteiro para crescer, mas o valor que você pode obter com esta safra é imenso!^     -OmegaData",
+	"Mail.CGinfo": "Nova Semente de Verão.",
+	"Mail.CGinfo1": "As 'Sementes De Trevo Gamma' está agora disponível na loja do Pierre, disponível apenas no verão.^ Diz-se que encontrar um trevo de 4 folhas é uma grande sorte, então por que não cultivá-lo? Descubra novas receitas com Gus, para tirar o máximo proveito desta cultura. As abelhas podem produzir mel a partir destes trevos. Pode tornar-se gigante.^     -OmegaData",
+}

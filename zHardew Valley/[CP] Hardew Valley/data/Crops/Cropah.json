@@ -1,0 +1,213 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/Objects",
+	"Fields": {
+			"24": {
+			    "Price": "25",
+				"Edibility": "5"
+				},
+            "188": {
+			    "Price": "15",
+				"Edibility": "5"
+				},
+			"190": {
+			    "Price": "120",
+				"Edibility": "15"
+				},
+			"192": {
+			    "Price": "65",
+				"Edibility": "5"
+				},
+			"246": {"Price": "25"},
+			"248": {
+			    "Price": "45",
+				"Edibility": "4"
+				},
+			"250": {
+			    "Price": "85",
+				"Edibility": "10"
+				},
+			"251": {"Price": "200"},
+			"252": {"Price": "160"},
+			"253": {
+			    "Price": "210",
+				"Edibility": "5"
+				},
+			"254": {
+			    "Price": "140",
+				"Edibility": "20"
+				},
+			"256": {
+			    "Price": "20",
+				"Edibility": "4"
+				},
+			"260": {
+			    "Price": "10",
+				"Edibility": "3"
+				},
+			"262": {"Price": "15"},
+			"264": {
+			    "Price": "60",
+				"Edibility": "9"
+				},
+			"266": {
+			    "Price": "150",
+				"Edibility": "15"
+				},
+			"268": {
+			    "Price": "500",
+				"Edibility": "25"
+				},
+			"270": {
+			    "Price": "20",
+				"Edibility": "5"
+				},
+			"271": {"Price": "20"},
+			"272": {
+			    "Price": "10",
+				"Edibility": "4"
+				},
+			"273": {"Price": "20"},
+			"274": {
+			    "Price": "80",
+				"Edibility": "6"
+				},
+			"276": {"Price": "170"},
+			"278": {
+			    "Price": "65",
+				"Edibility": "5"
+				},
+			"280": {
+			    "Price": "110",
+				"Edibility": "9"
+				},
+			"282": {
+			    "Price": "30",
+				"Edibility": "7"
+				},
+			"284": {
+			    "Price": "40",
+				"Edibility": "6"
+				},
+			"300": {
+			    "Price": "95",
+				"Edibility": "10"
+				},
+			"303": {
+			    "Price": "180",
+				"Edibility": "15"
+				},
+			"346": {
+			    "Price": "110",
+				"Edibility": "25"
+				},
+			"348": {
+			    "Price": "180",
+				"Edibility": "25"
+				},
+			"349": {
+			    "Price": "300",
+				"Edibility": "50"
+				},
+			"376": {
+			    "Price": "115",
+				"Edibility": "9"
+				},
+			"395": {
+			    "Price": "70",
+				"Edibility": "3"
+				},
+			"398": {
+			    "Price": "20",
+				"Edibility": "7"
+				},
+			"400": {
+			    "Price": "45",
+				"Edibility": "10"
+				},
+			"403": {
+			    "Price": "5",
+				"Edibility": "22"
+				},
+			"421": {
+			    "Price": "30",
+				"Edibility": "9"
+				},
+			"422": {
+			    "Price": "60",
+				"Edibility": "20"
+				},
+			"423": {"Price": "80"},
+		    "430": {"Price": "125"},
+			"432": {"Price": "210"},
+			"459": {
+			    "Price": "35",
+				"Edibility": "20"
+				},
+			"591": {
+			    "Price": "25",
+				"Edibility": "9"
+				},
+			"593": {
+			    "Price": "60",
+				"Edibility": "9"
+				},
+			"595": {
+			    "Price": "150",
+				"Edibility": "9"
+				},
+			"597": {
+			    "Price": "35",
+				"Edibility": "9"
+				},
+			"830": {
+			    "Price": "30",
+				"Edibility": "7"
+				},
+			"832": {
+			    "Price": "125",
+				"Edibility": "25"
+				},
+			"302": {
+				"Description": "{{i18n:CropDescription.info.HP}}"
+				},
+			"304": {
+			    "Price": "15",
+				"Edibility": "9",
+				},
+			"417": {"Price": "5000"},
+			"454": {"Price": "2000"},
+		    "347": {
+			    "Description": "{{i18n:CropDescription.info.SGB}}"
+				},
+			"499": {
+			    "Description": "{{i18n:CropDescription.info.AF}}"
+				},
+			"Carrot": {"Price": "25"},
+			"SummerSquash": {"Price": "35"},
+			"Broccoli": {"Price": "55"},
+			"Powdermelon": {"Price": "50"}
+			}
+		},
+	{
+	"Action": "EditData",
+    "Target": "Data/Crops",
+	"Fields": {
+		    "499": {
+			    "RegrowDays": 26
+				},
+			"347": {
+			    "DaysInPhase": [2, 4, 13, 15, 16],
+				"Seasons": ["Summer", "Fall"]
+				},
+			"302": {
+			    "DaysInPhase": [1, 1, 2, 2, 3],
+				"RegrowDays": 2
+				}
+            }
+        }
+	]
+}

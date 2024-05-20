@@ -1,0 +1,89 @@
+[
+    { // 10 copper ore 1 copper bar
+        "ProducerName": "Furnace",
+        "InputIdentifier": "378", // Copper ore
+        "InputStack": 10,
+		"FuelIdentifier": "Coal",
+		"FuelStack": 5,
+		"MinutesUntilReady": "30",
+        "OutputIdentifier": "334", // Copper Bar
+        "OutputStack": 1,
+		"Sounds": [ "furnace" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "Fire",
+    },
+	{ // 10 iron ore 1 iron bar
+        "ProducerName": "Furnace",
+        "InputIdentifier": "380", // Iron ore
+        "InputStack": 10,
+		"FuelIdentifier": "Coal",
+		"FuelStack": 5,
+		"MinutesUntilReady": "120",
+        "OutputIdentifier": "335", // Iron Bar
+        "OutputStack": 1,
+		"Sounds": [ "furnace" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "Fire",
+    },
+	{ // 10 Gold ore 1 Gold bar
+        "ProducerName": "Furnace",
+        "InputIdentifier": "384", // Gold ore
+        "InputStack": 10,
+		"FuelIdentifier": "Coal",
+		"FuelStack": 5,
+		"MinutesUntilReady": "300",
+        "OutputIdentifier": "336", // Gold Bar
+        "OutputStack": 1,
+		"Sounds": [ "furnace" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "Fire",
+    },
+	{ // 10 Iridium ore 1 Iridium bar
+        "ProducerName": "Furnace",
+        "InputIdentifier": "386", // Iridium ore
+        "InputStack": 10,
+		"FuelIdentifier": "Coal",
+		"FuelStack": 5,
+		"MinutesUntilReady": "480",
+        "OutputIdentifier": "337", // Iridium Bar
+        "OutputStack": 1,
+		"Sounds": [ "furnace" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "Fire",
+	},
+	{ // 10 rad ore 1 rad bar
+        "ProducerName": "Furnace",
+        "InputIdentifier": "909", // rad ore
+        "InputStack": 10,
+		"FuelIdentifier": "Coal",
+		"FuelStack": 5,
+		"MinutesUntilReady": "570",
+        "OutputIdentifier": "910", // rad Bar
+        "OutputStack": 1,
+		"Sounds": [ "furnace" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "Fire",
+	},
+	{ // 9 wood to 1 coal
+        "ProducerName": "Charcoal Kiln",
+        "InputIdentifier": "388", // Wood
+        "InputStack": 9,
+        "MinutesUntilReady": "30",
+        "OutputIdentifier": "382", // Coal
+        "OutputStack": 1,
+        "Sounds": [ "openBox" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "CharcoalKilnSmoke",
+    },
+	{ // 2 torch to 1 coal
+        "ProducerName": "Charcoal Kiln",
+        "InputIdentifier": "93", // Torch
+        "InputStack": 2,
+        "MinutesUntilReady": "30",
+        "OutputIdentifier": "382", // Coal
+        "OutputStack": 1,
+        "Sounds": [ "openBox" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "CharcoalKilnSmoke",
+	}
+]

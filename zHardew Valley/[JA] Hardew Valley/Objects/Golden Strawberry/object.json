@@ -1,0 +1,20 @@
+{
+	"Name": "Golden Strawberry",
+	"Price": 17000,
+	"Description": "It's probably the most beautiful thing you've ever seen. You'd hate to sink your teeth into it. ",
+	"Category": "-17",
+	"CategoryTextOverride": "=====",
+	"CategoryColorOverride": "255, 215, 0, 255",
+	"Edibility": 100,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		"es": "Fresa Dorada",
+		"pt": "Morango Dourado"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Es probablemente lo mas hermoso que has visto. Te da pena incarle el diente.",
+		"pt": "É provavelmente a coisa mais bela que alguma vez viu. Detestaria afundar os seus dentes nela."
+	},
+}

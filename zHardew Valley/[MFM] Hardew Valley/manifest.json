@@ -1,0 +1,19 @@
+﻿{
+	"Name": "Hardew Valley Mail",
+	"Author": "Juanpa98ar",
+	"Version": "1.0.0",
+	"Description": "Adds custom mails for HV.",
+	"UniqueID": "Juanpa98ar.HardewValleyMFM",
+	"MinimumApiVersion": "3.8.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.10.1"
+	},
+	"Dependencies": [
+   {
+	   "UniqueID": "DIGUS.MailFrameworkMod",
+	   "IsRequired": true
+   }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/Monsters",
+	"Fields": {
+            "Green Slime": {
+				0: "{{Round: {{Query: (24 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (5 * {{MonsterATK}}) }} }}",
+				9: "3",
+				10: "3"
+				},
+			"Dust Spirit": {
+				0: "{{Round: {{Query: (40 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (6 * {{MonsterATK}}) }} }}",
+				9: "5"
+				},
+			"Bat": {
+				0: "{{Round: {{Query: (24 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (6 * {{MonsterATK}}) }} }}",
+				9: "5",
+				10: "6"
+				},
+			"Frost Bat": {
+				0: "{{Round: {{Query: (36 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (7 * {{MonsterATK}}) }} }}",
+				9: "5"
+				},
+			"Lava Bat": {
+				0: "{{Round: {{Query: (80 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				9: "3"
+				},
+			"Iridium Bat": {
+				0: "{{Round: {{Query: (300 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (30 * {{MonsterATK}}) }} }}",
+				9: "3"
+				},
+			"Stone Golem": {
+				0: "{{Round: {{Query: (45 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (5 * {{MonsterATK}}) }} }}",
+				},
+			"Wilderness Golem": {
+				0: "{{Round: {{Query: (30 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (5 * {{MonsterATK}}) }} }}",
+				},
+			"Grub": {
+				0: "{{Round: {{Query: (20 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (4 * {{MonsterATK}}) }} }}",
+				},
+			"Fly": {
+				0: "{{Round: {{Query: (22 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (6 * {{MonsterATK}}) }} }}",
+				9: "12"
+				},
+			"Frost Jelly": {
+				0: "{{Round: {{Query: (106 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (7 * {{MonsterATK}}) }} }}",
+				},
+			"Sludge": {
+				0: "{{Round: {{Query: (205 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (16 * {{MonsterATK}}) }} }}",
+				},
+			"Ghost": {
+				0: "{{Round: {{Query: (96 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (10 * {{MonsterATK}}) }} }}",
+				9: "15",
+				10: "8"
+				},
+			"Carbon Ghost": {
+				0: "{{Round: {{Query: (190 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (25 * {{MonsterATK}}) }} }}",
+				9: "15",
+				10: "8"
+				},
+			"Duggy": {
+				0: "{{Round: {{Query: (40 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (6 * {{MonsterATK}}) }} }}",
+				9: "3"
+				},
+			"Rock Crab": {
+				0: "{{Round: {{Query: (30 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (5 * {{MonsterATK}}) }} }}",
+				},
+			"Lava Crab": {
+				0: "{{Round: {{Query: (120 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				},
+			"Iridium Crab": {
+				0: "{{Round: {{Query: (240 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				},
+			"Fireball": {
+				1: "{{Round: {{Query: (18 * {{MonsterATK}}) }} }}"
+				},
+			"Squid Kid": {
+				0: "{{Round: {{Query: (1 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (18 * {{MonsterATK}}) }} }}",
+				9: "8"
+				},
+			"Shadow Brute": {
+				0: "{{Round: {{Query: (160 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (18 * {{MonsterATK}}) }} }}",
+				10: "2"
+				},
+			"Shadow Shaman": {
+				0: "{{Round: {{Query: (80 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (17 * {{MonsterATK}}) }} }}",
+				9: "6"
+				},
+			"Skeleton": {
+				0: "{{Round: {{Query: (140 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (10 * {{MonsterATK}}) }} }}",
+				9: "6"
+				},
+			"Skeleton Mage": {
+				0: "{{Round: {{Query: (60 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (5 * {{MonsterATK}}) }} }}",
+				9: "6"
+			    },
+			"Metal Head": {
+				0: "{{Round: {{Query: (40 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				9: "10"
+				},
+			"Bug": {
+				0: "{{Round: {{Query: (1 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (8 * {{MonsterATK}}) }} }}",
+				10: "8"
+				},
+			"Mummy": {
+				0: "{{Round: {{Query: (260 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (30 * {{MonsterATK}}) }} }}",
+				9: "6"
+				},
+			"Big Slime": {
+				0: "{{Round: {{Query: (60 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (5 * {{MonsterATK}}) }} }}",
+				9: "6"
+				},
+			"Serpent": {
+				0: "{{Round: {{Query: (150 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (23 * {{MonsterATK}}) }} }}",
+				9: "15",
+				10: "1"
+				},
+			"Pepper Rex": {
+				0: "{{Round: {{Query: (300 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				9: "4"
+				},
+			"Tiger Slime": {
+			    0: "{{Round: {{Query: (415 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (23 * {{MonsterATK}}) }} }}",
+				9: "3"
+				},
+			"Lava Lurk": {
+			    0: "{{Round: {{Query: (220 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				9: "4"
+				},
+			"Hot Head": {
+			    0: "{{Round: {{Query: (250 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (18 * {{MonsterATK}}) }} }}",
+				},
+			"Magma Sprite": {
+			    0: "{{Round: {{Query: (220 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				},
+			"Magma Duggy": {
+			    0: "{{Round: {{Query: (380 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (16 * {{MonsterATK}}) }} }}",
+				},
+			"Magma Sparker": {
+			    0: "{{Round: {{Query: (310 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				},
+			"False Magma Cap": {
+			    0: "{{Round: {{Query: (290 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				},
+			"Dwarvish Sentry": {
+			    0: "{{Round: {{Query: (300 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (18 * {{MonsterATK}}) }} }}",
+				},
+			"Putrid Ghost": {
+			    0: "{{Round: {{Query: (500 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (25 * {{MonsterATK}}) }} }}",
+				9: "15",
+				10: "8"
+				},
+			"Shadow Sniper": {
+			    0: "{{Round: {{Query: (300 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (18 * {{MonsterATK}}) }} }}",
+				9: "6",
+				10: "2"
+				},
+			"Spider": {
+			    0: "{{Round: {{Query: (200 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (15 * {{MonsterATK}}) }} }}",
+				},
+			"Royal Serpent": {
+			    0: "{{Round: {{Query: (150 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (23 * {{MonsterATK}}) }} }}",
+				9: "15",
+				10: "1"
+				},
+			"Blue Squid": {
+			    0: "{{Round: {{Query: (80 * {{MonsterHP}}) }} }}",
+				1: "{{Round: {{Query: (18 * {{MonsterATK}}) }} }}",
+				}
+            }
+        }
+	]
+}

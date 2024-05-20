@@ -1,0 +1,18 @@
+{
+	"Mail.WelcomeHV1": "Hola @. ¡Esto es a Hardew Valley!^En esta nueva experiencia, TODO será más difícil, lo que se traduce en menos ganancias y más tiempo de juego, pero eso es lo que buscabas, ¿no? Un reto, no un juego que se acabe al tercer año. En los próximos días recibirás información sobre varias cosas del mod en tu buzón, estate atento. Ten 500 de oro como regalo de bievenida, ¡que tengas un buen dia! %item money 500 501 %%^   -¡Disfruta!^   -Juanpa98ar",
+	"Mail.WelcomeHV1Title": "Te doy la bienvenida a Hardew Valley",
+/*	"Mail.TaxesToPaid": "Taxes",
+	"Mail.TaxesToPaid1": "Tax %item money -501 -500 %%"*/
+	"Mail.EBinfo": "Energía Ilegal.",
+	"Mail.EBinfo1": "Se dice que en las cloacas del pueblo hay un ser de las sombras, amigable, que puede conseguir muchas cosas que nadie más puede... o debería, si sabes a lo que me refiero.^En primavera y otoño debería tener ciertas semillas especiales...^      -OmegaData",	
+	"Mail.SBSinfo": "Variedades De Fresas.",
+	"Mail.SBSinfo1": "La madre naturaleza nos ha bendecido con extrañas variedades de fresas que, a pesar de su aspecto, son totalmente comestibles.^Sin embargo, los expertos consideran que no son FRUTAS, por lo que recomiendan no hacer mermeladas, jugos u otros productos con estas fresas, que son: 'Fresas doradas, plateadas y aladas'.^      -OmegaData",
+	"Mail.SSBinfo": "Nueva Semilla De Verano.",
+	"Mail.SSBinfo1": "Las 'Semillas de Fresa Plateada' ya están disponibles en la tienda de Pierre, disponibles sólo en verano.^Hay una leyenda que dice que el cultivo puede llegar a ser gigante si se cumplen estos requisitos:^1.Una parcela de 3x3 con el mismo cultivo.^2.Todos los cultivos están completamente desarrollados.^3.Al menos el cultivo del centro debe regarse diariamente. Sólo queda esperar.^     -OmegaData",
+	"Mail.SBinfo": "Nueva Semilla De Invierno",
+	"Mail.SBinfo1": "Las 'Semillas De Fresín' ya están disponibles en la tienda de Pierre, sólo en invierno.^¡Es un cultivo de rápido crecimiento y puede producir de 1 a 5 fresas bebé cada día! La fruta no es muy valiosa, pero se puede aumentar el precio haciendo jugo u otros productos con ellas.^     -OmegaData",
+	"Mail.GWSinfo": "Nueva Semilla Para Todo El Año",
+	"Mail.GWSinfo1": "Las 'Semillas De Fresa Dorada Alada' ya están disponibles en la tienda de Pierre, disponibles todo el año.^Esta maravilla de la naturaleza es cara y tarda un año entero en crecer, ¡pero el valor que puedes obtener de esta cosecha es inmenso!^     -OmegaData",
+	"Mail.CGinfo": "Nueva Semilla De Verano",
+	"Mail.CGinfo1": "Las 'Semillas De Trébol Gamma' ya están disponibles en la tienda de Pierre, sólo en verano.^ Se dice que encontrar un trébol de 4 hojas da mucha suerte, así que ¿por qué no lo cultivas tú? Descubre nuevas recetas con Gus, para sacar el máximo partido a este cultivo. Las abejas pueden producir miel a partir de estos tréboles. Puede volverse gigante.^     -OmegaData",
+}

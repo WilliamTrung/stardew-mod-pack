@@ -1,0 +1,17 @@
+{
+    "Name": "Winged Strawberry Tiara",
+    "Description": "A golden tiara with a winged strawberry inlay.",
+    "PurchasePrice": "1000",
+    "ShowHair": false,
+    "IgnoreHairstyleOffset": false,
+	"NameLocalization":
+	{
+		"es": "Tiara de Fresa Alada",
+		"pt": "Tiara de Morango Alado"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Una tiara dorada con una fresa alada incrustada.",
+		"pt": "Uma tiara dourada com um morango alado incrustado."
+	},
+}

@@ -1,0 +1,231 @@
+// Its an old code skipper...
+// Made by a noob Revangrad 2021
+
+
+{
+    "Format": "1.22.0",
+    "DynamicTokens": [
+
+	                                                     		// Standard Dynamic Tokens
+
+
+
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town, temp"
+            }
+        },
+
+    ],
+
+   "ConfigSchema":
+    {
+		"Wizard or Witch":
+        {
+            "AllowValues": "Witch, Wizard",
+            "Default": "Wizard"
+		},
+       		
+    },
+
+    "Changes": [
+
+
+	                                                     		//Seasonal
+																
+		{
+            "LogName": "Portraits - Seasonal",
+            "Action": "EditImage",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "Target": "Portraits/Abigail, Portraits/Alex, Portraits/Caroline, Portraits/Clint, Portraits/Demetrius, Portraits/Elliott, Portraits/Emily, Portraits/Evelyn, Portraits/George, Portraits/Gil, Portraits/Gus, Portraits/Haley, Portraits/Harvey, Portraits/Jas, Portraits/Jodi, Portraits/Kent, Portraits/Leah, Portraits/Lewis, Portraits/Linus, Portraits/Marnie, Portraits/Maru, Portraits/Pam, Portraits/ParrotBoy, Portraits/Penny, Portraits/Pierre, Portraits/Robin, Portraits/Sam, Portraits/Sandy, Portraits/Sebastian, Portraits/Shane, Portraits/Vincent, Portraits/Willy,",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+		
+		{
+            "LogName": "Portraits - Wizard",
+            "Action": "EditImage",
+            "FromFile": "assets/Portraits/Wizard/Wizard_{{Season}}.png",
+            "Target": "Portraits/Wizard,",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"Wizard or Witch": "Wizard",
+            }
+        },
+		
+		{
+            "LogName": "Portraits - Wizard",
+            "Action": "EditImage",
+            "FromFile": "assets/Portraits/Witch/Witch_{{Season}}.png",
+            "Target": "Portraits/Wizard,",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"Wizard or Witch": "Witch",
+            }
+        },
+		
+																// Festivals
+
+        {
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+			"Target": "Portraits/Abigail, Portraits/Alex, Portraits/Caroline, Portraits/Clint, Portraits/Demetrius, Portraits/Elliott, Portraits/Emily, Portraits/Evelyn, Portraits/George, Portraits/Gil, Portraits/Gus, Portraits/Haley, Portraits/Harvey, Portraits/Jas, Portraits/Jodi, Portraits/Kent, Portraits/Leah, Portraits/Lewis, Portraits/Linus, Portraits/Marnie, Portraits/Maru, Portraits/Pam, Portraits/ParrotBoy, Portraits/Penny, Portraits/Pierre, Portraits/Robin, Portraits/Sam, Portraits/Sandy, Portraits/Sebastian, Portraits/Shane, Portraits/Vincent, Portraits/Willy, Portraits/Wizard,",
+            "FromFile": "assets/Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+			
+		},														
+																// Maternity
+
+		{
+		
+            "LogName": "Festival Portraits",
+            "Action": "EditImage",
+			"Target": "Portraits/Abigail, Portraits/Emily, Portraits/Haley, Portraits/Leah, Portraits/Maru, Portraits/Penny,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Maternity.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"Pregnant": "Abigail, Emily, Haley, Leah, Maru, Penny",
+            },
+																// Aerobics 
+
+            "LogName": "Aerobics",
+            "Action": "EditImage",
+            "Target": "Portraits/Jodi, Portraits/Marnie, Portraits/Caroline, Portraits/Robin, Portraits/Emily, Portraits/Harvey",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "DayOfWeek": "Tuesday",
+                "LocationName": "SeedShop",
+                "Weather": "sun, wind, snow",
+            }
+        },
+	                                                     		// Work work work
+		
+	                                                     		// Hospital
+        {
+            "LogName": "Harvey/Maru - Labcoat",
+            "Action": "EditImage",
+			"Target": "Portraits/Harvey, Portraits/Maru", 
+            "Update": "OnLocationChange",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Hospital.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Hospital",
+            },
+				                                                // Demetrius Labcoat
+            "LogName": "Demetrius - Labcoat",
+            "Action": "EditImage",
+			"Target": "Portraits/Demetrius",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Demetrius/Demetrius_Lab.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "ScienceHouse",
+            },
+        },
+		
+	                                                     		// Shane Joja Portrait
+		{
+            "LogName": "Shane - Joja Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane",
+            "FromFile": "assets/Portraits/Shane/Shane_Joja.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "JojaMart",
+            },
+        },
+			
+	                                                     		// Sam Joja/Museum 
+			
+		{
+            "LogName": "Sam - Work Portrait Joja",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Sam/Sam_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "JojaMart",
+				"DayOfWeek": "Monday, Wednesday,"				
+            },
+        },	
+
+		{
+            "LogName": "Sam - Work Portrait Museum",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Sam/Sam_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "ArchaeologyHouse",
+				"DayOfWeek": "Monday, Wednesday,"
+            },
+        },	
+
+	                                                     		// Clint Blacksmith
+
+		{
+            "LogName": "Clint - Work Portrait Blacksmith Extra",
+            "Action": "EditImage",
+            "Target": "Portraits/Clint",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Clint/Clint_{{Season}}_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Blacksmith",
+            },
+        },
+		
+	                                                     		//Beach
+
+        {
+            "LogName": "Portraits - Beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Abigail_Beach, Portraits/Alex_Beach, Portraits/Caroline_Beach, Portraits/Clint_Beach, Portraits/Elliott_Beach, Portraits/Emily_Beach, Portraits/Haley_Beach, Portraits/Harvey_Beach, Portraits/Jodi_Beach, Portraits/Leah_Beach, Portraits/Marnie_Beach, Portraits/Maru_Beach, Portraits/Pam_Beach, Portraits/Penny_Beach, Portraits/Pierre_Beach, Portraits/Robin_Beach, Portraits/Sam_Beach, Portraits/Sebastian_Beach, Portraits/Shane_Beach",
+            "FromFile": "assets/Portraits/Beach/{{TargetWithoutPath}}_Beach.png",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+	]
+}

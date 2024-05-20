@@ -1,0 +1,20 @@
+{
+	"Name": "Silver Strawberry",
+	"Price": 175,
+	"Description": "It shines in the sun. Not very valuable. A legend: It grows colossally if certain factors are met. It has never been verified.",
+	"Category": "-17",
+	"CategoryTextOverride": "=====",
+	"CategoryColorOverride": "192, 192, 0, 255",
+	"Edibility": 3,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		"es": "Fresa Plateada",
+		"pt": "Morango Prateado"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Brilla en el sol. No es muy valiosa. Una leyenda: Crece de forma colosal si determinados factores se cumplen. Nunca fue verificada.",
+		"pt": "Brilha ao sol. Não muito valiosa. Uma lenda: Cresce colossalmente se certos fatores forem atendidos. Nunca foi verificada."
+	},
+}

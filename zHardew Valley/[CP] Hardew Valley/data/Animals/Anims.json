@@ -1,0 +1,84 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/FarmAnimals",
+	"Fields": {
+		    "White Chicken": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (3 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1000",
+				"PurchasePrice": "{{Round: {{Query: (400 * {{PurchasePrice}}) }} }}"
+				},
+			"Brown Chicken": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (3 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1000"
+				},
+			"Blue Chicken": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (3 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1000"
+				},
+			"Void Chicken": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (3 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1000"
+				},
+			"Golden Chicken": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (3 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1000"
+				},
+			"Duck": {
+			    "DaysToProduce": "{{Round: {{Query: (2 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (5 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1450",
+				"PurchasePrice": "{{Round: {{Query: (600 * {{PurchasePrice}}) }} }}"
+				},
+			"Rabbit": {
+			    "DaysToProduce": "{{Round: {{Query: (4 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (6 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "7310",
+				"PurchasePrice": "{{Round: {{Query: (4000 * {{PurchasePrice}}) }} }}"
+				},
+			"Dinosaur": {
+			    "SellPrice": "1250"
+				},
+			"White Cow": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (5 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1540",
+				"PurchasePrice": "{{Round: {{Query: (750 * {{PurchasePrice}}) }} }}"
+				},
+			"Brown Cow": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (5 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "1540"
+				},
+			"Goat": {
+			    "DaysToProduce": "{{Round: {{Query: (2 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (5 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "3700",
+				"PurchasePrice": "{{Round: {{Query: (2000 * {{PurchasePrice}}) }} }}"
+				},
+			"Pig": {
+			    "DaysToProduce": "{{Round: {{Query: (1 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (10 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "13850",
+				"PurchasePrice": "{{Round: {{Query: (10 * {{PurchasePrice}}) }} }}"
+				},
+			"Sheep": {
+			    "DaysToProduce": "{{Round: {{Query: (3 * {{DaysToProduce}}) }} }}",
+				"DaysToMature": "{{Round: {{Query: (4 * {{DaysToAdult}}) }} }}",
+				"SellPrice": "7310",
+				"PurchasePrice": "{{Round: {{Query: (4000 * {{PurchasePrice}}) }} }}"
+				},
+			"Ostrich": {
+			    "SellPrice": "13850"				
+				}
+            }
+        }
+	]
+}

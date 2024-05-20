@@ -1,0 +1,233 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/CraftingRecipes",
+	"Fields": {
+            "Wood Fence": {//388 2
+				0: "388 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Stone Fence": {//390 2
+				0: "390 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Iron Fence": {//335 1
+				0: "335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Hardwood Fence": {//709 1
+				0: "709 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Grass Starter": {//771 10
+				0: "771 {{Round: {{Query: (10 * {{MaterialCR}}) }} }}"
+				},
+			"Gate": {//388 10
+				0: "388 {{Round: {{Query: (10 * {{MaterialCR}}) }} }}"
+				},
+			"Chest": {//388 50
+				0: "388 {{Round: {{Query: (50 * {{MaterialCR}}) }} }}"
+				},
+			"Big Chest": {//388 120 334 2
+			    0: "388 {{Round: {{Query: (120 * {{MaterialCR}}) }} }} 334 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+			    },
+			"Torch": {//388 1 92 2
+				0: "388 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 92 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Scarecrow": {//388 50 382 1 771 20
+				0: "388 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 382 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 771 {{Round: {{Query: (20 * {{MaterialCR}}) }} }}"
+				},
+			"Deluxe Scarecrow": {//388 50 386 1 771 40
+			    0: "388 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 386 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 771 {{Round: {{Query: (40 * {{MaterialCR}}) }} }}"
+				},
+			"Bee House": {//388 40 382 8 335 1 724 1
+				0: "388 {{Round: {{Query: (40 * {{MaterialCR}}) }} }} 382 {{Round: {{Query: (8 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 724 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Keg": {//388 30 334 1 335 1 725 1
+				0: "388 {{Round: {{Query: (30 * {{MaterialCR}}) }} }} 334 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 725 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Cask": {//388 20 709 1
+				0: "388 {{Round: {{Query: (20 * {{MaterialCR}}) }} }} 709 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Dehydrator": {//388 30 330 2 82 1
+				0: "388 {{Round: {{Query: (30 * {{MaterialCR}}) }} }} 330 {{Round: {{Query: (2 * {{MaterialCR}}) }} }} 82 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+			    },
+			"Furnace": {//378 20 390 25
+				0: "378 {{Round: {{Query: (20 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (25 * {{MaterialCR}}) }} }}"
+				},
+			"Heavy Furnace": {//(BC)13 2 335 3 390 50
+			    0: "(BC)13 {{Round: {{Query: (2 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (3 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (50 * {{MaterialCR}}) }} }}"
+			    },
+			"Anvil": {//335 50
+			    0: "335 {{Round: {{Query: (50 * {{MaterialCR}}) }} }}"
+			    },
+			"Mini-Forge": {//852 5 335 10 336 10 337 5
+				0: "852 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 337 {{Round: {{Query: (5 * {{MaterialCR}}) }} }}"
+			    },
+			"Garden Pot": {//330 1 390 10 338 1
+				0: "330 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 338 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Cheese Press": {//388 45 390 45 709 10 334 1
+				0: "388 {{Round: {{Query: (45 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (45 * {{MaterialCR}}) }} }} 709 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 334 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Mayonnaise Machine": {//388 15 390 15 86 1 334 1
+				0: "388 {{Round: {{Query: (15 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (15 * {{MaterialCR}}) }} }} 86 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 334 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Seed Maker": {//388 25 382 10 336 1
+				0: "388 {{Round: {{Query: (25 * {{MaterialCR}}) }} }} 382 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Loom": {//388 60 771 30 726 1
+				0: "388 {{Round: {{Query: (60 * {{MaterialCR}}) }} }} 771 {{Round: {{Query: (30 * {{MaterialCR}}) }} }} 726 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Oil Maker": {//766 50 709 20 336 1
+				0: "766 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 709 {{Round: {{Query: (20 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Recycling Machine": {//388 25 390 25 335 1
+			    0: "388 {{Round: {{Query: (25 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (25 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Worm Bin": {//709 15 336 1 335 1 771 50
+				0: "709 {{Round: {{Query: (15 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 771 {{Round: {{Query: (50 * {{MaterialCR}}) }} }}"
+				},
+			"Preserves Jar": {//388 50 390 40 382 8
+				0: "388 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (40 * {{MaterialCR}}) }} }} 382 {{Round: {{Query: (8 * {{MaterialCR}}) }} }}"
+				},
+			"Charcoal Kiln": {//388 20 334 2
+				0: "388 {{Round: {{Query: (20 * {{MaterialCR}}) }} }} 334 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Tapper": {//388 40 334 2
+				0: "388 {{Round: {{Query: (40 * {{MaterialCR}}) }} }} 334 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Lightning Rod": {//335 1 338 1 767 5
+				0: "335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 338 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 767 {{Round: {{Query: (5 * {{MaterialCR}}) }} }}"
+				},
+			"Slime Incubator": {//337 2 766 100
+				0: "337 {{Round: {{Query: (2 * {{MaterialCR}}) }} }} 766 {{Round: {{Query: (100 * {{MaterialCR}}) }} }}"
+				},
+			"Crystalarium": {//390 99 336 5 337 2 787 1
+				0: "390 {{Round: {{Query: (99 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} 337 {{Round: {{Query: (2 * {{MaterialCR}}) }} }} 787 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Sprinkler": {//334 1 335 1
+				0: "334 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Quality Sprinkler": {//335 1 336 1 338 1
+				0: "335 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 338 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Iridium Sprinkler": {//336 1 337 1 787 1
+				0: "336 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 337 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 787 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Staircase": {//390 99
+				0: "390 {{Round: {{Query: (99 * {{MaterialCR}}) }} }}"
+				},
+			"Basic Fertilizer": {//92 2
+				0: "92 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Tree Fertilizer": {//771 5 390 5
+				0: "771 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (5 * {{MaterialCR}}) }} }}"
+				},
+			"Quality Fertilizer": {//92 4 -4 1
+				0: "92 {{Round: {{Query: (4 * {{MaterialCR}}) }} }} -4 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Basic Retaining Soil": {//390 2
+				0: "390 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Quality Retaining Soil": {//390 3 330 1
+				0: "390 {{Round: {{Query: (3 * {{MaterialCR}}) }} }} 330 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Speed-Gro": {//726 1 Moss 5
+				0: "726 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} Moss {{Round: {{Query: (5 * {{MaterialCR}}) }} }}"
+				},
+			"Deluxe Speed-Gro": {//725 1 881 5
+				0: "725 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 881 {{Round: {{Query: (5 * {{MaterialCR}}) }} }}"
+				},
+			"Hyper Speed-Gro": {//909 1 881 3 768 1
+			    0: "909 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 881 {{Round: {{Query: (3 * {{MaterialCR}}) }} }} 768 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Deluxe Fertilizer": {//337 1 92 40
+			    0: "337 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 92 {{Round: {{Query: (40 * {{MaterialCR}}) }} }}"
+			    },
+			"Deluxe Retaining Soil": {//390 5 771 3 330 1
+			    0: "390 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} 771 {{Round: {{Query: (3 * {{MaterialCR}}) }} }} 330 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Cherry Bomb": {//378 4 382 1
+				0: "378 {{Round: {{Query: (4 * {{MaterialCR}}) }} }} 382 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Bomb": {//380 4 382 1
+				0: "380 {{Round: {{Query: (4 * {{MaterialCR}}) }} }} 382 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Mega Bomb": {//384 4 768 1 769 1
+				0: "384 {{Round: {{Query: (4 * {{MaterialCR}}) }} }} 768 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 769 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Transmute (Fe)": {//334 3
+				0: "334 {{Round: {{Query: (3 * {{MaterialCR}}) }} }}"
+				},
+			"Transmute (Au)": {//335 2
+				0: "335 {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+				},
+			"Wood Floor": {//388 1
+				0: "388 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Stone Floor": {//390 1
+				0: "390 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Wood Path": {//388 1
+				0: "388 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Crystal Path": {//338 1
+				0: "338 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Wild Bait": {//771 10 684 5 766 5
+				0: "771 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 684 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} 766 {{Round: {{Query: (5 * {{MaterialCR}}) }} }}"
+				},
+			"Bait": {//684 1
+				0: "684 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Crab Pot": {//388 40 335 3
+				0: "388 {{Round: {{Query: (40 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (3 * {{MaterialCR}}) }} }}"
+				},
+			"Cookout Kit": {//388 15 771 10 382 3
+			    0: "388 {{Round: {{Query: (15 * {{MaterialCR}}) }} }} 771 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 382 {{Round: {{Query: (3 * {{MaterialCR}}) }} }}"
+				},
+			"Tent Kit": {//709 10 771 25 428 1
+			    0: "709 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 771 {{Round: {{Query: (25 * {{MaterialCR}}) }} }} 428 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+			    },
+			"Magic Bait": {//909 1 684 3
+			    0: "909 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 684 {{Round: {{Query: (3 * {{MaterialCR}}) }} }}"
+				},
+			"Thorns Ring": {//881 50 390 50 336 1
+			    0: "881 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Stone Chest": {//390 50
+			    0: "390 {{Round: {{Query: (50 * {{MaterialCR}}) }} }}"
+				},
+			"Big Stone Chest": {//390 250
+			    0: "390 {{Round: {{Query: (250 * {{MaterialCR}}) }} }}"
+				},
+			"Monster Musk": {//767 30 766 30
+			    0: "767 {{Round: {{Query: (30 * {{MaterialCR}}) }} }} 766 {{Round: {{Query: (30 * {{MaterialCR}}) }} }}"
+				},
+			"Farm Computer": {//122 1 787 1 338 10
+			    0: "122 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 787 {{Round: {{Query: (1 * {{MaterialCR}}) }} }} 338 {{Round: {{Query: (10 * {{MaterialCR}}) }} }}"
+				},
+			"Ostrich Incubator": {//881 50 709 50 848 20
+			    0: "881 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 709 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 848 {{Round: {{Query: (20 * {{MaterialCR}}) }} }}"
+				},
+			"Geode Crusher": {//336 2 390 50 72 1
+			    0: "336 {{Round: {{Query: (2 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (50 * {{MaterialCR}}) }} }} 72 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Solar Panel": {//338 10 335 5 336 5
+			    0: "338 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 335 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} 336 {{Round: {{Query: (5 * {{MaterialCR}}) }} }}"
+				},
+			"Bone Mill": {//881 10 330 3 390 20
+			    0: "881 {{Round: {{Query: (10 * {{MaterialCR}}) }} }} 330 {{Round: {{Query: (3 * {{MaterialCR}}) }} }} 390 {{Round: {{Query: (20 * {{MaterialCR}}) }} }}"
+				},
+			"Heavy Tapper": {//709 30 910 1
+			    0: "709 {{Round: {{Query: (30 * {{MaterialCR}}) }} }} 910 {{Round: {{Query: (1 * {{MaterialCR}}) }} }}"
+				},
+			"Deluxe Bait": {//685 5 Moss 2
+			    0: "685 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} Moss {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+	            },
+			"Challenge Bait": {//881 5 Moss 2
+			    0: "881 {{Round: {{Query: (5 * {{MaterialCR}}) }} }} Moss {{Round: {{Query: (2 * {{MaterialCR}}) }} }}"
+	            }
+			}
+		}
+	]
+}

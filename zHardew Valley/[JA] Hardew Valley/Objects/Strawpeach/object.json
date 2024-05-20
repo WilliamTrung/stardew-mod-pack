@@ -1,0 +1,18 @@
+{
+	"Name": "Strawpeach",
+	"Price": 70,
+	"Description": "Half strawberry, half peach, a sweet and sour delight.",
+	"Category": "Fruit",
+	"Edibility": 15,
+	"Recipe": null,
+	"NameLocalization":
+	{
+		"es": "Fresazno",
+		"pt": "Morssego"
+	},
+	"DescriptionLocalization":
+	{
+		"es": "Mitad fresa, mitad durazno, toda una delicia dulce a la vez que acida.",
+		"pt": "Metade morango, metade pêssego, uma delícia doce e ao mesmo tempo doce."
+	},
+}

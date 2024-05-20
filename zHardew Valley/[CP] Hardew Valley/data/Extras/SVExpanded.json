@@ -1,0 +1,98 @@
+{
+	"Changes": [
+	
+	{ 
+	"Action": "EditData",
+    "Target": "Data/Objects",
+	"Fields": {
+		    //Aegis Elixir
+			"FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": {"Price": "2500", "Edibility": "60"},
+			"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": {"Price": "36", "Edibility": "21"},
+			"FlashShifter.StardewValleyExpandedCP_Armor_Elixir": {"Price": "500"},
+			//Aurora Vineyard Property Deed
+			"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "11"},
+			"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": {"Price": "100", "Edibility": "48"},
+			//Barbarian Elixir
+			"FlashShifter.StardewValleyExpandedCP_Bearberrys": {"Price": "13", "Edibility": "9"},
+			"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {"Price": "100", "Edibility": "51"},
+			"FlashShifter.StardewValleyExpandedCP_Big_Conch": {"Price": "37"},
+			"FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine": {"Price": "175", "Edibility": "6"},
+			"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "37"},
+			"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "46", "Edibility": "6"},
+			"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "56", "Edibility": "12"},
+			"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "22", "Edibility": "12"},
+			"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "62"},
+			"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": {"Price": "11", "Edibility": "54"},
+			"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": {"Price": "20"},
+			"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "9", "Edibility": "9"},
+			"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": {"Price": "30", "Edibility": "11"},
+			"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": {"Price": "46", "Edibility": "45"},
+			"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "25"},
+			"FlashShifter.StardewValleyExpandedCP_Frog_Legs": {"Price": "100", "Edibility": "18"},
+			"FlashShifter.StardewValleyExpandedCP_Galdoran_Gem": {"Price": "150"},
+			"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "287"},
+			"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {"Price": "200", "Edibility": "48"},
+			"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": {"Price": "250"},
+			"FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "37", "Edibility": "3"},
+			//GoldenKey
+			"FlashShifter.StardewValleyExpandedCP_Goldenrod": {"Price": "40", "Edibility": "14"},
+			"FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": {"Price": "100", "Edibility": "39"},
+			"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "87", "Edibility": "9"},
+			//Gravity Elixir
+			"FlashShifter.StardewValleyExpandedCP_Green_Mushroom": {"Price": "312", "Edibility": "300"},
+			"FlashShifter.StardewValleyExpandedCP_Haste_Elixir": {"Price": "500"},
+			"FlashShifter.StardewValleyExpandedCP_Hero_Elixir": {"Price": "662"},
+			"FlashShifter.StardewValleyExpandedCP_Joja_Berry": {"Price": "160", "Edibility": "45"},
+			"FlashShifter.StardewValleyExpandedCP_Joja_Veggie": {"Price": "570", "Edibility": "120"},
+			"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "137", "Edibility": "31"},
+			"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "70", "Edibility": "24"},
+			//Lances Schedule
+			//Lightning Elixir
+			"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": {"Price": "100"},
+			"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "27"},
+			//Mermaid's Bracelet
+			"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "75"},
+			"FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "5"},
+			"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {"Price": "62", "Edibility": "45"},
+			"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": {"Price": "381", "Edibility": "51"},
+			"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {"Price": "212", "Edibility": "45"},
+			"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": {"Price": "29"},
+			"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {"Price": "26", "Edibility": "11"},
+			"FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest": {"Price": "2500"},
+			"FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": {"Price": "15"},
+			//Property Deed
+			"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "70", "Edibility": "24"},
+			"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "225"},
+			"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "100"},
+			"FlashShifter.StardewValleyExpandedCP_Red_Baneberry": {"Price": "5"},
+			"FlashShifter.StardewValleyExpandedCP_Rusty_Blade": {"Price": "50"},
+			"FlashShifter.StardewValleyExpandedCP_Salal_Berry": {"Price": "19", "Edibility": "17"},
+			"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "22"},
+			"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "20", "Edibility": "3"},
+			"FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": {"Price": "50", "Edibility": "42"},
+			"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "212"},
+			"FlashShifter.StardewValleyExpandedCP_Slime_Berry": {"Price": "21"},
+			"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {"Price": "94"},
+			"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "142", "Edibility": "8"},
+			//Sports Drink
+			//Stamina Capsule
+			"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "37"},
+			"FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola": {"Price": "87", "Edibility": "90"},
+			//Super Starfruit
+			"FlashShifter.StardewValleyExpandedCP_Swirl_Stone": {"Price": "2125"},
+			"FlashShifter.StardewValleyExpandedCP_Thistle": {"Price": "30", "Edibility": "6"},
+			"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "144"},
+			"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "50"},
+			"FlashShifter.StardewValleyExpandedCP_Void_Delight": {"Price": "200"},
+			"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "162"},
+			"FlashShifter.StardewValleyExpandedCP_Void_Pebble": {"Price": "250"},
+			"FlashShifter.StardewValleyExpandedCP_Void_Root": {"Price": "59"},
+			"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": {"Price": "200"},
+			"FlashShifter.StardewValleyExpandedCP_Void_Shard": {"Price": "2500"},
+			"FlashShifter.StardewValleyExpandedCP_Void_Soul": {"Price": "37"},
+			"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "42", "Edibility": "24"},
+			"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": {"Price": "50", "Edibility": "17"}
+			}
+	    }
+	]
+}

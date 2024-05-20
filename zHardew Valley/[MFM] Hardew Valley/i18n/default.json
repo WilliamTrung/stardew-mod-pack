@@ -1,0 +1,18 @@
+{
+	"Mail.WelcomeHV1": "Hello @. Welcome to Hardew Valley!^In this new experience, EVERYTHING will be harder, which translates into less earnings and longer play times, but that's what you were looking for, right? A challenge, not a game that ends at year 3. In the next few days you will receive information about various mod stuff in your mailbox, stay tuned. Have 500g as a welcome gift, have a nice day! %item money 500 501 %%^    -Enjoy!^    -Juanpa98ar",
+	"Mail.WelcomeHV1Title": "Welcome to Hardew Valley.",
+/*	"Mail.TaxesToPaid": "Taxes",
+	"Mail.TaxesToPaid1": "Tax %item money -2501 -500 %%",*/
+	"Mail.EBinfo": "Illegal Energy.",
+	"Mail.EBinfo1": "It is said that in the sewers of the town there is a being of the shadows, friendly, who can obtain many things that no one else can.... or should, if you know what I mean.^In spring and autumn it should have certain special seeds...^      -OmegaData",	
+	"Mail.SBSinfo": "Strawberry Varieties.",
+	"Mail.SBSinfo1": "Mother Nature has blessed us with strange varieties of strawberries, which, despite their appearance, are totally edible!^However, experts consider that these are not FRUIT, so they recommend not to make jams, juices or other products with these strawberries, which are: 'Golden, Silver and Winged Strawberries'.^      -OmegaData",
+	"Mail.SSBinfo": "New Summer Seed.",
+	"Mail.SSBinfo1": "'Silver Strawberry Seeds' are now available in Pierre's store, available only in summer.^There is a legend that says that the crop can become giant if these requirements are met:^1.A 3x3 plot with the same crop.^2.All crops are fully grown.^3.At least the center crop should be irrigated daily. All that remains is to wait.^     -OmegaData",
+	"Mail.SBinfo": "New Winter Seed",
+	"Mail.SBinfo1": "'Strawbits Seeds' are now available in Pierre's store, available only in winter.^It is a fast growing crop and can produce 1 to 5 baby strawberries every day! The fruit is not very valuable but you can increase the price by making juice or other products from them.^     -OmegaData",
+	"Mail.GWSinfo": "New All Year Seed",
+	"Mail.GWSinfo1": "'Golden Winged Strawberry Seeds' are now available in Pierre's store, available all the year.^This wonder of nature is expensive and takes a whole year to grow, but the value you can get from this crop is immense!^     -OmegaData",
+	"Mail.CGinfo": "New Summer Seed",
+	"Mail.CGinfo1": "'Clover Gamma Seeds' are now available in Pierre's store, available only in summer.^ It is said that finding a 4-leaf clover is very lucky, so why don't you grow it? Discover new recipes with Gus, to get the most out of this crop. Bees can produce honey from these clovers. It can become giant.^     -OmegaData",
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "(CP) Hardew Valley",
+  "Author": "Juanpa98ar",
+  "Version": "4.0.0",
+  "Description": "Hardew Valley: Slow Life In The Valley.",
+  "UniqueID": "Juanpa98ar.HardewValley",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:6029" ],
+  "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher",
+   },
+   "Dependencies": [
+   {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true,
+   },
+   {
+	   "UniqueID": "spacechase0.ContentPatcherAnimations",
+	   "IsRequired": false
+   }
+  ]
+}
