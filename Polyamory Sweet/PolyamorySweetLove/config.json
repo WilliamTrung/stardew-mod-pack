@@ -11,7 +11,7 @@
   "GayPregnancies": true,
   "MaxChildren": 2,
   "ShowParentNames": true,
-  "SpouseSleepOrder": "",
+  "SpouseSleepOrder": "Haley,Emily,Sophia",
   "PercentChanceForSpouseInBed": 25,
   "PercentChanceForSpouseInKitchen": 25,
   "PercentChanceForSpouseAtPatio": 25

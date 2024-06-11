@@ -1,4 +1,76 @@
 {
+//Objects-i18n
+    "HardewValley.FruitTree.Strawpeach": "Strawpeach",
+	"object.HV.lucky-milk.name": "Lucky Milk",
+	"object.HV.lucky-milk.description": "It's green and doesn't look tasty, but if it really brings you luck, it's worth it.",
+	"object.HV.strawberry-cream-cup.name": "Strawberry Cream Cup",
+	"object.HV.strawberry-cream-cup.description": "Strawberries with cream served in a luxurious cup.",
+	"object.HV.strawberry-milk.name": "Strawberry Milk",
+	"object.HV.strawberry-milk.description": "A pink, delicious and somewhat thick strawberry milk.",
+	"object.HV.ultra-milk.name": "Ultra Milk",
+	"object.HV.ultra-milk.description": "Did you think of mixing the two? Are you crazy?",
+	"object.HV.whipped-cream.name": "Whipped Cream",
+	"object.HV.whipped-cream.description": "Whipped cream made with quality milk.",
+	"object.HV.clover-gamma-seeds.name": "Clover Gamma Seeds",
+	"object.HV.clover-gamma-seeds.description": "Plant these in summer. Takes 7 days to mature. Cultivate your own luck!",
+	"object.HV.energyberry-seeds.name": "Energyberry Seeds",
+	"object.HV.energyberry-seeds.description": "Plant these in spring or autumn. Takes 8 days to mature. You know... These are not legal...",
+	"object.HV.golden-strawberry-seeds.name": "Golden Strawberry Seeds",
+	"object.HV.golden-strawberry-seeds.description": "Plant these in spring or summer. Takes 50 days to mature. Produces something beautiful.",
+	"object.HV.silver-strawberry-seeds.name": "Silver Strawberry Seeds",
+	"object.HV.silver-strawberry-seeds.description": "Plant these in summer. Takes 8 days to mature. Produces a visual delight.",
+	"object.HV.strawbit-seeds.name": "Strawbit Seeds",
+	"object.HV.strawbit-seeds.description": "Plant these in winter. Takes 5 days to mature. Produces baby strawberries every day.",
+	"object.HV.winged-golden-strawberry-seeds.name": "Winged Golden Strawberry Seeds",
+	"object.HV.winged-golden-strawberry-seeds.description": "Plant these all year round. Takes 100 days to mature. Produces something amazing.",
+	"object.HV.strawpeach-sapling.name": "Strawpeach Sapling",
+	"object.HV.strawpeach-sapling.description": "Takes 28 days to produce a mature Strawpeach tree. Bears fruit in autumn. Only grows if the 8 surrounding tiles are empty.",
+	"object.HV.clover-gamma.name": "Clover Gamma",
+	"object.HV.clover-gamma.description": "If this plant gives luck, it must be extracted. With luck it will grow a lot... Maybe too much.",
+	"object.HV.energyberry.name": "Energyberry",
+	"object.HV.energyberry.description": "The energy provided by this berry is impressive! Don't try to sell it or you will be heavily fined... It is not very legal.",
+	"object.HV.golden-strawberry.name": "Golden Strawberry",
+	"object.HV.golden-strawberry.description": "It's probably the most beautiful thing you've ever seen. You'd hate to sink your teeth into it.",
+	"object.HV.silver-strawberry.name": "Silver Strawberry",
+	"object.HV.silver-strawberry.description": "It shines in the sun. Not very valuable. A legend: It grows colossally if certain factors are met. It has never been verified.",
+	"object.HV.strawbit.name": "Strawbit",
+	"object.HV.strawbit.description": "It's so tiny and adorable, don't swallow it whole!",
+	"object.HV.strawpeach.name": "Strawpeach",
+	"object.HV.strawpeach.description": "Half strawberry, half peach, a sweet and sour delight.",
+	"object.HV.winged-golden-strawberry.name": "Winged Golden Strawberry",
+	"object.HV.winged-golden-strawberry.description": "It's probably the most beautiful and special thing you've ever seen - it will fly away if you scare it!",
+	//Hats
+	"hat.HV.blue-omega-cap.name": "Blue Omega Cap",
+	"hat.HV.blue-omega-cap.description": "A black cap with the Omega symbol in blue.",
+	"hat.HV.golden-strawberry-tiara.name": "Golden Strawberry Tiara",
+	"hat.HV.golden-strawberry-tiara.description": "A silver tiara with a golden strawberry inlay.",
+	"hat.HV.omega-cap.name": "Omega Cap",
+	"hat.HV.omega-cap.description": "A black cap with the Omega symbol in red.",
+	"hat.HV.winged-strawberry-tiara.name": "Winged Strawberry Tiara",
+	"hat.HV.winged-strawberry-tiara.description": "A golden tiara with a winged strawberry inlay.",
+	//Mail
+	"mail.HV.TaxesToPay": "Dear @,^This is a communication from the Ferngill Republic Bank, as the new owner of the Farm of Stardew Valley you must pay the taxes corresponding to the occupation of the farm. You will receive a letter every 28th of the month where you will have to add the money corresponding to the tax of the month. We thank you for your cooperation and hope you are successful in your project.^ -Ferngill Republic Bank",
+	"mail.HV.TaxesToPayTitle": "Tax Letter",
+	"Mail.WelcomeHV1": "Hello @. Welcome to Hardew Valley!^In this new experience, EVERYTHING will be harder, which translates into less earnings and longer play times, but that's what you were looking for, right? A challenge, not a game that ends at year 3. In the next few days you will receive information about various mod stuff in your mailbox, stay tuned. By the way, you spent all your money to get here, you have nothing left. Good luck, have a nice day! %item money -500 %%^    -Enjoy!^    -Juanpa98ar",
+	"Mail.WelcomeHV1Title": "Welcome to Hardew Valley.",
+	"Mail.EBinfo": "Illegal Energy.",
+	"Mail.EBinfo1": "It is said that in the sewers of the town there is a being of the shadows, friendly, who can obtain many things that no one else can.... or should, if you know what I mean.^In spring and autumn it should have certain special seeds...^      -OmegaData",	
+	"Mail.SBSinfo": "Strawberry Varieties.",
+	"Mail.SBSinfo1": "Mother Nature has blessed us with strange varieties of strawberries, which, despite their appearance, are totally edible!^However, experts consider that these are not FRUIT, so they recommend not to make jams, juices or other products with these strawberries, which are: 'Golden, Silver and Winged Strawberries'.^      -OmegaData",
+	"Mail.SSBinfo": "New Summer Seed.",
+	"Mail.SSBinfo1": "'Silver Strawberry Seeds' are now available in Pierre's store, available only in summer.^There is a legend that says that the crop can become giant if these requirements are met:^1.A 3x3 plot with the same crop.^2.All crops are fully grown.^3.At least the center crop should be irrigated daily. All that remains is to wait.^     -OmegaData",
+	"Mail.SBinfo": "New Winter Seed",
+	"Mail.SBinfo1": "'Strawbits Seeds' are now available in Pierre's store, available only in winter.^It is a fast growing crop and can produce 1 to 5 baby strawberries every day! The fruit is not very valuable but you can increase the price by making juice or other products from them.^     -OmegaData",
+	"Mail.GWSinfo": "New All Year Seed",
+	"Mail.GWSinfo1": "'Golden Winged Strawberry Seeds' are now available in Pierre's store, available all the year.^This wonder of nature is expensive and takes a whole year to grow, but the value you can get from this crop is immense!^     -OmegaData",
+	"Mail.CGinfo": "New Summer Seed",
+	"Mail.CGinfo1": "'Clover Gamma Seeds' are now available in Pierre's store, available only in summer.^ It is said that finding a 4-leaf clover is very lucky, so why don't you grow it? Discover new recipes with Gus, to get the most out of this crop. Bees can produce honey from these clovers. It can become giant.^     -OmegaData",
+    //Machines
+	"HV.CountCoal.Message": "Amount of Coal required",
+	"HV.CountOre.Message": "Amount of Ore required",
+	"HV.CountWood.Message": "Amount of Wood required",
+	"HV.CountTorch.Message": "Amount of Torches required",
+	
 //Crop descriptions
     "CropDescription.info.SGB": "Sow in early summer or in the middle of the month using Speed-Gro. Takes 50 days to grow.",
 	"CropDescription.info.AF": "Plant these on day 1 of any season except winter, or later using Speed-Gro. Takes 28 days to grow and continues to produce every 26 days.",
@@ -131,6 +203,27 @@
 	"config.IMPORTANT!.description": "Do the same with the other options to see a description of what each option does.",
 	"config.IMPORTANT!.Values.= Not here. On the left! =": "= Not here. On the left! =",
 
+	"config.NewObjectsToggle.name": "Hardew Valley Objects",
+	"config.NewObjectsToggle.description": "Activate/Deactivate the new objects added by the mod.\nThey are not necessarily a help but give some more variety to the gameplay. Enabled by default.",
+
+	"config.PaidTaxes.name": "Tax Collection",
+	"config.PaidTaxes.description": "Activate/Deactivate tax collection.\nWhen you have more than 10000 gold, on the 28th of each month you will receive a letter,\nin which you will have to pay an amount of money (Configurable).",
+
+	"config.HV.Taxesss.name": "Taxes Payable:",
+	"config.HV.Taxesss.description": "Modify the amount of taxes you have to pay.\nSingle Value: You must pay the exact value of money chosen each month.\nTwo values: You will pay a random value of money between both values,\n(For example: Between 10000 and 1000 you can pay a value of 9999 or 5454 or 1001, etc, chosen randomly by the game).",
+
+	"config.OreNeeded.name": "Ore Needed:",
+	"config.OreNeeded.description": "Modifies the amount of ores needed to create bars.\nDefault 5.",
+
+	"config.CoalNeeded.name": "Coal Needed:",
+	"config.CoalNeeded.description": "Modify the amount of coal needed to use the furnace.\nDefault 1.",
+
+	"config.OreNeededHeavy.name": "Ore Needed (Heavy):",
+	"config.OreNeededHeavy.description": "Modifies the amount of ores needed to create bars (Heavy Furnace).\nDefault 25.",
+
+	"config.CoalNeededHeavy.name": "Coal Needed (Heavy):",
+	"config.CoalNeededHeavy.description": "Modify the amount of coal needed to use the furnace (Heavy Furnace).\nDefault 3.",
+
 	"config.ObjectsToggle.name": "Object Changes",
 	"config.ObjectsToggle.description": "Activate this option to modify the gold, health and energy obtained from objects.",
 
@@ -236,7 +329,7 @@
 	"config.Reduce Selling Price, Energy & Life(SVE Products).description": "Reduces life and energy regeneration and the selling price of items, by a fixed value. Requires Mod 'Stardew Valley Expanded' to work.",
 
 	"config.Reduce Selling Price (WFFE Products).name": "Objects Modifications",
-	"config.Reduce Selling Price (WFFE Products).description": "Reduces life and energy regeneration and the selling price of items, by a fixed value. Requires Mod 'Wild Food Forage Expansion' to work.",
+	"config.Reduce Selling Price (WFFE Products).description": "Reduces life and energy regeneration and the selling price of items, by a fixed value. Requires Mod 'Wildflour's Atelier Goods - Forager' to work.",
 
 	"config.Reduce Selling Price (ES Products).name": "Objects Modifications",
 	"config.Reduce Selling Price (ES Products).description": "Reduces life and energy regeneration and the selling price of items, by a fixed value. Requires Mod 'East Scarp' to work.",
@@ -264,7 +357,7 @@
 	"config.section.Stardew Valley Expanded.name": "Stardew Valley Expanded",
 	"config.section.Ridgeside Village.name": "Ridgeside Village",
 	"config.section.East Scarp.name": "East Scarp",
-	"config.section.Wild Food - A Forage Expansion.name": "Wild Food - A Forage Expansion",
+	"config.section.Wild Food - A Forage Expansion.name": "Wildflour's Atelier Goods - Forager",
 	
 	"Mail.GuntherGiftHV": "Dear @,^^Enclosed is a portion of the funding we were recently awarded by the Regional Secretary of Artifacts. Thanks to your generous donations, the museum has become a major contributor to ongoing efforts to conserve Ferngill's cultural heritage. I hope these funds provide assistance in your future adventures.^^ -Gunther %item money 8000 8001 %%[#]Museum Payment"
 }

@@ -32,7 +32,7 @@
     "Book.CarpenterCatalogue.Name": "Carpenter Catalogue",
     "Book.CarpenterCatalogue.Description": "Read this book to improve your carpentry skills.",
     "Power.CarpenterCatalogue.Name": "Carpenter Catalogue",
-    "Power.CarpenterCatalogue.Description": "You can now purchase hardwood from Robin, also you get a 10% discount at her shop.",
+    "Power.CarpenterCatalogue.Description": "You can now purchase hardwood and clay from Robin, also you get a 10% discount at her shop.",
 
     "Book.OreCatalogue.Name": "Ore Catalogue",
     "Book.OreCatalogue.Description": "Read this book to learn more about ores.",
@@ -59,6 +59,26 @@
     "Power.GarbageCan.Name": "The Alleyway Buffet pt.2",
     "Power.GarbageCan.Description": "Now there is a 7% chance of finding gems (Emerald, Aquamarine, Ruby, Amethyst, Topaz, Jade or Diamond) in the garbage can.",
 
+    "Book.Attack.Name": "Combat Codex",
+    "Book.Attack.Description": "Read this book to gain +2 attack permanently.",
+    "Power.Attack.Name": "Combat Codex",
+    "Power.Attack.Description": "Gain +2 Attack.",
+
+    "Book.God.Name": "Divine Insight",
+    "Book.God.Description": "You have discovered these ancient writings, which appear to belong to ConcernedApe, a godlike figure. Delving into this tome may unravel the mysteries of the universe.",
+    "Power.God.Name": "Divine Insight",
+    "Power.God.Description": "Gain +5 Speed, +10 Luck, +10 Immunity, +10 Fishing Levels, +100 Defense, +8 Magnetic Tiles, x5 Damage.",
+
+    "Book.Milk.Name": "Dairy Mastery",
+    "Book.Milk.Description": "Read this book to improve milk and cheese quality.",
+    "Power.Milk.Name": "Dairy Mastery",
+    "Power.Milk.Description": "Milk and Cheese costs more (approximately by 20%).",
+
+    "Book.Bomb.Name": "Blast Manual",
+    "Book.Bomb.Description": "Read this book to learn more about bombs.",
+    "Power.Bomb.Name": "Blast Manual",
+    "Power.Bomb.Description": "Bomb prices are back to pre-1.6, and crafting bombs is now easier.",
+
 	"Mail.Lewis.Text": "Dear @,^^  I have discovered that someone is stealing my shorts from my basement, so in order to prevent others from getting them, I am willing to purchase them from you for 1000g each. However, please refrain from using them as ingredients for the Luau. Read this book to understand the details. ^^-Your Lewis",
 	"Mail.Lewis.Title": "Lewis",
 
@@ -76,4 +96,10 @@
     
     "Mail.Clint.Text": "Dear @,^^  I am excited to share my favorite book with you, which is a treasure trove of knowledge on ores and blacksmithing. Upon reading it, I will consider you a kindred spirit and extend a discount to you at my shop. Enjoy delving into its contents! ^^-Your Clint",
 	"Mail.Clint.Title": "Clint",
+
+    "Mail.Marnie.Text": "Dear @,^^ I have spent a significant amount of time studying and raising cows and goats, leading me to compile all my knowledge into one comprehensive book. Feel free to explore it, my friend! ^^-Your Marnie",
+	"Mail.Marnie.Title": "Marnie",
+
+    "Mail.Dwarf.Text": "Dear @,^^ I have noticed your dedication and loyalty, so I have chosen to share with you my secret recipe for efficiently creating bombs. Additionally, I am pleased to offer you a discount on bombs in my shop. ^^-Your Dwarf",
+	"Mail.Dwarf.Title": "Dwarf"
 }

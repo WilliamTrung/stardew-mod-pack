@@ -1,0 +1,68 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Hats",
+            "Entries": 
+			{
+                "Juanpa98ar.HVJA_Blue_Omega_Cap": "Blue Omega Cap/{{i18n: hat.HV.blue-omega-cap.description}}/false/false//{{i18n: hat.HV.blue-omega-cap.name}}/0/Hats\\Juanpa98ar.HVJA_Blue_Omega_Cap",
+				"Juanpa98ar.HVJA_Golden_Straberry_Tiara": "Golden Strawberry Tiara/{{i18n: hat.HV.golden-strawberry-tiara.description}}/false/false//{{i18n: hat.HV.golden-strawberry-tiara.name}}/0/Hats\\Juanpa98ar.HVJA_Golden_Straberry_Tiara",
+				"Juanpa98ar.HVJA_Omega_Cap": "Omega Cap/{{i18n: hat.HV.omega-cap.description}}/false/false//{{i18n: hat.HV.omega-cap.name}}/0/Hats\\Juanpa98ar.HVJA_Omega_Cap",
+				"Juanpa98ar.HVJA_Winged_Strawberry_Tiara": "Winged Strawberry Tiara/{{i18n: hat.HV.winged-strawberry-tiara.description}}/false/false//{{i18n: hat.HV.winged-strawberry-tiara.name}}/0/Hats\\Juanpa98ar.HVJA_Winged_Strawberry_Tiara"
+            }
+        },
+		//Load
+		{
+            "Action": "Load",
+            "Target": "Hats/Juanpa98ar.HVJA_Blue_Omega_Cap",
+            "FromFile": "assets/Objects/Blue Omega Hat.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Hats/Juanpa98ar.HVJA_Golden_Straberry_Tiara",
+            "FromFile": "assets/Objects/G Strawberry Tiara.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Hats/Juanpa98ar.HVJA_Omega_Cap",
+            "FromFile": "assets/Objects/Omega Cap.png"
+        },
+		{
+            "Action": "Load",
+            "Target": "Hats/Juanpa98ar.HVJA_Winged_Strawberry_Tiara",
+            "FromFile": "assets/Objects/W Strawberry Tiara.png"
+        },
+		//Shop
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "HatMouse", "Items" ],
+            "Entries": {
+                "Juanpa98ar.HVJA_Blue_Omega_Cap": {
+                    "Price": 1000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "Juanpa98ar.HVJA_Blue_Omega_Cap",
+                    "ItemId": "Juanpa98ar.HVJA_Blue_Omega_Cap"
+                },
+				"Juanpa98ar.HVJA_Golden_Straberry_Tiara": {
+                    "Price": 1000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "Juanpa98ar.HVJA_Golden_Straberry_Tiara",
+                    "ItemId": "Juanpa98ar.HVJA_Golden_Straberry_Tiara"
+                },
+				"Juanpa98ar.HVJA_Omega_Cap": {
+                    "Price": 1000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "Juanpa98ar.HVJA_Omega_Cap",
+                    "ItemId": "Juanpa98ar.HVJA_Omega_Cap"
+                },
+				"Juanpa98ar.HVJA_Winged_Strawberry_Tiara": {
+                    "Price": 1000,
+                    "IgnoreShopPriceModifiers": true,
+                    "Id": "Juanpa98ar.HVJA_Winged_Strawberry_Tiara",
+                    "ItemId": "Juanpa98ar.HVJA_Winged_Strawberry_Tiara"
+                }
+            }
+        }
+	]
+}

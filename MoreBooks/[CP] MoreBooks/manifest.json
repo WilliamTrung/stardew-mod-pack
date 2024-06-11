@@ -1,11 +1,11 @@
 {
   "Name": "MoreBooks",
   "Author": "jeWel",
-  "Version": "1.0.3",
-  "Description": "This mod adds 12 new books and powers.",
+  "Version": "1.1.9",
+  "Description": "This mod adds 16 new books and powers.",
   "UniqueID": "jeWel.MoreBooks",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": ["Nexus:???"],
+  "UpdateKeys": ["Nexus:23891"],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
   },

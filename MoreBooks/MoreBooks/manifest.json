@@ -1,11 +1,11 @@
 ﻿{
-  "Name": "MoreBooks Code",
+  "Name": "More Books",
   "Author": "jeWel",
-  "Version": "1.0.3",
-  "Description": "Code for MoreBooks",
+  "Version": "1.1.9",
+  "Description": "This mod adds 16 new books and powers.",
   "UniqueID": "jeWel.MoreBooksCode",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": [ "Nexus:???" ],
+  "UpdateKeys": [ "Nexus:23891" ],
   "EntryDll": "MoreBooks.dll",
   "Dependencies": [
     {

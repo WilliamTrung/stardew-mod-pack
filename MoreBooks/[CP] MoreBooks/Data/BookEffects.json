@@ -12,10 +12,16 @@
                     "Id": 709,
                     "ItemId": 709,
                     "Price": 1000,
+                },
+                "330": {
+                    "Id": 330,
+                    "ItemId": 330,
+                    "Price": 200,
                 }
             },
             "MoveEntries": [
-                { "Id": "709", "BeforeId": "(O)390" }
+                { "Id": "709", "BeforeId": "(O)390" },
+                { "Id": "330", "BeforeId": "(O)390" }
             ],
             "When": {
                 "jeWel.MoreBooksCode/ConfigCarpenterCatalogueRead": true
@@ -149,5 +155,51 @@
             },
             "Update": "OnTimeChange"
         },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "184": { "Price": 175 },
+                "186": { "Price": 250 },
+                "424": { "Price": 290 },
+                "426": { "Price": 490 },
+                "436": { "Price": 290 },
+                "438": { "Price": 420 },
+            },
+            "When": {
+                "jeWel.MoreBooksCode/ConfigMilkBookRead": true
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditData",
+			"Target": "Data/Shops",
+            "TargetField": [
+                "Dwarf",
+                "Items"
+            ],
+            "Fields": {
+                "(O)286": { "Price": 300 },
+                "(O)287": { "Price": 600 },
+                "(O)288": { "Price": 1000 }
+            },
+            "When": {
+                "jeWel.MoreBooksCode/ConfigBombBookRead": true
+            },
+            "Update": "OnTimeChange"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Fields": {
+                "Cherry Bomb": { 0: "378 2 382 1" },
+                "Bomb": { 0: "380 2 382 1" },
+                "Mega Bomb": { 0: "384 2 768 1" },
+            },
+            "When": {
+                "jeWel.MoreBooksCode/ConfigBombBookRead": true
+            },
+            "Update": "OnTimeChange"
+        }
     ]
 }

@@ -32,7 +32,7 @@
     "Book.CarpenterCatalogue.Name": "木之器",
     "Book.CarpenterCatalogue.Description": "阅读此书以提升你的木工技能。",
     "Power.CarpenterCatalogue.Name": "木之器",
-    "Power.CarpenterCatalogue.Description": "你现在可以从罗宾那里购买硬木，并且在她的店铺享受10%的折扣。",
+    "Power.CarpenterCatalogue.Description": "你现在可以从罗宾那里购买黏土和硬木，并且在她的店铺享受10%的折扣。",
 
     "Book.OreCatalogue.Name": "现代采矿手册",
     "Book.OreCatalogue.Description": "阅读此书以学习更多关于矿石的知识。",
@@ -42,7 +42,7 @@
     "Book.Rice.Name": "稻苗培育指南",
     "Book.Rice.Description": "阅读此书学习如何种植优质稻米。",
     "Power.Rice.Name": "稻苗培育指南",
-    "Power.Rice.Description": "未加工稻米售价提升到100g，加工后的精米售价提升到200g。",
+    "Power.Rice.Description": "未碾米售价提升到100g，加工后的大米售价提升到200g。",
 
     "Book.Dagger.Name": "匕首起手式教学",
     "Book.Dagger.Description": "阅读此书以深入了解匕首的使用。",
@@ -59,10 +59,31 @@
     "Power.GarbageCan.Name": "小巷自助餐-续",
     "Power.GarbageCan.Description": "现在，在垃圾桶中找到宝石（绿宝石、海蓝宝石、红宝石、紫水晶、黄水晶、翡翠或钻石）的几率为 7%。",
 
-	"Mail.Lewis.Text": "亲爱的 @,^^  我发现有人从我的地下室偷走了我的短裤，为了防止它们流入别人手中，我愿意以每条1000g的价格购买。但切记不要把它丢到夏威夷宴会的锅里！阅读这本书来了解详细信息。 ^^-刘易斯",
+    "Book.Attack.Name": "力量训练基础",
+    "Book.Attack.Description": "阅读此书永久增加+2攻击力。",
+    "Power.Attack.Name": "力量训练基础",
+    "Power.Attack.Description": "+2攻击力。",
+
+    "Book.God.Name": "飞升手册",
+    "Book.God.Description": "你发现了这些古老的文字，似乎属于ConcernedApe，一位类似神的人物。探究这本书可能会揭开这个宇宙的奥秘。",
+    "Power.God.Name": "飞升手册",
+    "Power.God.Description": "+5速度，+10运气，+10免疫，+10渔业等级，+100防御，+8磁力格，伤害提高5倍。",
+
+    "Book.Milk.Name": "乳制品工艺学",
+    "Book.Milk.Description": "阅读此书提升牛奶和奶酪的品质。",
+    "Power.Milk.Name": "乳制品工艺学",
+    "Power.Milk.Description": "牛奶和奶酪的价格提高（约 20%）。",
+
+    "Book.Bomb.Name": "炸弹秘密配方",
+    "Book.Bomb.Description": "阅读此书学习矮人制作炸弹的秘方。",
+    "Power.Bomb.Name": "炸弹秘密配方",
+    "Power.Bomb.Description": "炸弹价格恢复到1.6版本之前，现在更容易制作炸弹。",
+
+
+	"Mail.Lewis.Text": "亲爱的 @,^^  我发现有人从我的地下室偷走了我的短裤，为了防止它们流入别人手中，我愿意以每条1000g的价格购买。但切记不要把它丢到夏威夷宴会的锅里！我把那个短裤的故事写到这里了，我把你当最好的朋友，可千万别告诉别人啊。 ^^-刘易斯",
 	"Mail.Lewis.Title": "刘易斯",
 
-    "Mail.Linus.Text": "亲爱的 @,^^  我最近发现了一个有效且隐秘的搜索垃圾桶的方法，所以我把它写了下来，我觉得你很理解我的生活方式，所以我想先给你看看。希望对你有用。 ^^-莱纳斯",
+    "Mail.Linus.Text": "亲爱的 @,^^  我最近发现了一个有效且隐秘的搜索垃圾桶的方法，所以我把它写了下来，我觉得你很理解我的生活方式，所以我想先给你看看。说不定对你也有用。 ^^-莱纳斯",
 	"Mail.Linus.Title": "莱纳斯",
 
     "Mail.Caroline.Text": "亲爱的 @,^^  我想告诉你，我最近写了一本关于茶叶栽培和制茶的书。我投入了大量时间来完善这项技能，并且我非常希望你，我的好朋友，能够看看。希望你会喜欢！ ^^-卡洛琳",
@@ -71,9 +92,15 @@
     "Mail.Pierre.Text": "亲爱的 @,^^ 我想向你推荐一本由我的朋友，一个稻米栽培专家，写的好书。此外，我还将提供一些急需优质稻米的人的联系方式给你。希望你喜欢这本书！ ^^-皮埃尔",
 	"Mail.Pierre.Title": "皮埃尔",
 
-    "Mail.Robin.Text": "亲爱的 @,^^  我想和你分享一本我压箱底的包含木工艺术见解的树。读完后，我想你的木匠技术就可以毕业了！那么作为木匠和木匠之间的相互赏识，我以后会给你折扣。享受阅读！ ^^-罗宾",
+    "Mail.Robin.Text": "亲爱的 @,^^  我想和你分享一本我压箱底的包含木工艺术见解的书。读完后，我想你的木匠技术就可以毕业了！那么作为木匠和木匠之间的相互赏识，我以后会给你折扣。享受阅读！ ^^-罗宾",
 	"Mail.Robin.Title": "罗宾",
     
     "Mail.Clint.Text": "亲爱的 @,^^  我打算和你分享这本关于矿石和锻造的书籍，它也是我的启蒙作。读完后，我会把你视为志同道合的朋友，并在我的店铺提供折扣。希望你也会读的津津有味！ ^^-克林特",
 	"Mail.Clint.Title": "克林特",
+
+    "Mail.Marnie.Text": "亲爱的 @,^^  你知道的，我花了很多时间研究和饲养牛和羊, 最终我决定把我毕生经验汇编成一本书。现在我把它分享给你，说不定你饲养动物时也可以参考一下！ ^^-玛尼",
+	"Mail.Marnie.Title": "玛尼",
+
+    "Mail.Dwarf.Text": "亲爱的 @,^^ 我们认识了这么久，你从没有打扰过我，也未曾泄露过我的存在。因此我打算与你分享我制作炸弹的秘密配方（随信附上了）。当然，你如果也想在我这里买炸弹，我肯定给你打折。 ^^-矮人",
+	"Mail.Dwarf.Title": "矮人"
 }

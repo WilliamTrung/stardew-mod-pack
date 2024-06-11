@@ -1,4 +1,76 @@
 {
+//Objects-i18n
+    "HardewValley.FruitTree.Strawpeach": "Morssego",
+	"object.HV.lucky-milk.name": "Leite Da Sorte",
+	"object.HV.lucky-milk.description": "É verde e não parece saboroso, mas se realmente lhe traz sorte, vale a pena.",
+	"object.HV.strawberry-cream-cup.name": "Copa De Morango Com Creme",
+	"object.HV.strawberry-cream-cup.description": "Morangos com creme servidos em uma copa luxuosa.",
+	"object.HV.strawberry-milk.name": "Leite de Morango",
+	"object.HV.strawberry-milk.description": "Um leite de morango rosa, delicioso e um pouco grosso.",
+	"object.HV.ultra-milk.name": "Ultra Leite",
+	"object.HV.ultra-milk.description": "Você pensou em misturar os dois? Você está louco?",
+	"object.HV.whipped-cream.name": "Creme Batido",
+	"object.HV.whipped-cream.description": "Creme batido feito com leite de qualidade.",
+	"object.HV.clover-gamma-seeds.name": "Sementes De Trevo Gamma",
+	"object.HV.clover-gamma-seeds.description": "Plante-as no Verão. Demora 7 dias para crescer. Cultive sua própria sorte!",
+	"object.HV.energyberry-seeds.name": "Sementes De Morango Energético",
+	"object.HV.energyberry-seeds.description": "Plante-as na primavera ou no outono. Demora 8 dias para crescer. Você sabe... essas não são legais...",
+	"object.HV.golden-strawberry-seeds.name": "Sementes De Morango Dourado",
+	"object.HV.golden-strawberry-seeds.description": "Plante-as na Primavera ou no Verão. Demora 50 dias para crescer. Produz algo belíssimo.",
+	"object.HV.silver-strawberry-seeds.name": "Sementes De Morango Prateado",
+	"object.HV.silver-strawberry-seeds.description": "Plante-as no Verão. Demora 8 dias para crescer. Produz um deleite visual.",
+	"object.HV.strawbit-seeds.name": "Sementes De Morango Bebé",
+	"object.HV.strawbit-seeds.description": "Plante-as no inverno. Demora 5 dias para crescer. Produz morangos bebés todos os dias.",
+	"object.HV.winged-golden-strawberry-seeds.name": "Sementes De Morango Dourado Alado",
+	"object.HV.winged-golden-strawberry-seeds.description": "Plante-as durante todo o ano. Demora 100 dias para crescer. Produz algo incrível.",
+	"object.HV.strawpeach-sapling.name": "Muda de Morssego",
+	"object.HV.strawpeach-sapling.description": "Demora até 28 dias para produzir um morssego maduro. Dá frutas no outono. Só cresce se os 8 espaços adjacentes estiverem vazios.",
+	"object.HV.clover-gamma.name": "Trevo Gamma",
+	"object.HV.clover-gamma.description": "Se esta planta dá sorte, ela deve ser extraída. Com sorte, ele crescerá muito... Talvez até demais.",
+	"object.HV.energyberry.name": "Morango Energético",
+	"object.HV.energyberry.description": "A energia que essa fruta fornece é impressionante. Não tente vendê-la ou você será multado pesadamente.... Não é muito legal.",
+	"object.HV.golden-strawberry.name": "Morango Dourado",
+	"object.HV.golden-strawberry.description": "É provavelmente a coisa mais bela que alguma vez viu. Detestaria afundar os seus dentes nela.",
+	"object.HV.silver-strawberry.name": "Morango Prateado",
+	"object.HV.silver-strawberry.description": "Brilha ao sol. Não muito valiosa. Uma lenda: Cresce colossalmente se certos fatores forem atendidos. Nunca foi verificada.",
+	"object.HV.strawbit.name": "Morango Bebé",
+	"object.HV.strawbit.description": "É tão pequena e adorável, não o engulas inteiro!",
+	"object.HV.strawpeach.name": "Morssego",
+	"object.HV.strawpeach.description": "Metade morango, metade pêssego, uma delícia doce e ao mesmo tempo doce.",
+	"object.HV.winged-golden-strawberry.name": "Morango Dourado Alado",
+	"object.HV.winged-golden-strawberry.description": "É provavelmente a coisa mais bonita e especial que alguma vez viu. vai voar para longe se o assustar!",
+	//Hats
+	"hat.HV.blue-omega-cap.name": "Boné Ômega Azul",
+	"hat.HV.blue-omega-cap.description": "Um boné preto com o símbolo Omega em azul.",
+	"hat.HV.golden-strawberry-tiara.name": "Tiara de Morango Dourado",
+	"hat.HV.golden-strawberry-tiara.description": "Uma tiara de prata com uma incrustação de morango dourado.",
+	"hat.HV.omega-cap.name": "Boné Ômega",
+	"hat.HV.omega-cap.description": "Um boné preto com o símbolo Omega em vermelho.",
+	"hat.HV.winged-strawberry-tiara.name": "Tiara de Morango Alado",
+	"hat.HV.winged-strawberry-tiara.description": "Tiara de Morango Alado",
+	//Mail
+	"mail.HV.TaxesToPay": "Prezado/a @,^Esta é uma comunicação do Banco da República de Ferngill. Como novo proprietário da Fazenda de Stardew Valley, você deve pagar os impostos correspondentes à ocupação da fazenda. Você receberá uma carta todo dia 28 do mês, na qual deverá adicionar o dinheiro correspondente ao imposto do mês. Agradecemos sua cooperação e esperamos que tenha sucesso em seu projeto.^ -Banco da República de Ferngill",
+	"mail.HV.TaxesToPayTitle": "Carta de Impostos",
+	"Mail.WelcomeHV1": "Olá @. Bem-vindo a Hardew Valley!^Nesta nova experiência, TUDO será mais difícil, o que se traduz em menos ganhos e mais tempo de jogo, mas é isso que você estava procurando, certo? Um desafio, não um jogo que termina no ano 3. Nos próximos dias você receberá em sua caixa de correio informações sobre várias coisas do mod, fique atento. A propósito, você gastou todo o seu dinheiro para chegar aqui, não lhe resta mais nada. Boa sorte, tenha um bom dia! %item money -500 %%^    -Divirta-se!^    -Juanpa98ar",
+	"Mail.WelcomeHV1Title": "Bem-vindo a Hardew Valley.",
+	"Mail.EBinfo": "Energia Ilegal.",
+	"Mail.EBinfo1": "Dizem que nos esgotos da vila há um ser das sombras, amigável, que pode obter muitas coisas que ninguém mais pode.... ou deveria, se é que você me entende.^Na primavera e no outono, ele deve ter certas sementes especiais...^      -OmegaData",	
+	"Mail.SBSinfo": "Variedades de Morangos.",
+	"Mail.SBSinfo1": "A Mãe Natureza nos abençoou com estranhas variedades de morangos, que, apesar de sua aparência, são totalmente comestíveis!^No entanto, os especialistas consideram que estes não são FRUTOS, portanto recomendam não fazer geléias, sucos ou outros produtos com estes morangos, que são: Morangos dourados, prateados e alados.^      -OmegaData",
+	"Mail.SSBinfo": "Nova Semente de Verão.",
+	"Mail.SSBinfo1": "As 'Sementes De Morango Prateado' está agora disponível na loja do Pierre, disponível apenas no verão.^Há uma lenda que diz que a lavoura pode se tornar gigantesca se estas exigências forem atendidas:^1.Um lote 3x3 com a mesma lavoura.^2.Todas as lavouras são totalmente cultivadas.^3.Pelo menos a lavoura central deve ser irrigada diariamente. Tudo o que resta é esperar.^     -OmegaData",
+	"Mail.SBinfo": "Nova Semente De Inverno",
+	"Mail.SBinfo1": "As 'Sementes De Morango Bebé' estão agora disponíveis na loja do Pierre, disponíveis apenas no inverno.^É uma lavoura de crescimento rápido e pode produzir 1 a 5 morangos bebês por dia! A fruta não é muito valiosa, mas você pode aumentar o preço fazendo suco ou outros produtos a partir deles.^     -OmegaData",
+	"Mail.GWSinfo": "Nova Semente de Ano Inteiro",
+	"Mail.GWSinfo1": "As 'Sementes De Morango Dourado Alado' está agora disponível na loja do Pierre, disponível durante todo o ano.^Esta maravilha da natureza é cara e leva um ano inteiro para crescer, mas o valor que você pode obter com esta safra é imenso!^     -OmegaData",
+	"Mail.CGinfo": "Nova Semente de Verão.",
+	"Mail.CGinfo1": "As 'Sementes De Trevo Gamma' está agora disponível na loja do Pierre, disponível apenas no verão.^ Diz-se que encontrar um trevo de 4 folhas é uma grande sorte, então por que não cultivá-lo? Descubra novas receitas com Gus, para tirar o máximo proveito desta cultura. As abelhas podem produzir mel a partir destes trevos. Pode tornar-se gigante.^     -OmegaData",
+    //Machines
+	"HV.CountCoal.Message": "Quantidade de Carvão necessária",
+	"HV.CountOre.Message": "Quantidade de Minério necessária",
+	"HV.CountWood.Message": "Quantidade de Madeira necessária",
+	"HV.CountTorch.Message": "Quantidade de Tochas necessárias",
+	
 //Descrição da lavouras
     "CropDescription.info.SGB": "Plante-o no início do Verão ou em meados do mês, utilizando solo foliar. Demora 50 dias a crescer.",
 	"CropDescription.info.AF": "Plante-os no dia 1 de qualquer estação excepto Inverno, ou mais tarde utilizando solo foliar. Demora 28 dias a crescer e continua a produzir a cada 26 dias.",
@@ -137,6 +209,27 @@
 	"config.IMPORTANT!.description": "Faça o mesmo com as outras opções para ver uma descrição do que cada uma faz.",
 	"config.IMPORTANT!.Values.= Not here. On the left! =": "= Aqui não. À esquerda! =",
 
+	"config.NewObjectsToggle.name": "Objetos de Hardew Valley",
+	"config.NewObjectsToggle.description": "Ativa/Desativa os novos objetos adicionados pelo mod.\nEles não são necessariamente uma ajuda, mas dão um pouco mais de variedade à jogabilidade. Ativado por padrão.",
+
+	"config.PaidTaxes.name": "Cobrança de Impostos",
+	"config.PaidTaxes.description": "Ativa/Desativa a cobrança de impostos.\nQuando tiver mais de 10.000 de ouro, no dia 28 de cada mês você receberá uma carta,\nna qual deverá pagar uma quantia em dinheiro (configurável).",
+
+	"config.HV.Taxesss.name": "Impostos a Pagar:",
+	"config.HV.Taxesss.description": "Modificar o valor dos impostos que você deve pagar.\nValor único: Você deve pagar o valor exato do dinheiro escolhido a cada mês.\nDois valores: Você pagará um valor aleatório de dinheiro entre os dois valores,\n(por exemplo: Entre 10000 e 1000, você pode pagar um valor de 9999 ou 5454 ou 1001, etc., escolhido aleatoriamente pelo jogo).",
+
+	"config.OreNeeded.name": "Minério Necessário:",
+	"config.OreNeeded.description": "Modifica a quantidade de minérios necessários para criar barras.\nPadrão 5.",
+
+	"config.CoalNeeded.name": "Carvão Necessário:",
+	"config.CoalNeeded.description": "Modifique a quantidade de carvão necessária para usar a fornalha.\nPadrão 1.",
+
+	"config.OreNeededHeavy.name": "Minério Necessário (Pesado):",
+	"config.OreNeededHeavy.description": "Modifica a quantidade de minérios necessários para criar barras (Alto-Forno).\nPadrão 25.",
+
+	"config.CoalNeededHeavy.name": "Carvão Necessário (Pesado):",
+	"config.CoalNeededHeavy.description": "Modifique a quantidade de carvão necessária para usar a fornalha (Alto-Forno).\nPadrão 3.",
+
 	"config.ObjectsToggle.name": "Mudanças nos Objetos",
 	"config.ObjectsToggle.description": "Ative essa opção para modificar o ouro, a saúde e a energia obtidos dos objetos.",
 	
@@ -242,7 +335,7 @@
 	"config.Reduce Selling Price, Energy & Life(SVE Products).description": "Reduz a regeneração de vida e energia e o preço de venda dos Objetos, por um valor fixo. Requer o mod 'Stardew Valley Expanded' para funcionar.",
 
 	"config.Reduce Selling Price (WFFE Products).name": "Modificação de Objetos",
-	"config.Reduce Selling Price (WFFE Products).description": "Reduz a regeneração de vida e energia e o preço de venda dos Objetos, por um valor fixo. Requer o mod 'Wild Food Forage Expansion' para funcionar.",
+	"config.Reduce Selling Price (WFFE Products).description": "Reduz a regeneração de vida e energia e o preço de venda dos Objetos, por um valor fixo. Requer o mod 'Wildflour's Atelier Goods - Forager' para funcionar.",
 
 	"config.Reduce Selling Price (ES Products).name": "Modificação de Objetos",
 	"config.Reduce Selling Price (ES Products).description": "Reduz a regeneração de vida e energia e o preço de venda dos Objetos, por um valor fixo. Requer o mod 'East Scarp' para funcionar.",
@@ -270,7 +363,7 @@
 	"config.section.Stardew Valley Expanded.name": "Stardew Valley Expanded",
 	"config.section.Ridgeside Village.name": "Ridgeside Village",
 	"config.section.East Scarp.name": "East Scarp",
-	"config.section.Wild Food - A Forage Expansion.name": "Wild Food - A Forage Expansion",
+	"config.section.Wild Food - A Forage Expansion.name": "Wildflour's Atelier Goods - Forager",
 	
 	"Mail.GuntherGiftHV": "Olá @,^^Segue em anexo uma parte do financiamento que nos foi concedido recentemente pela Secretaria Regional de Artefatos. Graças às suas generosas doações, o museu se tornou um dos principais contribuintes para os esforços contínuos de conservação do patrimônio cultural de Ferngill. Espero que esses fundos ajudem em suas aventuras futuras.^^ -Gunther %item money 8000 8001 %%[#]Pagamento do Museu"
 }

@@ -1,0 +1,985 @@
+{
+    "Changes": [
+//Seeds                                                                   
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "Juanpa98ar.HVJA_Clover_Gamma_Seeds": {
+                    "Seasons": [
+                        "Summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        3
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemId": "Juanpa98ar.HVJA_Clover_Gamma",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Grab",
+                    "TintColors": [],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Clover Gamma Crop",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+                "Juanpa98ar.HVJA_Energyberry_Seeds": {
+                    "Seasons": [
+                        "Spring",
+						"Fall"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        2,
+                        2,
+						2
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemId": "Juanpa98ar.HVJA_Energyberry",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                    "ExtraHarvestChance": 0.3,
+                    "HarvestMethod": "Grab",
+                    "TintColors": [],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Energyberry Crop",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+				"Juanpa98ar.HVJA_Golden_Strawberry_Seeds": {
+                    "Seasons": [
+                        "Spring",
+						"Summer",
+						"Fall",
+                    ],
+                    "DaysInPhase": [
+                        5,
+                        9,
+                        11,
+                        12,
+						13
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemId": "Juanpa98ar.HVJA_Golden_Strawberry",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Grab",
+                    "TintColors": [],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Golden Strawberry Crop",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+				"Juanpa98ar.HVJA_Silver_Strawberry_Seeds": {
+                    "Seasons": [
+                        "Summer"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        2,
+						3
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemId": "Juanpa98ar.HVJA_Silver_Strawberry",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Grab",
+                    "TintColors": [],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Silver Strawberry Crop",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+				"Juanpa98ar.HVJA_Strawbit_Seeds": {
+                    "Seasons": [
+                        "Winter"
+                    ],
+                    "DaysInPhase": [
+                        1,
+                        1,
+                        1,
+                        1,
+						1
+                    ],
+                    "RegrowDays": 1,
+                    "IsRaised": false,
+                    "HarvestItemId": "Juanpa98ar.HVJA_Strawbit",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 4,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                    "ExtraHarvestChance": 0.1,
+                    "HarvestMethod": "Scythe",
+                    "TintColors": [],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawbit Crop",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+				"Juanpa98ar.HVJA_Winged_Golden_Strawberry_Seeds": {
+                    "Seasons": [
+                        "Spring",
+						"Summer",
+						"Fall",
+						"Winter"
+                    ],
+                    "DaysInPhase": [
+                        10,
+                        18,
+                        22,
+                        24,
+						26
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemId": "Juanpa98ar.HVJA_Winged_Golden_Strawberry",
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 1,
+                    "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                    "ExtraHarvestChance": 0.0,
+                    "HarvestMethod": "Grab",
+                    "TintColors": [],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Winged Golden Strawberry Crop",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+			}
+        },
+//Giants                                                                   
+	    {
+            "Action": "EditData",
+            "Target": "Data/GiantCrops",
+            "Entries": {
+                "Juanpa98ar.HVJA_Silver_Strawberry_Giant": {
+                    "FromItemId": "Juanpa98ar.HVJA_Silver_Strawberry",
+                    "HarvestItems": [
+                      {
+                        "Chance": 1.0,
+                        "ForShavingEnchantment": null,
+                        "ScaledMinStackWhenShaving": 2,
+                        "ScaledMaxStackWhenShaving": 2,
+                        "Condition": null,
+                        "Id": "Juanpa98ar.HVJA_Silver_Strawberry",
+                        "ItemId": "Juanpa98ar.HVJA_Silver_Strawberry",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": 15,
+                        "MaxStack": 21,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack",
+                        "ModData": null,
+                        "PerItemCondition": null
+                      }
+                    ],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Silver Strawberry Giant",
+                    "TexturePosition": {
+                      "X": 0,
+                      "Y": 0
+                    },
+                    "TileSize": {
+                      "X": 3,
+                      "Y": 3
+                    },
+                    "Health": 10,
+                    "Chance": 0.15,
+                    "Condition": null,
+                    "CustomFields": null
+                },
+				"Juanpa98ar.HVJA_Clover_Gamma_Giant": {
+                    "FromItemId": "Juanpa98ar.HVJA_Clover_Gamma",
+                    "HarvestItems": [
+                      {
+                        "Chance": 1.0,
+                        "ForShavingEnchantment": null,
+                        "ScaledMinStackWhenShaving": 2,
+                        "ScaledMaxStackWhenShaving": 2,
+                        "Condition": null,
+                        "Id": "Juanpa98ar.HVJA_Clover_Gamma",
+                        "ItemId": "Juanpa98ar.HVJA_Clover_Gamma",
+                        "RandomItemId": null,
+                        "MaxItems": null,
+                        "MinStack": 15,
+                        "MaxStack": 21,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack",
+                        "ModData": null,
+                        "PerItemCondition": null
+                      }
+                    ],
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Clover Gamma Giant",
+                    "TexturePosition": {
+                      "X": 0,
+                      "Y": 0
+                    },
+                    "TileSize": {
+                      "X": 3,
+                      "Y": 3
+                    },
+                    "Health": 2,
+                    "Chance": 0.15,
+                    "Condition": null,
+                    "CustomFields": null
+                }
+            }
+        },
+//FruitTrees                                                                   
+	    {
+		    "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "Juanpa98ar.HVJA_Strawpeach_Sapling": {
+                "PlantableLocationRules": null,
+                "DisplayName": "{{i18n:HardewValley.FruitTree.Strawpeach}}",
+                "Seasons": [
+                  "Fall"
+                ],
+                "Fruit": [
+                  {
+                    "Season": null,
+                    "Chance": 1.0,
+                    "Condition": null,
+                    "Id": "Default",
+                    "ItemId": "Juanpa98ar.HVJA_Strawpeach",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": "Stack",
+                    "QualityModifiers": null,
+                    "QualityModifierMode": "Stack",
+                    "ModData": null,
+                    "PerItemCondition": null
+                  }
+                ],
+                "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawpeach Tree",
+                "TextureSpriteRow": 0,
+                "CustomFields": null
+                }
+            }
+        },
+//Objects                                                                   
+	    {
+		//FoodObjects
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Juanpa98ar.HVJA_Lucky_Milk_Gamma": {
+                    "Name": "Lucky Milk Gamma",
+                    "DisplayName": "{{i18n:object.HV.lucky-milk.name}}",
+                    "Description": "{{i18n:object.HV.lucky-milk.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Lucky Milk Gamma",
+                    "SpriteIndex": 0,
+                    "Edibility": -10,
+                    "IsDrink": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+					"ContextTags": [
+                        "color_green"
+                    ],
+                    "Buffs": [
+                        {
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 3,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 15,
+                                "MagneticRadius": 35,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                        },
+                    ],
+                },
+                "Juanpa98ar.HVJA_Strawberry_Cream_Cup_Omega": {
+                    "Name": "Strawberry Cream Cup Omega",
+                    "DisplayName": "{{i18n:object.HV.strawberry-cream-cup.name}}",
+                    "Description": "{{i18n:object.HV.strawberry-cream-cup.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawberry Cream Cup Omega",
+                    "SpriteIndex": 0,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+					"ContextTags": [
+                        "color_white"
+                    ],
+                    "Buffs": [
+                        {
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 2,
+                                "MiningLevel": 2,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 1,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 50,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                        },
+                    ],
+                },
+				"Juanpa98ar.HVJA_Strawberry_Milk_Alfa": {
+                    "Name": "Lucky Milk Gamma",
+                    "DisplayName": "{{i18n:object.HV.strawberry-milk.name}}",
+                    "Description": "{{i18n:object.HV.strawberry-milk.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawberry Milk Alfa",
+                    "SpriteIndex": 0,
+                    "Edibility": 35,
+                    "IsDrink": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+					"ContextTags": [
+                        "color_pink"
+                    ],
+                    "Buffs": [
+                        {
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "FarmingLevel": 2,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 2,
+                                "MaxStamina": 45,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                        },
+                    ],
+                },
+				"Juanpa98ar.HVJA_Ultra_Milk_Omega": {
+                    "Name": "Ultra Milk Omega",
+                    "DisplayName": "{{i18n:object.HV.ultra-milk.name}}",
+                    "Description": "{{i18n:object.HV.ultra-milk.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 250,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Ultra Milk Omega",
+                    "SpriteIndex": 0,
+                    "Edibility": -25,
+                    "IsDrink": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+					"ContextTags": [
+                        "color_brown"
+                    ],
+                    "Buffs": [
+                        {
+                            "Duration": 180,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3,
+                                "FishingLevel": 1,
+                                "MiningLevel": 1,
+                                "LuckLevel": 4,
+                                "ForagingLevel": 3,
+                                "MaxStamina": 25,
+                                "MagneticRadius": 70,
+                                "Speed": 2,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                        },
+                    ],
+                },
+				"Juanpa98ar.HVJA_Whipped_Cream_Beta": {
+                    "Name": "Whipped Cream Beta",
+                    "DisplayName": "{{i18n:object.HV.whipped-cream.name}}",
+                    "Description": "{{i18n:object.HV.whipped-cream.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 50,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Whipped Cream Beta",
+                    "SpriteIndex": 0,
+                    "Edibility": 5,
+                    "IsDrink": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+					"ContextTags": [
+                        "color_white"
+                    ],
+                    "Buffs": [
+                        {
+                            "Duration": 300,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 1,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            },
+                        },
+                    ],
+                },
+			//SeedObjects
+                "Juanpa98ar.HVJA_Clover_Gamma_Seeds": {
+                    "Name": "Clover Gamma Seeds",
+                    "DisplayName": "{{i18n:object.HV.clover-gamma-seeds.name}}",
+                    "Description": "{{i18n:object.HV.clover-gamma-seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Clover Gamma Seed",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                },
+				"Juanpa98ar.HVJA_Energyberry_Seeds": {
+                    "Name": "Energyberry Seeds",
+                    "DisplayName": "{{i18n:object.HV.energyberry-seeds.name}}",
+                    "Description": "{{i18n:object.HV.energyberry-seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 0,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Energyberry Seed",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                },
+				"Juanpa98ar.HVJA_Golden_Strawberry_Seeds": {
+                    "Name": "Golden Strawberry Seeds",
+                    "DisplayName": "{{i18n:object.HV.golden-strawberry-seeds.name}}",
+                    "Description": "{{i18n:object.HV.golden-strawberry-seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 100,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Golden Strawberry Seed",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                },
+				"Juanpa98ar.HVJA_Silver_Strawberry_Seeds": {
+                    "Name": "Silver Strawberry Seeds",
+                    "DisplayName": "{{i18n:object.HV.silver-strawberry-seeds.name}}",
+                    "Description": "{{i18n:object.HV.silver-strawberry-seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Silver Strawberry Seed",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                },
+				"Juanpa98ar.HVJA_Strawbit_Seeds": {
+                    "Name": "Strawbit Seeds",
+                    "DisplayName": "{{i18n:object.HV.strawbit-seeds.name}}",
+                    "Description": "{{i18n:object.HV.strawbit-seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 3,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawbit Seed",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                },
+				"Juanpa98ar.HVJA_Winged_Golden_Strawberry_Seeds": {
+                    "Name": "Winged Golden Strawberry Seeds",
+                    "DisplayName": "{{i18n:object.HV.winged-golden-strawberry-seeds.name}}",
+                    "Description": "{{i18n:object.HV.winged-golden-strawberry-seeds.description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 10,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Winged Golden Strawberry Seed",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                },
+				//Sapling
+				"Juanpa98ar.HVJA_Strawpeach_Sapling": {
+                    "Name": "Strawpeach Sapling",
+                    "DisplayName": "{{i18n:object.HV.strawpeach-sapling.name}}",
+                    "Description": "{{i18n:object.HV.strawpeach-sapling.description}}",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 400,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawpeach Sapling",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true
+                },
+				//Objects
+                "Juanpa98ar.HVJA_Clover_Gamma": {
+                    "Name": "Clover Gamma",
+                    "DisplayName": "{{i18n:object.HV.clover-gamma.name}}",
+                    "Description": "{{i18n:object.HV.clover-gamma.description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 120,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Clover Gamma",
+                    "SpriteIndex": 0,
+                    "Edibility": -5,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_green",
+                    ]
+                },
+                "Juanpa98ar.HVJA_Energyberry": {
+                    "Name": "Energyberry",
+                    "DisplayName": "{{i18n:object.HV.energyberry.name}}",
+                    "Description": "{{i18n:object.HV.energyberry.description}}",
+                    "Type": "Basic",
+                    "Category": -17,
+                    "Price": -1000,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Energyberry",
+                    "SpriteIndex": 0,
+                    "Edibility": 33,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_green",
+                    ]
+                },
+                "Juanpa98ar.HVJA_Golden_Strawberry": {
+                    "Name": "Golden Strawberry",
+                    "DisplayName": "{{i18n:object.HV.golden-strawberry.name}}",
+                    "Description": "{{i18n:object.HV.golden-strawberry.description}}",
+                    "Type": "Basic",
+                    "Category": -17,
+                    "Price": 17500,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Golden Strawberry",
+                    "SpriteIndex": 0,
+                    "Edibility": 100,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_yellow",
+                    ]
+                },
+				"Juanpa98ar.HVJA_Silver_Strawberry": {
+                    "Name": "Silver Strawberry",
+                    "DisplayName": "{{i18n:object.HV.silver-strawberry.name}}",
+                    "Description": "{{i18n:object.HV.silver-strawberry.description}}",
+                    "Type": "Basic",
+                    "Category": -17,
+                    "Price": 185,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Silver Strawberry",
+                    "SpriteIndex": 0,
+                    "Edibility": 3,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_gray",
+                    ]
+                },
+				"Juanpa98ar.HVJA_Strawbit": {
+                    "Name": "Strawbit",
+                    "DisplayName": "{{i18n:object.HV.strawbit.name}}",
+                    "Description": "{{i18n:object.HV.strawbit.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 11,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawbit",
+                    "SpriteIndex": 0,
+                    "Edibility": 2,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_red",
+                    ]
+                },
+				"Juanpa98ar.HVJA_Strawpeach": {
+                    "Name": "Strawpeach",
+                    "DisplayName": "{{i18n:object.HV.strawpeach.name}}",
+                    "Description": "{{i18n:object.HV.strawpeach.description}}",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 75,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Strawpeach",
+                    "SpriteIndex": 0,
+                    "Edibility": 15,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_red",
+                    ]
+                },
+				"Juanpa98ar.HVJA_Winged_Golden_Strawberry": {
+                    "Name": "Winged Golden Strawberry",
+                    "DisplayName": "{{i18n:object.HV.winged-golden-strawberry.name}}",
+                    "Description": "{{i18n:object.HV.winged-golden-strawberry.description}}",
+                    "Type": "Basic",
+                    "Category": -17,
+                    "Price": 56789,
+                    "Texture": "Mods\\Juanpa98ar.HardewValley\\Winged Golden Strawberry",
+                    "SpriteIndex": 0,
+                    "Edibility": 500,
+                    "IsDrink": false,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_yellow",
+                    ]
+                }
+			}
+		},
+//Shops                                                                   
+        //SeedStore
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				//Seed
+                "Juanpa98ar.HVJA_Clover_Gamma_Seeds": {
+                    "Id": "Juanpa98ar.HVJA_Clover_Gamma_Seeds",
+                    "ItemId": "Juanpa98ar.HVJA_Clover_Gamma_Seeds",
+                    "Price": "95",
+                    "IsRecipe": "false",
+					"Condition": "SEASON summer, YEAR 2",
+                },
+				"Juanpa98ar.HVJA_Golden_Strawberry_Seeds": {
+                    "Id": "Juanpa98ar.HVJA_Golden_Strawberry_Seeds",
+                    "ItemId": "Juanpa98ar.HVJA_Golden_Strawberry_Seeds",
+                    "Price": "9000",
+                    "IsRecipe": "false",
+					"Condition": "SEASON spring summer fall",
+                },
+				"Juanpa98ar.HVJA_Silver_Strawberry_Seeds": {
+                    "Id": "Juanpa98ar.HVJA_Silver_Strawberry_Seeds",
+                    "ItemId": "Juanpa98ar.HVJA_Silver_Strawberry_Seeds",
+                    "Price": "150",
+                    "IsRecipe": "false",
+					"Condition": "SEASON summer",
+                },
+				"Juanpa98ar.HVJA_Strawbit_Seeds": {
+                    "Id": "Juanpa98ar.HVJA_Strawbit_Seeds",
+                    "ItemId": "Juanpa98ar.HVJA_Strawbit_Seeds",
+                    "Price": "300",
+                    "IsRecipe": "false",
+					"Condition": "SEASON winter",
+                },
+				"Juanpa98ar.HVJA_Winged_Golden_Strawberry_Seeds": {
+                    "Id": "Juanpa98ar.HVJA_Winged_Golden_Strawberry_Seeds",
+                    "ItemId": "Juanpa98ar.HVJA_Winged_Golden_Strawberry_Seeds",
+                    "Price": "23000",
+                    "IsRecipe": "false",
+					"Condition": "YEAR 2",
+                },
+				//Tree
+				"Juanpa98ar.HVJA_Strawpeach_Sapling": {
+                    "Id": "Juanpa98ar.HVJA_Strawpeach_Sapling",
+                    "ItemId": "Juanpa98ar.HVJA_Strawpeach_Sapling",
+                    "Price": "2000",
+                    "IsRecipe": "false",
+					"Condition": "SEASON summer fall",
+                }
+            }
+        },
+		//Krobus
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "ShadowShop",
+                "Items"
+            ],
+			"Entries": {
+                "Juanpa98ar.HVJA_Energyberry_Seeds": {
+                    "Id": "Juanpa98ar.HVJA_Energyberry_Seeds",
+                    "ItemId": "Juanpa98ar.HVJA_Energyberry_Seeds",
+                    "Price": "425",
+                    "IsRecipe": "false",
+					"Condition": "SEASON spring fall",
+                },
+            },
+        },
+		//Gus
+		//Recipes
+		{
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Saloon",
+                "Items"
+            ],
+			"Entries": {
+                "Juanpa98ar.HVJA_Lucky_Milk_Gamma": {
+                    "Id": "Juanpa98ar.HVJA_Lucky_Milk_Gamma",
+                    "ItemId": "Juanpa98ar.HVJA_Lucky_Milk_Gamma",
+                    "Price": "3500",
+                    "IsRecipe": "true",
+					"Condition": "YEAR 2",
+                },
+				"Juanpa98ar.HVJA_Strawberry_Cream_Cup_Omega": {
+                    "Id": "Juanpa98ar.HVJA_Strawberry_Cream_Cup_Omega",
+                    "ItemId": "Juanpa98ar.HVJA_Strawberry_Cream_Cup_Omega",
+                    "Price": "2500",
+                    "IsRecipe": "true"
+                },
+				"Juanpa98ar.HVJA_Strawberry_Milk_Alfa": {
+                    "Id": "Juanpa98ar.HVJA_Strawberry_Milk_Alfa",
+                    "ItemId": "Juanpa98ar.HVJA_Strawberry_Milk_Alfa",
+                    "Price": "3000",
+                    "IsRecipe": "true"
+                },
+				"Juanpa98ar.HVJA_Ultra_Milk_Omega": {
+                    "Id": "Juanpa98ar.HVJA_Ultra_Milk_Omega",
+                    "ItemId": "Juanpa98ar.HVJA_Ultra_Milk_Omega",
+                    "Price": "5000",
+                    "IsRecipe": "true",
+					"Condition": "YEAR 2",
+                },
+				"Juanpa98ar.HVJA_Whipped_Cream_Beta": {
+                    "Id": "Juanpa98ar.HVJA_Whipped_Cream_Beta",
+                    "ItemId": "Juanpa98ar.HVJA_Whipped_Cream_Beta",
+                    "Price": "800",
+                    "IsRecipe": "true"
+                },
+            }
+        },
+//CookingRecipes                                                                   
+		{
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Lucky Milk Gamma": "Juanpa98ar.HVJA_Clover_Gamma 5 -6 1/9999 9999/Juanpa98ar.HVJA_Lucky_Milk_Gamma/null/{{i18n:Object.HV.Lucky-Milk.name}}",
+                "Strawberry Cream Cup Omega": "Juanpa98ar.HVJA_Whipped_Cream_Beta 1 400 5/9999 9999/Juanpa98ar.HVJA_Strawberry_Cream_Cup_Omega/null/{{i18n:Object.HV.Strawberry-Cream-Cup.name}}",
+                "Strawberry Milk Alfa": "-6 1 400 5/9999 9999/Juanpa98ar.HVJA_Strawberry_Milk_Alfa/null/{{i18n:Object.HV.Strawberry-Milk.name}}", 
+                "Ultra Milk Omega": "Juanpa98ar.HVJA_Strawberry_Milk_Alfa 1 Juanpa98ar.HVJA_Lucky_Milk_Gamma 1 Juanpa98ar.HVJA_Whipped_Cream_Beta 1/9999 9999/Juanpa98ar.HVJA_Ultra_Milk_Omega/null/{{i18n:Object.HV.Ultra-Milk.name}}",
+                "Whipped Cream Beta": "-6 2 245 1/9999 9999/Juanpa98ar.HVJA_Whipped_Cream_Beta/null/{{i18n:Object.HV.Whipped-Cream.name}}",
+            }
+        },
+//LoadImages                                                                   
+        //Crops
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Clover Gamma Crop",
+            "FromFile": "assets/Crops/Clover Gamma Crop.png",
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Golden Strawberry Crop",
+            "FromFile": "assets/Crops/Golden Strawberry Crop.png",
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Silver Strawberry Crop",
+            "FromFile": "assets/Crops/Silver Strawberry Crop.png",
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawbit Crop",
+            "FromFile": "assets/Crops/Strawbit Crop.png",
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Winged Golden Strawberry Crop",
+            "FromFile": "assets/Crops/Winged Golden Strawberry Crop.png",
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Energyberry Crop",
+            "FromFile": "assets/Crops/Energyberry Crop.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawpeach Tree",
+            "FromFile": "assets/Crops/Strawpeach Tree.png",
+        },
+		//GiantCrops
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Silver Strawberry Giant",
+            "FromFile": "assets/Crops/Silver Strawberry Giant.png",
+        },
+        {
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Clover Gamma Giant",
+            "FromFile": "assets/Crops/Clover Gamma Giant.png",
+        },
+		//FoodObjectsImages
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Lucky Milk Gamma",
+            "FromFile": "assets/Objects/Lucky Milk Gamma.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawberry Cream Cup Omega",
+            "FromFile": "assets/Objects/Strawberry Cream Cup Omega.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawberry Milk Alfa",
+            "FromFile": "assets/Objects/Strawberry Milk Alfa.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Ultra Milk Omega",
+            "FromFile": "assets/Objects/Ultra Milk Omega.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Whipped Cream Beta",
+            "FromFile": "assets/Objects/Whipped Cream Beta.png",
+        },
+		//SeedObjects
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Clover Gamma Seed",
+            "FromFile": "assets/Objects/Clover Gamma Seed.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Energyberry Seed",
+            "FromFile": "assets/Objects/Energyberry Seed.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Golden Strawberry Seed",
+            "FromFile": "assets/Objects/Golden Strawberry Seed.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Silver Strawberry Seed",
+            "FromFile": "assets/Objects/Silver Strawberry Seed.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawbit Seed",
+            "FromFile": "assets/Objects/Strawbit Seed.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawpeach Sapling",
+            "FromFile": "assets/Objects/Strawpeach Sapling.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Winged Golden Strawberry Seed",
+            "FromFile": "assets/Objects/Winged Golden Strawberry Seed.png",
+        },
+		//Objects
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Clover Gamma",
+            "FromFile": "assets/Objects/Clover Gamma.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Energyberry",
+            "FromFile": "assets/Objects/Energyberry.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Golden Strawberry",
+            "FromFile": "assets/Objects/Golden Strawberry.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Silver Strawberry",
+            "FromFile": "assets/Objects/Silver Strawberry.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawbit",
+            "FromFile": "assets/Objects/Strawbit.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Strawpeach",
+            "FromFile": "assets/Objects/Strawpeach.png",
+        },
+		{
+            "Action": "Load", "Priority": "Low",
+            "Target": "Mods/Juanpa98ar.HardewValley/Winged Golden Strawberry",
+            "FromFile": "assets/Objects/Winged Golden Strawberry.png",
+        }
+	]
+}

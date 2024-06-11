@@ -2,5 +2,7 @@
   "RenderManaBar": true,
   "XManaBarOffset": 0,
   "YManaBarOffset": 0,
-  "SizeMultiplier": 15.0
+  "SizeMultiplier": 15.0,
+  "MaxOverchargeValue": 2.0,
+  "BarsPosition": true
 }

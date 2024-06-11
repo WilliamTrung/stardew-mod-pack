@@ -9,6 +9,7 @@
 
     // generic values
     "generic.unknown": "sconosciuto",
+    "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -27,7 +28,7 @@
     "generic.price": "{{price}}g",
     "generic.price-for-quality": "{{price}}g ({{quality}})",
     "generic.price-for-stack": "{{price}}g ogni {{count}}",
-    "generic.show-x-results": "show {{count}} results", // TODO
+    "generic.show-x-results": "mostra {{count}} risultati",
 
     // types
     "type.building": "Edificio",
@@ -97,31 +98,19 @@
     "data.item.box.description": "Rompila per ottenere diversi materiali.",
 
     // location names
-    "location.backwoods": "campagna",
-    "location.beach": "spiaggia",
     "location.beach.east-pier": "spiaggia (molo orientale)",
     "location.bugLand": "tana dell'insetto mutante",
-    "location.busStop": "fermata dell'autobus",
-    "location.desert": "deserto",
     "location.desert.topPond": "deserto (stagno a nord)",
-    "location.farm": "fattoria",
     "location.farmCave": "grotta nella fattoria",
     "location.farmHouse": "casale",
-    "location.forest": "foresta",
     "location.forest.island-tip": "fiume nella foresta (punta Sud dell'isola maggiore)",
     "location.forest.lake": "laghetto nella foresta",
     "location.forest.river": "fiume nella foresta",
-    "location.mountain": "montagna",
-    "location.railroad": "ferrovia",
-    "location.sewer": "fogne",
     "location.submarine": "sottomarino",
-    "location.town": "paese",
     "location.town.northmost-bridge": "paese (ponte Nord)",
-    "location.tunnel": "tunnel dell'autobus",
     "location.undergroundMine": "miniera",
     "location.undergroundMine.level": "miniera livello {{level}}",
     "location.witchSwamp": "palude della strega",
-    "location.woods": "boschi segreti",
 
     "location.caldera": "Caldera dell'Isola Zenzero",
     "location.islandEast": "Zona est dell'Isola Zenzero",
@@ -133,7 +122,33 @@
     "location.islandWest.freshwater": "Zona ovest dell'Isola Zenzero (stagno)",
     "location.islandWest.ocean": "Zona ovest dell'Isola Zenzero (oceano)",
 
+    "location.fish-area": "{{locationName}} ({{areaName}})",
     "location.unknown-fish-area": "{{locationName}} (area di pesca {{id}})",
+
+
+    /*********
+    ** Conditions & context tags
+    *********/
+    "condition-or-context-tag.negate": "non {{value}}",
+
+    "condition.item-type.input": "oggetto inserito",
+    "condition.item-type.target": "oggetto finale",
+
+    "condition.raw-context-tag": "tag contesto \"{{tag}}\"",
+    "condition.raw-condition": "query \"{{tag}}\"",
+
+    "condition.item-context-tag": "{{item}} ha il tag contesto {{tags}}",
+    "condition.item-context-tags": "{{item}} ha i tag contesto {{tags}}",
+    "condition.item-context-tag.value": "'{{tag}}'", // the format of each context tag in the list (each context tag isn't translated)
+
+    "condition.item-edibility.edible": "{{item}} è commestibile",
+    "condition.item-edibility.min": "{{item}} è commestibile per {{min}} o più",
+    "condition.item-edibility.range": "{{item}} è commestibile per {{min}} fino ad un massimo di {{max}}",
+
+    "context-tag.bone": "qualsiasi osso",
+    "context-tag.egg": "qualsiasi uovo",
+    "context-tag.large-egg": "qualsiasi uovo grande",
+    "context-tag.preserved-item": "{{name}} conservato",
 
 
     /*********
@@ -315,9 +330,13 @@
     "item.needed-for.gourmet-chef": "l'achievement 'chef da gourmet' (cucina {{recipes}})",
     "item.needed-for.craft-master": "l'achievement 'maestro della fabbricazione' (crea {{recipes}})",
     "item.needed-for.quests": "missioni attuali ({{quests}})",
+    "item.unknown-recipes": "{{count}} ricette sconosciute",
     "item.sells-to.shipping-box": "Cassetta delle spedizioni",
     "item.recipes-for-ingredient.entry": "{{name}} ({{count}} necessari)",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
+    "item.recipes-for-machine.same-as-input": "[stesso oggetto]", // e.g. crystalarium produces same item that was put in
+    "item.recipes-for-machine.conditions": "[condizioni: {{conditions}}]",
+    "item.recipes-for-machine.too-complex": "Alcune regole della macchina sono troppo dinamiche per essere visualizzate.",
     "item.number-owned.summary": "Quantità posseduta: {{count}}",
     "item.number-crafted.summary": "Quantità fabbricata: {{count}}",
 
@@ -537,7 +556,7 @@
 
     // values
     "puzzle.solution.solved": "Puzzle risolto!",
-    "puzzle.solution.hidden": "Le soluzioni dei Puzzle sono nascoste nella modalità Progresso.",
+    "puzzle.solution.hidden": "Le soluzioni dei Puzzle sono nascoste in base alle tue impostazioni.",
 
 
     /*********
@@ -643,10 +662,20 @@
     *********/
     // main options
     "config.title.main-options": "Opzioni principali",
-    "config.progression-mode.name": "Modalità progressione",
-    "config.progression-mode.desc": "Scegli se nascondere alcuni contenuti (ad esempio, i gusti dei regali e le soluzioni degli enigmi) finché non li si scopre nel gioco.",
     "config.force-full-screen.name": "Forza schermo intero",
     "config.force-full-screen.desc": "Scegli se il menu deve essere sempre a tutto schermo, invece che centrato nella finestra. Questa opzione è utile soprattutto quando si visualizzano i campi di data mining.",
+
+    // progression mode
+    "config.title.progression": "Modalità progressione",
+
+    "config.progression.show-unknown-gift-tastes.name": "Mostra gusti dei regali sconosciuti",
+    "config.progression.show-unknown-gift-tastes.desc": "Scegli se mostrare i gusti dei regali che non si sono ancora appresi nel gioco (ad esempio dal testo del dialogo o sperimentando).",
+
+    "config.progression.show-unknown-recipes.name": "Mostra ricette sconosciute",
+    "config.progression.show-unknown-recipes.desc": "Scegli se mostrare le ricette che non si sono ancora imparate nel gioco.",
+
+    "config.progression.show-puzzle-solutions.name": "Mostra soluzioni dei puzzle",
+    "config.progression.show-puzzle-solutions.desc": "Scegli se mostrare le soluzioni dei puzzle.",
 
     // gift tastes
     "config.title.gift-tastes": "Gusti dei regali",
@@ -666,6 +695,17 @@
 
     "config.highlight-unrevealed-gift-tastes.name": "Evidenzia i gusti dei regali non rivelati",
     "config.highlight-unrevealed-gift-tastes.desc": "Scegli se evidenziare i gusti dei regali degli oggetti che non sono stati rivelati nel profilo del PNG. Se abilitato, i gusti dei regali non rivelati saranno in grassetto.",
+
+    // collapse fields
+    "config.title.collapse-fields": "Riduzione dei campi grandi",
+
+    "config.collapse-fields.enabled.name": "Abilitato",
+    "config.collapse-fields.enabled.desc": "Scegli se ridurre i campi grandi, in modo che il menu di ricerca sostituisca l'elenco con un link cliccabile 'mostra i valori X' per espanderlo.",
+
+    "config.collapse-fields.building-recipes.name": "Ricerca edificio: ricette",
+    "config.collapse-fields.item-recipes.name": "Ricerca oggetti: ricette",
+    "config.collapse-fields.npc-gift-tastes.name": "Ricerca PNG: gusti dei regali",
+    "config.collapse-fields.any.desc": "Se il campo contiene così tanti valori, il menu di ricerca sostituirà l'elenco con un link 'mostra X valori' cliccabile per espanderlo.",
 
     // advanced options
     "config.title.advanced-options": "Opzioni avanzate",

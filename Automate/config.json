@@ -29,14 +29,6 @@
     "CharcoalKiln": {
       "Priority": -100,
       "Enabled": true
-    },
-    "ShippingBin": {
-      "Priority": 100,
-      "Enabled": true
-    },
-    "MiniShippingBin": {
-      "Priority": 100,
-      "Enabled": true
     }
   },
   "MinMinutesForFairyDust": 20

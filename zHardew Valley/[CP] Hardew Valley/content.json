@@ -1,5 +1,5 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.1.0",
    //Aloha, you can see here but there is nothing interesting. Look, a caterpillar! (^.^ ) ) ) ) ) ) ) ) ( ( ( ( (  ) WooooooW 
    
     "ConfigSchema": {
@@ -8,6 +8,24 @@
 			"Description": "",
             "AllowValues": "= Not here. On the left! =",
             "Default": "= Not here. On the left! ="
+        },
+		"NewObjectsToggle": {
+            "AllowValues": "true, false",		
+			"Default": "true",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
+		"PaidTaxes": {
+            "AllowValues": "true, false",		
+			"Default": "false",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
+		"HV.Taxesss": {
+            "AllowValues": "-1000000, -100000, -10000, -1000, -1000000 -100000, -100000 -10000, -10000 -1000, -1000 -100, -1000000 -1, -100000 -1, -10000 -1, -1000 -1",		
+			"Default": "-1000",
+			"Description": " ",
+			"Section": "Objects & Products"
         },
 		"ObjectsToggle": {
             "AllowValues": "true, false",		
@@ -27,6 +45,30 @@
 			"Description": " ",
 			"Section": "Objects & Products"
 		},
+		"OreNeeded": {
+            "AllowValues": "5, 6, 7, 8, 9, 10",		
+			"Default": "5",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
+		"CoalNeeded": {
+            "AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",		
+			"Default": "1",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
+		"OreNeededHeavy": {
+            "AllowValues": "25, 30, 35, 40, 45, 50",		
+			"Default": "30",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
+		"CoalNeededHeavy": {
+            "AllowValues": "3, 6, 9, 12, 15, 18, 21, 24, 27, 30",		
+			"Default": "6",
+			"Description": " ",
+			"Section": "Objects & Products"
+        },
 //                          		           
         "Crops Reduction": {
             "AllowValues": "true, false",		
@@ -252,11 +294,23 @@
 		    "AllowValues": "true, false",
 			"Default": "false",
 			"Description": " ",
-			"Section": "Wild Food - A Forage Expansion"
+			"Section": "Wildflour's Atelier Goods - Forager"
 		}
 	},
 //                                                                                                            	
     "Changes": [
+//NewItems
+        {
+         "Action": "Include",
+	     "When": {
+		    "NewObjectsToggle": "true",
+			},
+         "FromFile": "data/Items/CodeCrObj.json"
+        },
+		{
+         "Action": "Include",
+         "FromFile": "data/Items/Hats.json"
+        },
 	
 //BUILDINGSCONFIG
         {
@@ -492,7 +546,7 @@
          "Action": "Include",
 	     "When": {
 		    "Reduce Selling Price (WFFE Products)": "true",
-			"HasMod": "wildflour.wildfoodforage"
+			"HasMod": "wildflour.ateliercrops"
 			},
          "FromFile": "data/Extras/WFForage.json"
         },
@@ -852,28 +906,11 @@
 			"72861026": {6: "400"},
 		    }
 		},
-	 
-		
-    //CONTEXT TAGS
-	 
-        {   
-	     "Action": "EditData",
-	     "Target": "Data/ObjectContextTags",
-	     "Entries": {  
-	        "{{spacechase0.JsonAssets/ObjectId:Strawberry Cream Cup Omega}}": "color_white, food_sweet",
-	        "{{spacechase0.JsonAssets/ObjectId:Strawberry Milk Alfa}}": "color_pink, drink_item, food_sweet",
-	        "{{spacechase0.JsonAssets/ObjectId:Whipped Cream Beta}}": "color_white, food_sweet",
-	        "{{spacechase0.JsonAssets/ObjectId:Golden Strawberry}}": "color_golden, season_spring, season_summer, season_fall, dye_medium",
-	        "{{spacechase0.JsonAssets/ObjectId:Golden Winged Strawberry}}": "color_golden, season_spring, season_summer, season_fall, season_winter, crop_year_2, dye_medium",
-	        "{{spacechase0.JsonAssets/ObjectId:Strawbit}}": "color_red, season_winter, dye_medium",
-	        "{{spacechase0.JsonAssets/ObjectId:Clover Gamma}}": "color_green, season_summer, crop_year_2, dye_medium",
-	        "{{spacechase0.JsonAssets/ObjectId:Silver Strawberry}}": "color_silver, season_summer, dye_medium",
-	        "{{spacechase0.JsonAssets/ObjectId:StrawPeach}}": "color_red, season_fall, fruit_item, fruit_tree_item",
-	        "{{spacechase0.JsonAssets/ObjectId:Ultra Milk Omega}}": "color_brown, food_sweet, drink_item, dye_medium",
-	        "{{spacechase0.JsonAssets/ObjectId:Lucky Milk Gamma}}": "color_green, food_sweet, drink_item, dye_medium",
-            }
+//Machine
+		{
+         "Action": "Include",
+         "FromFile": "data/Machines/Machines.json"
         },
-		
 //Relationship                		
 //Like
         {
@@ -901,6 +938,56 @@
 			 "DifficultyToggleRelations": "Dislike"
 		    },
          "FromFile": "data/Relationship/Dislike.json"
-        }
-	]
+        },
+//Mail         
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "JP98.HV_TaxesToPay": "{{i18n: mail.HV.TaxesToPay}} %item money {{HV.Taxesss}}%%[#]{{i18n: mail.HV.TaxesToPayTitle}}",
+			},
+			"When": {"PaidTaxes": "true"}
+        },			
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "Entries": {
+				"Custom_JP98.HV_TaxesToPay/u 27/M 10000/t 600 2600/x JP98.HV_TaxesToPay": "null",
+			},
+			"When": {"PaidTaxes": "true"}
+        },
+	//Other Mail
+	    {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+				"HardewValley.Y1Mail": "{{i18n: Mail.WelcomeHV1}}[#]{{i18n: Mail.WelcomeHV1Title}}",
+				"HardewValley.Y1ener": "{{i18n: Mail.EBinfo1}}[#]{{i18n: Mail.EBinfo}}",
+				"HardewValley.Y1SBS": "{{i18n: Mail.SBSinfo1}}[#]{{i18n: Mail.SBSinfo}}",
+				"HardewValley.Y1SSB": "{{i18n: Mail.SSBinfo1}}[#]{{i18n: Mail.SSBinfo}}",
+				"HardewValley.Y1SB": "{{i18n: Mail.SBinfo1}}[#]{{i18n: Mail.SBinfo}}",
+				"HardewValley.Y2GWS": "{{i18n: Mail.GWSinfo1}}[#]{{i18n: Mail.GWSinfo}}",
+				"HardewValley.Y2CG": "{{i18n: Mail.CGinfo1}}[#]{{i18n: Mail.CGinfo}}",
+			}
+        },
+		{
+            "Action": "EditData",
+            "Target": "Data/Events/FarmHouse",
+            "Entries": {
+				"HardewValley.Y1Mail/j 0/t 600 2600/x HardewValley.Y1Mail true": "null",
+				"HardewValley.Y1ener/j 6/t 600 2600/x HardewValley.Y1ener true": "null",
+				"HardewValley.Y1SBS/j 13/t 600 2600/x HardewValley.Y1SBS true": "null",
+				"HardewValley.Y1SSB/j 28/t 600 2600/x HardewValley.Y1SSB true": "null",
+				"HardewValley.Y1SB/j 84/t 600 2600/x HardewValley.Y1SB true": "null",
+				"HardewValley.Y2GWS/j 112/t 600 2600/x HardewValley.Y2GWS true": "null",
+				"HardewValley.Y2CG/j 140/t 600 2600/x HardewValley.Y2CG true": "null",
+			}
+        },
+	],
+	"RepeatEvents": [
+	"Custom_JP98.HV_TaxesToPay",
+	],
+	"RepeatMail": [
+	"JP98.HV_TaxesToPay",
+	],
 }

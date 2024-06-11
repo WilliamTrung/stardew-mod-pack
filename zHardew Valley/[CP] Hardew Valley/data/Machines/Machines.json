@@ -1,0 +1,238 @@
+{
+	"Changes": [
+	//NormalFurnace
+	    {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)13", "OutputRules", "#0", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeeded}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)13", "OutputRules", "#1", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeeded}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)13", "OutputRules", "#2", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeeded}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)13", "OutputRules", "#3", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeeded}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)13", "OutputRules", "#7", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeeded}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)13", "AdditionalConsumedItems", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{CoalNeeded}}",
+				"InvalidCountMessage": "{{i18n: HV.CountCoal.Message}}: {{CoalNeeded}}."
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)13"],
+			"Entries": {
+				"InvalidCountMessage": "{{i18n: HV.CountOre.Message}}: {{OreNeeded}}."
+		    }
+		},
+	//HeavyFurnace
+	    {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)HeavyFurnace", "OutputRules", "#0", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeededHeavy}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)HeavyFurnace", "OutputRules", "#1", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeededHeavy}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)HeavyFurnace", "OutputRules", "#2", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeededHeavy}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)HeavyFurnace", "OutputRules", "#3", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeededHeavy}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)HeavyFurnace", "OutputRules", "#7", "Triggers", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{OreNeededHeavy}}"
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)HeavyFurnace", "AdditionalConsumedItems", "#0"],
+			"Entries": {
+		        "RequiredCount": "{{CoalNeededHeavy}}",
+				"InvalidCountMessage": "{{i18n: HV.CountCoal.Message}}: {{CoalNeededHeavy}}."
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)HeavyFurnace"],
+			"Entries": {
+				"InvalidCountMessage": "{{i18n: HV.CountOre.Message}}: {{OreNeededHeavy}}."
+		    }
+		},
+	//Kiln
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)114", "OutputRules", "#0", "Triggers", "#0"],
+			"Entries": {
+                    "RequiredCount": 5
+		    }
+		},
+		{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)114"],
+			"Entries": {
+                "OutputRules": [
+      {
+        "Id": "Default",
+        "Triggers": [
+          {
+            "Id": "ItemPlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O)388",
+            "RequiredTags": null,
+            "RequiredCount": 5,
+            "Condition": null
+          }
+        ],
+        "UseFirstValidOutput": false,
+        "OutputItem": [
+          {
+            "CustomData": null,
+            "OutputMethod": null,
+            "CopyColor": false,
+            "CopyPrice": false,
+            "CopyQuality": false,
+            "PreserveType": null,
+            "PreserveId": null,
+            "IncrementMachineParentSheetIndex": 0,
+            "PriceModifiers": null,
+            "PriceModifierMode": "Stack",
+            "Condition": null,
+            "Id": "(O)382",
+            "ItemId": "(O)382",
+            "RandomItemId": null,
+            "MaxItems": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ],
+        "MinutesUntilReady": 30,
+        "DaysUntilReady": -1,
+        "InvalidCountMessage": "{{i18n: HV.CountWood.Message}}: 5",
+        "RecalculateOnCollect": false
+      },
+	  {
+        "Id": "Default_Torch",
+        "Triggers": [
+          {
+            "Id": "ItemPlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O)93",
+            "RequiredTags": null,
+            "RequiredCount": 3,
+            "Condition": null
+          }
+        ],
+        "UseFirstValidOutput": false,
+        "OutputItem": [
+          {
+            "CustomData": null,
+            "OutputMethod": null,
+            "CopyColor": false,
+            "CopyPrice": false,
+            "CopyQuality": false,
+            "PreserveType": null,
+            "PreserveId": null,
+            "IncrementMachineParentSheetIndex": 0,
+            "PriceModifiers": null,
+            "PriceModifierMode": "Stack",
+            "Condition": null,
+            "Id": "(O)382",
+            "ItemId": "(O)382",
+            "RandomItemId": null,
+            "MaxItems": null,
+            "MinStack": -1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ],
+        "MinutesUntilReady": 30,
+        "DaysUntilReady": -1,
+        "InvalidCountMessage": "{{i18n: HV.CountTorch.Message}}: 3",
+        "RecalculateOnCollect": false
+      }
+    ],
+		}
+		}
+	]
+}

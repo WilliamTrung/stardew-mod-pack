@@ -1,4 +1,76 @@
 {
+//Objects-i18n
+    "HardewValley.FruitTree.Strawpeach": "Fresaznero",
+	"object.HV.lucky-milk.name": "Leche De La Suerte",
+	"object.HV.lucky-milk.description": "Es verde y no parece sabrosa, pero si realmente te da suerte, vale la pena.",
+	"object.HV.strawberry-cream-cup.name": "Copa De Fresas Con Crema",
+	"object.HV.strawberry-cream-cup.description": "Fresas con crema servidas en una copa lujosa.",
+	"object.HV.strawberry-milk.name": "Leche De Fresa",
+	"object.HV.strawberry-milk.description": "Una leche de fresa rosada, deliciosa y algo espesa.",
+	"object.HV.ultra-milk.name": "Ultra Leche",
+	"object.HV.ultra-milk.description": "¿Se te ocurrió mezclar las dos? ¿Estás mal de la cabeza?",
+	"object.HV.whipped-cream.name": "Crema Batida",
+	"object.HV.whipped-cream.description": "Crema batida hecha con leche de calidad.",
+	"object.HV.clover-gamma-seeds.name": "Semillas De Trebol Gamma",
+	"object.HV.clover-gamma-seeds.description": "Plántalas en verano. Tarda 7 días en madurar. ¡Cultiva tu propia suerte!",
+	"object.HV.energyberry-seeds.name": "Semillas De Fresa Energética",
+	"object.HV.energyberry-seeds.description": "Plántalas en primavera u otoño. Tardan 8 días en madurar. Sabes... Estas no son legales...",
+	"object.HV.golden-strawberry-seeds.name": "Semillas De Fresa Dorada",
+	"object.HV.golden-strawberry-seeds.description": "Plántalas en primavera o verano. Tarda 50 días en madurar. Produce algo hermoso.",
+	"object.HV.silver-strawberry-seeds.name": "Semillas De Fresa Plateada",
+	"object.HV.silver-strawberry-seeds.description": "Plántalas en verano. Tarda 8 días en madurar. Produce una delicia visual.",
+	"object.HV.strawbit-seeds.name": "Semillas De Fresín",
+	"object.HV.strawbit-seeds.description": "Plántalas en invierno. Tarda 5 días en madurar. Produce fresines todos los días.",
+	"object.HV.winged-golden-strawberry-seeds.name": "Semillas De Fresa Dorada Alada",
+	"object.HV.winged-golden-strawberry-seeds.description": "Plántalas todo el año. Tarda 100 días en madurar. Produce algo hermoso.",
+	"object.HV.strawpeach-sapling.name": "Brote de Fresaznero",
+	"object.HV.strawpeach-sapling.description": "Tarda 28 días en producir un fresaznero adulto. Da fruta en Otoño. Solo crece si las 8 casillas que lo rodean están vacías.",
+	"object.HV.clover-gamma.name": "Trebol Gamma",
+	"object.HV.clover-gamma.description": "Si esta planta da suerte, hay que extraerla. Con suerte crecerá mucho... Tal vez demasiado.",
+	"object.HV.energyberry.name": "Fresa Energética",
+	"object.HV.energyberry.description": "La energía que proporciona esta baya es impresionante. No intentes venderla o serás multado severamente... No es muy legal.",
+	"object.HV.golden-strawberry.name": "Fresa Dorada",
+	"object.HV.golden-strawberry.description": "Es probablemente lo mas hermoso que has visto. Te da pena incarle el diente.",
+	"object.HV.silver-strawberry.name": "Fresa Plateada",
+	"object.HV.silver-strawberry.description": "Brilla en el sol. No es muy valiosa. Una leyenda: Crece de forma colosal si determinados factores se cumplen. Nunca fue verificada.",
+	"object.HV.strawbit.name": "Fresín",
+	"object.HV.strawbit.description": "Es tan pequeña y adorable, ¡No te la tragues entera!",
+	"object.HV.strawpeach.name": "Fresazno",
+	"object.HV.strawpeach.description": "Mitad fresa, mitad durazno, toda una delicia dulce a la vez que acida.",
+	"object.HV.winged-golden-strawberry.name": "Fresa Dorada Alada",
+	"object.HV.winged-golden-strawberry.description": "Es probablemente lo más bello y especial que has visto nunca. ¡Se irá volando si la asustas!",
+	//Hats
+	"hat.HV.blue-omega-cap.name": "Gorra Omega Azul",
+	"hat.HV.blue-omega-cap.description": "Una gorra negra con el símbolo Omega en azul.",
+	"hat.HV.golden-strawberry-tiara.name": "Tiara de Fresa Dorada",
+	"hat.HV.golden-strawberry-tiara.description": "Una tiara de plata con una incrustación de fresa dorada.",
+	"hat.HV.omega-cap.name": "Gorra Omega",
+	"hat.HV.omega-cap.description": "Una gorra negra con el símbolo Omega en rojo.",
+	"hat.HV.winged-strawberry-tiara.name": "Tiara de Fresa Alada",
+	"hat.HV.winged-strawberry-tiara.description": "Una tiara dorada con una fresa alada incrustada.",
+	//Mail
+	"mail.HV.TaxesToPay": "Estimado/a @,^Esta es una comunicación del Banco de la República de Ferngill, como nuevo propietario de la Granja de Stardew Valley debes pagar los impuestos correspondientes a la ocupación de la granja. Recibirás una carta cada 28 de mes donde deberás ingresar el dinero correspondiente al impuesto del mes. Le agradecemos su colaboración y esperamos que tenga éxito en su proyecto.^ -Banco de la República de Ferngill",
+	"mail.HV.TaxesToPayTitle": "Carta Fiscal",
+	"Mail.WelcomeHV1": "Hola @. ¡Esto es a Hardew Valley!^En esta nueva experiencia, TODO será más difícil, lo que se traduce en menos ganancias y más tiempo de juego, pero eso es lo que buscabas, ¿no? Un reto, no un juego que se acabe al tercer año. En los próximos días recibirás información sobre varias cosas del mod en tu buzón, estate atento. Por cierto, te has gastado todo tu dinero para llegar hasta aquí, no te queda nada. ¡Buena suerte, que tengas un buen día! %item money -500 %%^   -¡Disfruta!^   -Juanpa98ar",
+	"Mail.WelcomeHV1Title": "Te doy la bienvenida a Hardew Valley",
+	"Mail.EBinfo": "Energía Ilegal.",
+	"Mail.EBinfo1": "Se dice que en las cloacas del pueblo hay un ser de las sombras, amigable, que puede conseguir muchas cosas que nadie más puede... o debería, si sabes a lo que me refiero.^En primavera y otoño debería tener ciertas semillas especiales...^      -OmegaData",	
+	"Mail.SBSinfo": "Variedades De Fresas.",
+	"Mail.SBSinfo1": "La madre naturaleza nos ha bendecido con extrañas variedades de fresas que, a pesar de su aspecto, son totalmente comestibles.^Sin embargo, los expertos consideran que no son FRUTAS, por lo que recomiendan no hacer mermeladas, jugos u otros productos con estas fresas, que son: 'Fresas doradas, plateadas y aladas'.^      -OmegaData",
+	"Mail.SSBinfo": "Nueva Semilla De Verano.",
+	"Mail.SSBinfo1": "Las 'Semillas de Fresa Plateada' ya están disponibles en la tienda de Pierre, disponibles sólo en verano.^Hay una leyenda que dice que el cultivo puede llegar a ser gigante si se cumplen estos requisitos:^1.Una parcela de 3x3 con el mismo cultivo.^2.Todos los cultivos están completamente desarrollados.^3.Al menos el cultivo del centro debe regarse diariamente. Sólo queda esperar.^     -OmegaData",
+	"Mail.SBinfo": "Nueva Semilla De Invierno",
+	"Mail.SBinfo1": "Las 'Semillas De Fresín' ya están disponibles en la tienda de Pierre, sólo en invierno.^¡Es un cultivo de rápido crecimiento y puede producir de 1 a 5 fresas bebé cada día! La fruta no es muy valiosa, pero se puede aumentar el precio haciendo jugo u otros productos con ellas.^     -OmegaData",
+	"Mail.GWSinfo": "Nueva Semilla Para Todo El Año",
+	"Mail.GWSinfo1": "Las 'Semillas De Fresa Dorada Alada' ya están disponibles en la tienda de Pierre, disponibles todo el año.^Esta maravilla de la naturaleza es cara y tarda un año entero en crecer, ¡pero el valor que puedes obtener de esta cosecha es inmenso!^     -OmegaData",
+	"Mail.CGinfo": "Nueva Semilla De Verano",
+	"Mail.CGinfo1": "Las 'Semillas De Trébol Gamma' ya están disponibles en la tienda de Pierre, sólo en verano.^ Se dice que encontrar un trébol de 4 hojas da mucha suerte, así que ¿por qué no lo cultivas tú? Descubre nuevas recetas con Gus, para sacar el máximo partido a este cultivo. Las abejas pueden producir miel a partir de estos tréboles. Puede volverse gigante.^     -OmegaData",
+    //Machines
+	"HV.CountCoal.Message": "Cantidad de Carbón necesaria",
+	"HV.CountOre.Message": "Cantidad de Menas necesaria",
+	"HV.CountWood.Message": "Cantidad de Madera necesaria",
+	"HV.CountTorch.Message": "Cantidad de Antorchas necesarias",
+	
 //Descripción de los cultivos
     "CropDescription.info.SGB": "Siémbrala a principios de verano o a mediados de mes usando acelerador. Tarda 53 días en crecer.",
 	"CropDescription.info.AF": "Siémbralas el dia 1 de cualquier estación excepto invierno, o más tarde usando acelerador. Tarda 28 días en crecer y sigue produciendo cada 26 días.",
@@ -137,6 +209,27 @@
 	"config.IMPORTANT!.description": "Haz lo mismo con las demás opciones para ver una descripción de lo que hace cada una de ellas.",
 	"config.IMPORTANT!.Values.= Not here. On the left! =": "= Aquí no. ¡En la izquierda! =",
 
+	"config.NewObjectsToggle.name": "Objetos de Hardew Valley",
+	"config.NewObjectsToggle.description": "Activa/Desactiva los nuevos objetos añadidos por el mod.\nNo son necesariamente una ayuda, pero dan algo más de variedad al juego. Activado por defecto.",
+
+	"config.PaidTaxes.name": "Recaudación Fiscal",
+	"config.PaidTaxes.description": "Activa/Desactiva la recaudación de impuestos.\nCuando tengas más de 10000 de oro, el día 28 de cada mes recibirás una carta,\nen la que tendrás que pagar una cantidad de dinero (Configurable).",
+
+	"config.HV.Taxesss.name": "Impuestos a Pagar:",
+	"config.HV.Taxesss.description": "Modificar el importe de los impuestos que tienes que pagar.\nValor único: Debes pagar cada mes el valor exacto de dinero elegido.\nDos valores: Pagarás un valor aleatorio de dinero entre ambos valores,\n(Por ejemplo: Entre 10000 y 1000 puedes pagar un valor de 9999 o 5454 o 1001, etc, elegido aleatoriamente por el juego).",
+
+	"config.OreNeeded.name": "Menas Necesarias:",
+	"config.OreNeeded.description": "Modifica la cantidad de menas necesarias para crear lingotes.\nPor defecto 5.",
+
+	"config.CoalNeeded.name": "Carbón Necesario:",
+	"config.CoalNeeded.description": "Modificar la cantidad de carbón necesaria para utilizar el horno.\nPor defecto 1.",
+
+	"config.OreNeededHeavy.name": "Menas Necesarias (Pesado):",
+	"config.OreNeededHeavy.description": "Modifica la cantidad de menas necesarias para crear lingotes (Horno Pesado).\nPor defecto 25.",
+
+	"config.CoalNeededHeavy.name": "Carbón Necesario (Pesado):",
+	"config.CoalNeededHeavy.description": "Modifica la cantidad de carbón necesario para utilizar el horno (Horno Pesado).\nPor defecto 3.",
+
 	"config.ObjectsToggle.name": "Cambios en Objetos",
 	"config.ObjectsToggle.description": "Activa esta opción para modificar el oro, la salud y la energía obtenidos de los objetos.",
 	
@@ -242,7 +335,7 @@
 	"config.Reduce Selling Price, Energy & Life(SVE Products).description": "Reduce la regeneración de vida y energía y el precio de venta de los objetos, por un valor fijo. Requiere el Mod 'Stardew Valley Expanded' para funcionar.",
 
 	"config.Reduce Selling Price (WFFE Products).name": "Modificación de Objetos",
-	"config.Reduce Selling Price (WFFE Products).description": "Reduce la regeneración de vida y energía y el precio de venta de los objetos, por un valor fijo. Requiere el Mod 'Wild Food Forage Expansion' para funcionar.",
+	"config.Reduce Selling Price (WFFE Products).description": "Reduce la regeneración de vida y energía y el precio de venta de los objetos, por un valor fijo. Requiere el Mod 'Wildflour's Atelier Goods - Forager' para funcionar.",
 
 	"config.Reduce Selling Price (ES Products).name": "Modificación de Objetos",
 	"config.Reduce Selling Price (ES Products).description": "Reduce la regeneración de vida y energía y el precio de venta de los objetos, por un valor fijo. Requiere el Mod 'East Scarp' para funcionar.",
@@ -270,7 +363,7 @@
 	"config.section.Stardew Valley Expanded.name": "Stardew Valley Expanded",
 	"config.section.Ridgeside Village.name": "Ridgeside Village",
 	"config.section.East Scarp.name": "East Scarp",
-	"config.section.Wild Food - A Forage Expansion.name": "Wild Food - A Forage Expansion",
+	"config.section.Wild Food - A Forage Expansion.name": "Wildflour's Atelier Goods - Forager",
 		
 	"Mail.GuntherGiftHV": "Hola @,^^Adjunto una parte de la financiación que nos ha concedido recientemente la Secretaría Regional de Artefactos. Gracias a tus generosas donaciones, el museo se ha convertido en un importante contribuyente a los esfuerzos en curso para conservar el patrimonio cultural de Ferngill. Espero que estos fondos te sirvan de ayuda en tus futuras aventuras.^^ -Gunther %item money 8000 8001 %%[#]Pago del Museo"
 }

@@ -1,34 +1,44 @@
 {
-	"Format": "2.0.0",
+	"Format": "2.1.0",
 	
 			"ConfigSchema": 
 		{
 			"Golden Winged Strawberry":
 				{
-				"AllowValues": "true,false",
+				"AllowValues": "true, false",
 				"Default": "true",
 				},
 			"Golden Strawberry":
 				{
-				"AllowValues": "true,false",
+				"AllowValues": "true, false",
 				"Default": "true",
 				},
 			"Silver Strawberry":
 				{
-				"AllowValues": "true,false",
+				"AllowValues": "true, false",
 				"Default": "true",
 				},
 			"Energyberry":
 				{
-				"AllowValues": "true,false",
+				"AllowValues": "true, false",
 				"Default": "true",
 				},
 			"Clover Gamma":
 				{
-				"AllowValues": "true,false",
+				"AllowValues": "true, false",
 				"Default": "true",
 				},
 			"Strawbit":
+				{
+				"AllowValues": "true, false",
+				"Default": "true",
+				},
+			"Silver Strawberry Giant":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				},
+			"Strawpeach":
 				{
 				"AllowValues": "true,false",
 				"Default": "true",
@@ -36,13 +46,37 @@
 		},	
 		
 	"Changes": [
+	    {
+			"LogName": "Silver Strawberry Giant",
+			"Action": "EditImage",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Silver Strawberry Giant",
+			"FromFile": "SilverStrawberryGiant.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 64 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 5,
+			"When":
+				{"Silver Strawberry Giant": "true"},
+		},
+		{
+			"LogName": "Strawpeach",
+			"Action": "EditImage",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Strawpeach",
+			"FromFile": "Strawpeach.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 10,
+			"When":
+				{"Strawpeach": "true"},
+		},
 		{
 			"LogName": "Winged Golden Strawberry",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Winged Golden Strawberry}}",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Winged Golden Strawberry",
 			"FromFile": "goldenws.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Winged Golden Strawberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Winged Golden Strawberry}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 7,
 			"AnimationFrameCount": 15,
 			"When":
@@ -51,10 +85,10 @@
 		{
 			"LogName": "Energyberry",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Energyberry}}",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Energyberry",
 			"FromFile": "eners.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Energyberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Energyberry}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 9,
 			"AnimationFrameCount": 10,
 			"When":
@@ -63,10 +97,10 @@
 		{
 			"LogName": "Clover Gamma",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Clover Gamma}}",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Clover Gamma",
 			"FromFile": "clovers.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Clover Gamma}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Clover Gamma}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 9,
 			"AnimationFrameCount": 10,
 			"When":
@@ -75,10 +109,10 @@
 		{
 			"LogName": "Strawbit",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Strawbit}}",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Strawbit",
 			"FromFile": "sbit.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Strawbit}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Strawbit}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 5,
 			"AnimationFrameCount": 12,
 			"When":
@@ -87,10 +121,10 @@
 		{
 			"LogName": "Golden Strawberry",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Golden Strawberry}}",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Golden Strawberry",
 			"FromFile": "goldens.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Golden Strawberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Golden Strawberry}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 7,
 			"AnimationFrameCount": 10,
 			"When":
@@ -99,10 +133,10 @@
 		{
 			"LogName": "Silver Strawberry",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Silver Strawberry}}",
+			"Target": "Mods\\Juanpa98ar.HardewValley\\Silver Strawberry",
 			"FromFile": "silvers.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Silver Strawberry}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Silver Strawberry}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 9,
 			"AnimationFrameCount": 8,
 			"When":
